@@ -1,0 +1,1001 @@
+Order_ID,Order_Date,Order_Time,Customer_ID,Customer_Name,Customer_Age,Gender,Customer_Type,City,Branch_Name,Menu_Item,Category,Quantity,Price_Per_Item,Subtotal,Discount,Tax,Total_Bill,Payment_Method,Rating,Table_Number,Staff_Name,Preparation_Time_Min,Order_Type,Weekend_Order,Loyalty_Points_Earned
+1,02-02-2025,18:33:24,CUST0001,Michelle,59,Male,Regular,Bangalore,Coffee Point,Black Tea,Beverage,1,115.03,115.03,14.94,5.75,105.84,Card,5,3,Karan,27,Dine-In,Yes,30
+2,03-03-2025,12:59:00,CUST0002,Jorge,40,Female,Regular,Nagpur,Cafe Bliss,Brownie,Dessert,3,188.43,565.29,2.95,28.26,590.6,Cash,3,10,Karan,13,Dine-In,Yes,52
+3,26-02-2025,14:17:50,CUST0003,Victoria,32,Female,Student,Latur,Urban Brew,Green Tea,Beverage,1,109.5,109.5,6.36,5.48,108.62,Cash,4,20,Rahul,9,Dine-In,Yes,91
+4,24-05-2025,11:13:53,CUST0004,Benjamin,43,Female,Office Worker,Pune,Coffee Point,Cappuccino,Beverage,4,219.92,879.68,6.57,43.98,917.09,UPI,2,15,Amit,11,Dine-In,Yes,62
+5,14-01-2025,23:03:52,CUST0005,Ryan,57,Female,Student,Latur,Cafe Bliss,French Fries,Food,2,170.18,340.36,0.25,17.02,357.13,UPI,5,13,Neha,12,Dine-In,No,95
+6,03-01-2025,06:42:31,CUST0006,Carol,53,Female,Student,Pune,Urban Brew,Brownie,Dessert,1,217.28,217.28,11.07,10.86,217.07,UPI,4,2,Rahul,21,Dine-In,No,65
+7,08-02-2025,22:45:32,CUST0007,Kelly,25,Male,Regular,Pune,Urban Brew,Pasta,Food,3,285.41,856.23,9.85,42.81,889.19,Card,5,18,Sneha,29,Dine-In,No,13
+8,10-03-2025,08:38:28,CUST0008,Jennifer,39,Female,Regular,Hyderabad,Cafe Bliss,Brownie,Dessert,5,177.4,887,9.54,44.35,921.81,UPI,4,6,Priya,9,Takeaway,No,56
+9,20-01-2025,00:43:26,CUST0009,Lori,21,Female,New,Hyderabad,Central Cafe,Burger,Food,4,281.39,1125.56,14.12,56.28,1167.72,Cash,2,4,Sneha,23,Dine-In,Yes,90
+10,13-05-2025,21:59:23,CUST0010,John,38,Female,Office Worker,Latur,Urban Brew,Black Tea,Beverage,2,132.69,265.38,9.31,13.27,269.34,UPI,5,26,Karan,24,Dine-In,No,68
+11,03-05-2025,01:37:56,CUST0011,Gabrielle,50,Female,Student,Nagpur,Urban Brew,Pizza,Food,1,429.44,429.44,7.97,21.47,442.94,Card,3,1,Neha,6,Dine-In,Yes,7
+12,15-04-2025,15:27:14,CUST0012,Chelsea,36,Male,Regular,Hyderabad,Urban Brew,Pizza,Food,5,425.4,2127,14.91,106.35,2218.44,Cash,4,20,Rahul,30,Takeaway,Yes,58
+13,14-06-2025,19:26:59,CUST0013,Todd,29,Female,New,Nagpur,Urban Brew,Pizza,Food,1,368.42,368.42,2.77,18.42,384.07,Card,4,9,Rahul,7,Takeaway,No,71
+14,07-01-2025,14:59:37,CUST0014,Jason,31,Male,Student,Hyderabad,Cafe Bliss,Pizza,Food,6,376.87,2261.22,13.28,113.06,2361,UPI,5,21,Neha,28,Dine-In,No,44
+15,30-01-2025,07:41:20,CUST0015,Todd,19,Female,Student,Mumbai,Urban Brew,Cappuccino,Beverage,2,232.71,465.42,13.59,23.27,475.1,Cash,3,30,Amit,22,Dine-In,No,53
+16,19-01-2025,19:23:23,CUST0016,Kim,27,Female,New,Hyderabad,Urban Brew,Cappuccino,Beverage,3,197.58,592.74,9.31,29.64,613.07,UPI,3,10,Sneha,21,Takeaway,No,52
+17,05-01-2025,02:28:05,CUST0017,Isabella,44,Male,Student,Latur,Urban Brew,Cold Coffee,Beverage,6,265.25,1591.5,1.95,79.58,1669.13,UPI,3,13,Rahul,12,Dine-In,No,17
+18,13-04-2025,17:31:59,CUST0018,Jennifer,35,Female,New,Bangalore,Coffee Point,Cake,Dessert,4,305.32,1221.28,6.69,61.06,1275.65,Cash,4,13,Neha,24,Takeaway,No,65
+19,29-01-2025,10:11:00,CUST0019,Kayla,49,Male,Office Worker,Pune,Cafe Bliss,Pizza,Food,5,373.63,1868.15,3.48,93.41,1958.08,UPI,4,14,Sneha,25,Takeaway,No,11
+20,07-01-2025,14:52:26,CUST0020,Robert,50,Female,New,Bangalore,Urban Brew,Muffin,Dessert,1,184.18,184.18,12.73,9.21,180.66,UPI,1,5,Rahul,21,Dine-In,No,68
+21,14-01-2025,08:56:34,CUST0021,Rose,53,Male,Student,Nagpur,Cafe Bliss,Cake,Dessert,4,353.89,1415.56,1.46,70.78,1484.88,Cash,3,18,Sneha,13,Dine-In,No,84
+22,23-03-2025,20:49:17,CUST0022,Nancy,40,Male,Regular,Latur,Central Cafe,Cappuccino,Beverage,3,244.34,733.02,5.33,36.65,764.34,UPI,5,28,Sneha,29,Takeaway,No,28
+23,25-01-2025,20:24:58,CUST0023,Rachel,20,Male,Regular,Nagpur,Urban Brew,French Fries,Food,4,190.15,760.6,1.95,38.03,796.68,Cash,5,24,Amit,15,Takeaway,Yes,91
+24,22-03-2025,03:02:36,CUST0024,Dawn,56,Male,Student,Pune,Urban Brew,French Fries,Food,5,184.17,920.85,12.29,46.04,954.6,Cash,1,29,Priya,25,Takeaway,Yes,84
+25,07-05-2025,13:08:58,CUST0025,Amy,30,Male,Regular,Latur,Coffee Point,Muffin,Dessert,6,133.88,803.28,10.68,40.16,832.76,Cash,2,3,Sneha,21,Takeaway,No,67
+26,15-01-2025,16:19:35,CUST0026,David,44,Female,Office Worker,Mumbai,Central Cafe,Espresso,Beverage,4,145.62,582.48,5.02,29.12,606.58,UPI,2,28,Karan,7,Takeaway,No,85
+27,04-04-2025,17:27:07,CUST0027,Danielle,43,Male,Student,Nagpur,Urban Brew,Latte,Beverage,1,212.23,212.23,12.45,10.61,210.39,Cash,5,23,Sneha,15,Takeaway,No,73
+28,20-01-2025,12:36:28,CUST0028,Christian,26,Female,Regular,Mumbai,Coffee Point,Black Tea,Beverage,3,83.18,249.54,7.17,12.48,254.85,Card,1,14,Neha,29,Dine-In,No,94
+29,29-06-2025,01:54:52,CUST0029,Diane,22,Male,Regular,Nagpur,Urban Brew,Pasta,Food,4,270.81,1083.24,3.57,54.16,1133.83,UPI,4,30,Karan,7,Dine-In,Yes,73
+30,07-02-2025,12:37:30,CUST0030,Andrea,34,Male,New,Nagpur,Cafe Bliss,Muffin,Dessert,3,123.66,370.98,12.93,18.55,376.6,Card,1,27,Rahul,30,Takeaway,No,9
+31,01-06-2025,08:29:23,CUST0031,Amanda,37,Female,Office Worker,Latur,Coffee Point,Mocha,Beverage,6,242.26,1453.56,4.56,72.68,1521.68,UPI,5,6,Priya,23,Dine-In,No,57
+32,26-02-2025,17:32:27,CUST0032,Andrew,29,Male,Regular,Bangalore,Cafe Bliss,Green Tea,Beverage,1,113.04,113.04,13.87,5.65,104.82,Card,4,5,Amit,15,Takeaway,No,67
+33,27-04-2025,20:48:08,CUST0033,Susan,57,Female,Regular,Mumbai,Coffee Point,Green Tea,Beverage,4,103.88,415.52,1.33,20.78,434.97,Card,2,25,Neha,22,Takeaway,No,17
+34,16-01-2025,16:49:49,CUST0034,Cory,49,Male,Office Worker,Hyderabad,Coffee Point,Latte,Beverage,4,199.12,796.48,13.17,39.82,823.13,Cash,2,25,Neha,12,Takeaway,No,73
+35,04-02-2025,10:45:21,CUST0035,Jerome,28,Male,Office Worker,Bangalore,Coffee Point,Cappuccino,Beverage,6,224.05,1344.3,7.73,67.22,1403.79,Card,4,2,Amit,21,Takeaway,No,53
+36,17-04-2025,19:08:47,CUST0036,Alexis,20,Male,Office Worker,Hyderabad,Urban Brew,Mocha,Beverage,3,209.44,628.32,4.88,31.42,654.86,Cash,3,23,Amit,11,Dine-In,Yes,72
+37,12-06-2025,23:15:25,CUST0037,Michael,50,Female,Regular,Nagpur,Cafe Bliss,Cold Coffee,Beverage,3,312.9,938.7,8.77,46.94,976.87,Card,5,30,Neha,7,Dine-In,No,78
+38,12-01-2025,10:14:27,CUST0038,Suzanne,19,Male,Student,Latur,Central Cafe,Green Tea,Beverage,4,86.49,345.96,6.95,17.3,356.31,Card,4,21,Priya,16,Takeaway,No,61
+39,17-04-2025,02:58:08,CUST0039,Benjamin,54,Male,New,Latur,Central Cafe,French Fries,Food,6,169.6,1017.6,5.15,50.88,1063.33,Cash,2,6,Priya,8,Dine-In,Yes,73
+40,22-02-2025,08:46:43,CUST0040,Steven,50,Male,Office Worker,Mumbai,Cafe Bliss,Brownie,Dessert,4,195.87,783.48,4.16,39.17,818.49,Card,2,4,Priya,11,Dine-In,No,23
+41,07-04-2025,22:37:45,CUST0041,Daniel,19,Female,Regular,Pune,Urban Brew,Cold Coffee,Beverage,1,257.24,257.24,10,12.86,260.1,UPI,1,22,Rahul,25,Takeaway,No,88
+42,25-06-2025,12:13:00,CUST0042,Calvin,58,Male,Regular,Pune,Cafe Bliss,Espresso,Beverage,1,161.59,161.59,10.35,8.08,159.32,UPI,2,30,Amit,24,Dine-In,Yes,84
+43,26-04-2025,08:01:50,CUST0043,Jason,39,Female,Office Worker,Latur,Urban Brew,Brownie,Dessert,5,247.51,1237.55,13.9,61.88,1285.53,Cash,1,12,Sneha,17,Dine-In,Yes,25
+44,22-03-2025,14:13:10,CUST0044,Mario,39,Male,Regular,Hyderabad,Urban Brew,Burger,Food,3,237.69,713.07,14.06,35.65,734.66,UPI,3,8,Neha,17,Takeaway,Yes,73
+45,31-03-2025,05:16:59,CUST0045,Alyssa,45,Male,Regular,Pune,Urban Brew,Pizza,Food,3,376.5,1129.5,2,56.48,1183.98,Cash,4,30,Karan,16,Takeaway,No,90
+46,25-06-2025,04:34:24,CUST0046,Scott,29,Male,Regular,Latur,Cafe Bliss,Cold Coffee,Beverage,2,267.3,534.6,12.04,26.73,549.29,UPI,1,14,Rahul,10,Takeaway,No,6
+47,09-01-2025,14:29:14,CUST0047,Kathryn,23,Male,Regular,Hyderabad,Cafe Bliss,Burger,Food,2,221.29,442.58,11.15,22.13,453.56,UPI,3,19,Karan,18,Dine-In,No,22
+48,17-02-2025,08:15:58,CUST0048,Theresa,43,Female,Student,Bangalore,Coffee Point,Pasta,Food,5,328.53,1642.65,10.67,82.13,1714.11,Cash,4,19,Amit,27,Takeaway,No,86
+49,23-06-2025,20:38:38,CUST0049,Andrew,23,Male,New,Bangalore,Central Cafe,Cold Coffee,Beverage,4,317.61,1270.44,10.02,63.52,1323.94,Card,4,2,Neha,13,Takeaway,No,78
+50,29-01-2025,06:30:44,CUST0050,Jesse,28,Male,Regular,Nagpur,Coffee Point,Latte,Beverage,1,183.9,183.9,4.49,9.2,188.61,Card,5,27,Priya,15,Takeaway,No,6
+51,22-06-2025,16:40:38,CUST0051,Alexis,20,Male,New,Hyderabad,Urban Brew,Muffin,Dessert,5,171.63,858.15,13.81,42.91,887.25,UPI,4,22,Sneha,14,Takeaway,No,6
+52,07-01-2025,14:58:45,CUST0052,Scott,55,Male,Student,Bangalore,Coffee Point,Latte,Beverage,4,241.34,965.36,9.24,48.27,1004.39,UPI,1,21,Rahul,12,Dine-In,No,93
+53,19-02-2025,09:09:45,CUST0053,Andre,22,Male,Student,Hyderabad,Cafe Bliss,French Fries,Food,1,226.4,226.4,13.4,11.32,224.32,UPI,5,15,Rahul,10,Dine-In,No,82
+54,14-04-2025,01:01:08,CUST0054,Ronald,53,Female,Regular,Pune,Coffee Point,Brownie,Dessert,6,201.75,1210.5,5.99,60.53,1265.04,Cash,1,4,Rahul,19,Takeaway,No,77
+55,07-04-2025,23:21:40,CUST0055,Kimberly,58,Male,Office Worker,Nagpur,Central Cafe,Espresso,Beverage,4,150.54,602.16,6.03,30.11,626.24,UPI,4,13,Neha,30,Takeaway,Yes,50
+56,19-06-2025,02:41:50,CUST0056,Brent,57,Male,Office Worker,Mumbai,Urban Brew,Cake,Dessert,3,374.64,1123.92,1.35,56.2,1178.77,Cash,4,11,Priya,29,Takeaway,Yes,15
+57,18-02-2025,13:12:49,CUST0057,Kelly,60,Male,New,Latur,Urban Brew,Pizza,Food,6,391.57,2349.42,12.42,117.47,2454.47,Card,4,23,Amit,11,Takeaway,No,65
+58,12-01-2025,06:39:04,CUST0058,Stephanie,29,Male,Regular,Mumbai,Urban Brew,Latte,Beverage,5,218.63,1093.15,8.19,54.66,1139.62,Card,1,5,Rahul,7,Dine-In,Yes,27
+59,10-04-2025,23:20:45,CUST0059,Jennifer,18,Male,New,Mumbai,Central Cafe,French Fries,Food,3,208.86,626.58,4.74,31.33,653.17,UPI,2,17,Neha,23,Takeaway,Yes,21
+60,28-01-2025,12:58:28,CUST0060,Brian,54,Female,New,Mumbai,Cafe Bliss,Cake,Dessert,4,340.69,1362.76,6.1,68.14,1424.8,UPI,4,18,Neha,25,Dine-In,No,54
+61,19-05-2025,19:44:25,CUST0061,Cameron,32,Female,Regular,Pune,Central Cafe,Muffin,Dessert,2,182.56,365.12,0.99,18.26,382.39,Card,1,7,Priya,24,Takeaway,Yes,86
+62,07-01-2025,04:18:25,CUST0062,Dylan,53,Female,Office Worker,Mumbai,Central Cafe,Green Tea,Beverage,5,165.36,826.8,13.01,41.34,855.13,Cash,4,23,Priya,27,Dine-In,Yes,71
+63,16-05-2025,04:09:52,CUST0063,Ashley,42,Female,New,Hyderabad,Central Cafe,Pizza,Food,5,350.77,1753.85,0.68,87.69,1840.86,Cash,5,14,Priya,12,Takeaway,No,50
+64,29-01-2025,12:19:47,CUST0064,Emily,32,Male,Regular,Mumbai,Coffee Point,Sandwich,Food,1,209.15,209.15,12.84,10.46,206.77,Cash,5,9,Amit,29,Dine-In,No,8
+65,27-01-2025,07:08:10,CUST0065,Bryan,55,Male,Office Worker,Nagpur,Central Cafe,Espresso,Beverage,3,190.07,570.21,5.29,28.51,593.43,Card,5,8,Priya,9,Takeaway,Yes,91
+66,11-03-2025,14:38:18,CUST0066,Sean,45,Male,Office Worker,Hyderabad,Coffee Point,Latte,Beverage,6,188.27,1129.62,12.69,56.48,1173.41,Card,3,10,Priya,14,Takeaway,Yes,45
+67,31-03-2025,13:41:55,CUST0067,Paul,43,Female,New,Latur,Central Cafe,French Fries,Food,5,168.81,844.05,2.18,42.2,884.07,UPI,1,19,Rahul,7,Takeaway,No,18
+68,09-06-2025,00:15:16,CUST0068,James,23,Female,Student,Pune,Coffee Point,Cappuccino,Beverage,3,184.43,553.29,0.23,27.66,580.72,Card,5,11,Karan,25,Takeaway,Yes,27
+69,11-06-2025,14:26:51,CUST0069,Javier,45,Female,Regular,Hyderabad,Central Cafe,Green Tea,Beverage,1,174.31,174.31,14.87,8.72,168.16,Card,1,26,Amit,6,Takeaway,Yes,48
+70,12-04-2025,23:31:33,CUST0070,Michele,29,Male,Regular,Nagpur,Cafe Bliss,Burger,Food,5,210.57,1052.85,6.53,52.64,1098.96,Cash,1,21,Rahul,12,Dine-In,Yes,97
+71,25-06-2025,07:59:58,CUST0071,Hannah,46,Male,New,Mumbai,Urban Brew,Brownie,Dessert,6,247.94,1487.64,7.45,74.38,1554.57,UPI,4,20,Priya,14,Takeaway,No,23
+72,24-03-2025,05:20:28,CUST0072,Teresa,58,Male,Regular,Hyderabad,Urban Brew,Pasta,Food,6,312.95,1877.7,3.79,93.88,1967.79,UPI,5,14,Amit,17,Takeaway,Yes,97
+73,26-06-2025,10:49:39,CUST0073,John,21,Female,New,Mumbai,Coffee Point,Green Tea,Beverage,4,131.74,526.96,13.77,26.35,539.54,Cash,5,18,Priya,29,Takeaway,Yes,66
+74,07-01-2025,23:14:14,CUST0074,William,23,Male,New,Bangalore,Urban Brew,French Fries,Food,5,196.95,984.75,0.21,49.24,1033.78,UPI,4,21,Amit,11,Dine-In,No,43
+75,03-05-2025,07:43:29,CUST0075,Jonathan,37,Male,Regular,Latur,Central Cafe,Cake,Dessert,1,301.48,301.48,11.88,15.07,304.67,UPI,3,4,Karan,24,Dine-In,No,79
+76,09-06-2025,15:46:49,CUST0076,Jennifer,52,Male,Regular,Mumbai,Coffee Point,Pizza,Food,2,419.29,838.58,11.47,41.93,869.04,Card,4,22,Karan,28,Takeaway,Yes,10
+77,31-03-2025,22:44:56,CUST0077,Tyler,34,Female,New,Mumbai,Central Cafe,Pasta,Food,6,261.48,1568.88,6.12,78.44,1641.2,Cash,1,23,Priya,14,Dine-In,Yes,7
+78,20-06-2025,07:51:52,CUST0078,Eric,22,Male,Regular,Bangalore,Central Cafe,Mocha,Beverage,3,208.8,626.4,4.57,31.32,653.15,Cash,4,14,Neha,24,Takeaway,No,56
+79,19-06-2025,06:46:37,CUST0079,Patricia,35,Male,Student,Pune,Urban Brew,Mocha,Beverage,1,225.11,225.11,13.29,11.26,223.08,UPI,3,4,Neha,7,Dine-In,Yes,91
+80,19-06-2025,06:33:40,CUST0080,Sean,37,Female,Regular,Hyderabad,Cafe Bliss,Sandwich,Food,6,219.08,1314.48,5.37,65.72,1374.83,Cash,4,10,Rahul,25,Takeaway,Yes,55
+81,29-06-2025,20:03:59,CUST0081,Candace,27,Female,Office Worker,Pune,Coffee Point,Burger,Food,2,233.34,466.68,14.9,23.33,475.11,Card,5,10,Amit,10,Takeaway,Yes,7
+82,14-04-2025,21:30:29,CUST0082,Michael,40,Male,Student,Hyderabad,Cafe Bliss,Burger,Food,3,280.86,842.58,7.61,42.13,877.1,UPI,5,15,Neha,12,Takeaway,Yes,86
+83,03-03-2025,05:23:00,CUST0083,Charles,37,Male,Office Worker,Pune,Central Cafe,Pasta,Food,6,310.57,1863.42,14.36,93.17,1942.23,Card,4,1,Sneha,15,Takeaway,No,21
+84,11-06-2025,22:30:30,CUST0084,Victoria,27,Male,New,Pune,Cafe Bliss,Latte,Beverage,1,222.69,222.69,10.87,11.13,222.95,Card,2,6,Rahul,6,Takeaway,Yes,33
+85,17-01-2025,09:47:18,CUST0085,Colin,30,Female,Student,Pune,Cafe Bliss,Muffin,Dessert,5,131.27,656.35,0.75,32.82,688.42,Cash,3,29,Rahul,13,Takeaway,No,31
+86,20-03-2025,19:00:42,CUST0086,Jim,56,Female,Student,Mumbai,Central Cafe,Espresso,Beverage,3,122.35,367.05,5.73,18.35,379.67,Card,3,25,Sneha,11,Dine-In,No,61
+87,13-02-2025,09:44:35,CUST0087,Ashley,40,Female,Office Worker,Latur,Cafe Bliss,Burger,Food,2,245.05,490.1,9.3,24.51,505.31,UPI,1,29,Neha,11,Takeaway,No,62
+88,18-06-2025,12:19:34,CUST0088,Jennifer,40,Male,Office Worker,Latur,Central Cafe,Latte,Beverage,4,237.06,948.24,14.97,47.41,980.68,Card,4,16,Priya,26,Dine-In,No,19
+89,16-03-2025,10:08:03,CUST0089,Christopher,36,Female,Regular,Bangalore,Central Cafe,Pizza,Food,1,407.13,407.13,2.95,20.36,424.54,Cash,1,29,Rahul,12,Dine-In,No,31
+90,16-03-2025,16:09:30,CUST0090,Steven,37,Male,New,Bangalore,Coffee Point,Burger,Food,1,253.02,253.02,10.14,12.65,255.53,Card,4,19,Sneha,19,Takeaway,Yes,79
+91,08-02-2025,04:10:01,CUST0091,Ethan,48,Male,Office Worker,Nagpur,Cafe Bliss,Espresso,Beverage,6,109.03,654.18,0.99,32.71,685.9,UPI,5,12,Sneha,23,Takeaway,No,40
+92,23-04-2025,08:13:56,CUST0092,Jessica,20,Male,Regular,Pune,Central Cafe,Burger,Food,5,215.52,1077.6,11.32,53.88,1120.16,Card,5,13,Sneha,29,Dine-In,No,20
+93,23-01-2025,23:13:00,CUST0093,Catherine,36,Male,Office Worker,Nagpur,Coffee Point,Cake,Dessert,4,378.63,1514.52,13.49,75.73,1576.76,UPI,4,27,Sneha,22,Dine-In,Yes,65
+94,27-04-2025,21:05:38,CUST0094,Erika,22,Female,Student,Mumbai,Coffee Point,Espresso,Beverage,1,170.82,170.82,3.87,8.54,175.49,UPI,1,28,Rahul,9,Dine-In,Yes,30
+95,14-05-2025,05:39:51,CUST0095,Michael,34,Female,Office Worker,Nagpur,Coffee Point,Black Tea,Beverage,2,96.43,192.86,10.31,9.64,192.19,Cash,5,15,Sneha,18,Takeaway,Yes,63
+96,21-06-2025,13:38:35,CUST0096,Jackson,38,Female,Student,Hyderabad,Coffee Point,Black Tea,Beverage,3,163.57,490.71,5.49,24.54,509.76,Cash,1,6,Amit,29,Takeaway,Yes,24
+97,30-06-2025,22:57:52,CUST0097,Deanna,48,Male,Office Worker,Nagpur,Central Cafe,Muffin,Dessert,6,195.7,1174.2,11.86,58.71,1221.05,Cash,2,27,Rahul,21,Takeaway,No,48
+98,03-04-2025,19:50:08,CUST0098,Kimberly,26,Male,Office Worker,Latur,Urban Brew,Black Tea,Beverage,5,126.61,633.05,6.83,31.65,657.87,UPI,3,4,Amit,29,Takeaway,No,76
+99,13-01-2025,01:26:27,CUST0099,Robert,30,Male,New,Pune,Cafe Bliss,Espresso,Beverage,6,105.09,630.54,9.83,31.53,652.24,Card,4,15,Rahul,10,Dine-In,Yes,79
+100,29-06-2025,16:17:35,CUST0100,Amanda,32,Male,Office Worker,Mumbai,Coffee Point,Pizza,Food,6,400.3,2401.8,5.92,120.09,2515.97,Cash,4,12,Priya,6,Dine-In,No,27
+101,31-05-2025,15:34:37,CUST0101,Eric,18,Male,Student,Latur,Urban Brew,Brownie,Dessert,5,215.02,1075.1,11.31,53.76,1117.55,UPI,2,13,Karan,26,Takeaway,No,97
+102,20-04-2025,13:29:54,CUST0102,Keith,24,Female,New,Mumbai,Coffee Point,Pizza,Food,3,338.98,1016.94,6.88,50.85,1060.91,Cash,4,19,Priya,29,Dine-In,Yes,99
+103,28-01-2025,15:11:40,CUST0103,Lance,57,Female,New,Pune,Coffee Point,Latte,Beverage,5,214.31,1071.55,5,53.58,1120.13,Cash,3,23,Priya,5,Takeaway,No,67
+104,29-01-2025,19:39:01,CUST0104,Christian,55,Male,Student,Pune,Urban Brew,Cappuccino,Beverage,4,176.87,707.48,12.26,35.37,730.59,UPI,5,15,Sneha,27,Dine-In,No,88
+105,12-02-2025,14:56:50,CUST0105,Michael,41,Male,Student,Bangalore,Urban Brew,Green Tea,Beverage,2,98.26,196.52,11.87,9.83,194.48,UPI,4,1,Rahul,19,Takeaway,No,9
+106,10-06-2025,14:40:41,CUST0106,Austin,34,Female,Regular,Nagpur,Urban Brew,Green Tea,Beverage,4,114.81,459.24,10.52,22.96,471.68,Cash,4,8,Karan,22,Takeaway,Yes,87
+107,12-06-2025,01:02:06,CUST0107,Phillip,44,Male,Office Worker,Nagpur,Urban Brew,Black Tea,Beverage,1,70.26,70.26,0.4,3.51,73.37,Card,2,16,Sneha,10,Takeaway,Yes,84
+108,03-04-2025,00:12:20,CUST0108,Kaylee,60,Female,Student,Nagpur,Urban Brew,Green Tea,Beverage,6,153.14,918.84,6.74,45.94,958.04,Card,2,9,Karan,29,Dine-In,Yes,63
+109,02-01-2025,02:35:04,CUST0109,Christina,45,Female,Regular,Mumbai,Coffee Point,Espresso,Beverage,2,114.65,229.3,2.61,11.47,238.16,UPI,5,26,Neha,13,Takeaway,No,62
+110,17-05-2025,03:30:03,CUST0110,James,26,Male,New,Mumbai,Central Cafe,French Fries,Food,6,203.86,1223.16,7.38,61.16,1276.94,Cash,1,17,Rahul,18,Dine-In,No,51
+111,19-06-2025,23:11:59,CUST0111,Kelly,22,Female,Regular,Latur,Urban Brew,Sandwich,Food,2,130.41,260.82,1.31,13.04,272.55,UPI,1,2,Rahul,23,Takeaway,Yes,45
+112,20-04-2025,06:20:55,CUST0112,Meghan,35,Female,Student,Mumbai,Central Cafe,French Fries,Food,2,168.11,336.22,5.88,16.81,347.15,Card,4,8,Amit,23,Takeaway,No,88
+113,10-04-2025,04:43:02,CUST0113,Thomas,43,Male,Regular,Pune,Cafe Bliss,Sandwich,Food,4,182.19,728.76,1.05,36.44,764.15,Card,1,16,Amit,21,Dine-In,Yes,22
+114,23-06-2025,22:27:43,CUST0114,Jacob,40,Female,New,Latur,Cafe Bliss,Pizza,Food,6,396.04,2376.24,1.24,118.81,2493.81,Cash,5,18,Neha,8,Takeaway,Yes,100
+115,20-03-2025,12:27:22,CUST0115,Tony,54,Male,Student,Pune,Cafe Bliss,Cappuccino,Beverage,1,220.17,220.17,0.09,11.01,231.09,Card,4,11,Sneha,19,Takeaway,No,82
+116,08-05-2025,08:41:46,CUST0116,Kevin,48,Male,Student,Latur,Cafe Bliss,Green Tea,Beverage,1,94.88,94.88,14.25,4.74,85.37,UPI,4,18,Neha,16,Dine-In,Yes,77
+117,04-04-2025,01:31:59,CUST0117,Robert,52,Male,Regular,Pune,Coffee Point,Pizza,Food,5,404.26,2021.3,2.27,101.06,2120.09,Card,1,28,Amit,21,Takeaway,Yes,24
+118,12-05-2025,10:48:25,CUST0118,Monica,22,Female,New,Bangalore,Urban Brew,Cake,Dessert,6,317.6,1905.6,0.35,95.28,2000.53,Cash,3,30,Amit,9,Takeaway,No,55
+119,14-05-2025,09:38:40,CUST0119,Lori,39,Female,Regular,Latur,Cafe Bliss,Sandwich,Food,4,194.38,777.52,4.11,38.88,812.29,Cash,2,16,Rahul,7,Takeaway,No,52
+120,29-06-2025,00:06:29,CUST0120,Robert,29,Male,Regular,Hyderabad,Coffee Point,Burger,Food,2,248.35,496.7,11.41,24.84,510.13,UPI,3,9,Sneha,16,Dine-In,No,87
+121,12-05-2025,13:14:25,CUST0121,Claudia,35,Male,Student,Hyderabad,Urban Brew,Espresso,Beverage,2,178.26,356.52,5.47,17.83,368.88,Cash,4,1,Rahul,11,Dine-In,No,11
+122,04-02-2025,08:38:29,CUST0122,Larry,55,Female,New,Hyderabad,Central Cafe,Brownie,Dessert,6,170.17,1021.02,11.89,51.05,1060.18,UPI,1,22,Rahul,27,Dine-In,Yes,62
+123,12-06-2025,05:47:58,CUST0123,Robert,55,Female,New,Nagpur,Central Cafe,Mocha,Beverage,3,211,633,12.29,31.65,652.36,Cash,4,30,Neha,18,Takeaway,Yes,73
+124,17-02-2025,20:14:17,CUST0124,Nancy,56,Male,New,Mumbai,Central Cafe,Brownie,Dessert,3,212.06,636.18,10.05,31.81,657.94,Card,5,14,Priya,5,Dine-In,Yes,23
+125,22-01-2025,17:20:45,CUST0125,Jennifer,49,Male,Regular,Bangalore,Central Cafe,French Fries,Food,1,150.67,150.67,2.61,7.53,155.59,Cash,2,26,Karan,7,Dine-In,Yes,54
+126,30-01-2025,19:17:58,CUST0126,Ashley,27,Female,Regular,Latur,Cafe Bliss,Muffin,Dessert,3,138.97,416.91,4.76,20.85,433,UPI,5,14,Neha,12,Dine-In,Yes,8
+127,07-06-2025,06:46:55,CUST0127,Bradley,46,Male,Student,Latur,Central Cafe,Pizza,Food,6,333.93,2003.58,3.48,100.18,2100.28,Cash,5,12,Amit,28,Dine-In,No,43
+128,24-06-2025,23:50:42,CUST0128,Craig,30,Female,Regular,Latur,Urban Brew,Sandwich,Food,3,190.61,571.83,8.2,28.59,592.22,Cash,3,25,Rahul,9,Takeaway,Yes,21
+129,18-06-2025,04:45:58,CUST0129,Kyle,56,Female,Student,Mumbai,Urban Brew,Pasta,Food,2,278.97,557.94,6.13,27.9,579.71,UPI,4,22,Sneha,30,Dine-In,Yes,34
+130,31-05-2025,02:19:30,CUST0130,Collin,56,Male,New,Mumbai,Central Cafe,Burger,Food,2,279.03,558.06,4.81,27.9,581.15,Cash,4,16,Priya,26,Dine-In,Yes,75
+131,19-06-2025,18:48:45,CUST0131,Joshua,51,Male,Student,Nagpur,Urban Brew,Espresso,Beverage,6,183.18,1099.08,7.94,54.95,1146.09,Card,1,27,Neha,13,Dine-In,Yes,62
+132,28-06-2025,08:43:11,CUST0132,Charles,35,Female,Regular,Hyderabad,Central Cafe,Muffin,Dessert,3,174.33,522.99,2.93,26.15,546.21,UPI,1,8,Neha,14,Takeaway,No,85
+133,05-05-2025,05:59:55,CUST0133,Alvin,40,Male,New,Latur,Cafe Bliss,Brownie,Dessert,4,215.07,860.28,0.87,43.01,902.42,UPI,2,5,Priya,24,Takeaway,No,42
+134,01-06-2025,10:46:09,CUST0134,Brittany,44,Female,Office Worker,Bangalore,Cafe Bliss,Mocha,Beverage,3,240.35,721.05,8.73,36.05,748.37,Cash,3,19,Neha,12,Takeaway,No,77
+135,28-04-2025,11:52:22,CUST0135,Julie,20,Female,Student,Nagpur,Urban Brew,Brownie,Dessert,6,187.13,1122.78,1.4,56.14,1177.52,UPI,4,26,Priya,26,Takeaway,Yes,80
+136,27-05-2025,13:11:55,CUST0136,Stephanie,50,Female,New,Mumbai,Urban Brew,Brownie,Dessert,2,257.12,514.24,4.48,25.71,535.47,Card,3,17,Karan,6,Takeaway,No,68
+137,06-03-2025,20:52:51,CUST0137,Marilyn,57,Male,Regular,Latur,Urban Brew,Pizza,Food,2,389.86,779.72,8.11,38.99,810.6,UPI,3,5,Amit,19,Dine-In,Yes,46
+138,07-03-2025,01:30:58,CUST0138,Christine,60,Female,Regular,Latur,Central Cafe,Latte,Beverage,1,277.45,277.45,3.09,13.87,288.23,Card,2,15,Priya,29,Dine-In,No,39
+139,20-01-2025,21:42:19,CUST0139,Linda,58,Female,Office Worker,Pune,Urban Brew,Pasta,Food,2,270.31,540.62,9.78,27.03,557.87,Card,2,6,Rahul,26,Takeaway,Yes,92
+140,27-03-2025,05:26:27,CUST0140,Cheryl,39,Male,Regular,Nagpur,Central Cafe,French Fries,Food,2,193.28,386.56,5.12,19.33,400.77,Cash,1,2,Karan,5,Takeaway,Yes,28
+141,22-03-2025,08:34:45,CUST0141,Willie,23,Female,Regular,Latur,Urban Brew,Burger,Food,2,229.85,459.7,2.1,22.98,480.58,Cash,1,15,Priya,15,Takeaway,Yes,99
+142,23-05-2025,23:20:44,CUST0142,Aaron,18,Female,Regular,Nagpur,Urban Brew,Espresso,Beverage,4,170.74,682.96,1.73,34.15,715.38,Cash,3,4,Karan,17,Takeaway,Yes,23
+143,21-01-2025,19:55:16,CUST0143,Laurie,49,Male,Office Worker,Bangalore,Urban Brew,Mocha,Beverage,2,246.25,492.5,14.7,24.62,502.42,Cash,5,30,Amit,14,Dine-In,No,55
+144,09-03-2025,17:54:12,CUST0144,Michael,39,Male,New,Latur,Urban Brew,Burger,Food,5,229.56,1147.8,0.5,57.39,1204.69,Card,4,3,Rahul,25,Dine-In,No,85
+145,21-04-2025,19:28:32,CUST0145,Christopher,38,Female,Regular,Mumbai,Urban Brew,Black Tea,Beverage,5,155.17,775.85,9.39,38.79,805.25,UPI,5,28,Neha,8,Dine-In,No,80
+146,12-04-2025,11:38:16,CUST0146,Adrian,40,Male,New,Nagpur,Central Cafe,Pizza,Food,5,378.28,1891.4,5.24,94.57,1980.73,Card,2,13,Amit,9,Takeaway,No,84
+147,04-04-2025,03:39:54,CUST0147,Lisa,29,Male,Office Worker,Mumbai,Coffee Point,Black Tea,Beverage,4,100.17,400.68,5.22,20.03,415.49,Card,1,3,Rahul,9,Dine-In,Yes,99
+148,27-04-2025,08:54:27,CUST0148,Theresa,22,Male,Office Worker,Pune,Coffee Point,French Fries,Food,2,193.27,386.54,12.71,19.33,393.16,Card,3,28,Neha,9,Dine-In,No,54
+149,24-01-2025,21:07:40,CUST0149,Michael,19,Male,Regular,Pune,Urban Brew,Cake,Dessert,4,343.8,1375.2,3.74,68.76,1440.22,UPI,4,15,Sneha,24,Dine-In,No,13
+150,27-06-2025,16:23:40,CUST0150,Kerri,35,Male,New,Nagpur,Cafe Bliss,Cold Coffee,Beverage,1,256.65,256.65,4.56,12.83,264.92,UPI,4,4,Priya,20,Takeaway,No,70
+151,10-06-2025,23:15:40,CUST0151,Tiffany,51,Female,Regular,Bangalore,Coffee Point,Muffin,Dessert,3,202.54,607.62,0.95,30.38,637.05,UPI,3,20,Neha,22,Takeaway,No,97
+152,01-05-2025,05:33:22,CUST0152,Jessica,21,Female,New,Bangalore,Urban Brew,Latte,Beverage,5,267.32,1336.6,1.95,66.83,1401.48,Cash,4,10,Amit,8,Dine-In,No,66
+153,27-06-2025,08:49:44,CUST0153,Stacey,22,Female,Regular,Latur,Urban Brew,French Fries,Food,5,183.97,919.85,12.63,45.99,953.21,Card,2,11,Sneha,28,Dine-In,No,85
+154,29-05-2025,23:10:36,CUST0154,Lisa,52,Female,New,Nagpur,Urban Brew,Mocha,Beverage,1,231.34,231.34,2.51,11.57,240.4,Card,3,7,Priya,29,Takeaway,Yes,39
+155,22-05-2025,23:53:59,CUST0155,James,25,Female,Office Worker,Nagpur,Central Cafe,Latte,Beverage,4,255.29,1021.16,13.14,51.06,1059.08,Card,1,26,Sneha,7,Takeaway,Yes,57
+156,26-03-2025,16:11:02,CUST0156,Kevin,53,Male,Office Worker,Mumbai,Urban Brew,Cold Coffee,Beverage,2,258.52,517.04,4.81,25.85,538.08,Card,1,15,Priya,27,Takeaway,No,84
+157,16-03-2025,22:40:09,CUST0157,Hannah,46,Male,Student,Mumbai,Coffee Point,Espresso,Beverage,2,189.61,379.22,9.61,18.96,388.57,UPI,5,19,Karan,13,Dine-In,No,88
+158,06-06-2025,07:33:26,CUST0158,Jeffrey,23,Female,New,Nagpur,Urban Brew,Muffin,Dessert,1,189.48,189.48,2.06,9.47,196.89,UPI,2,23,Priya,19,Takeaway,Yes,18
+159,13-03-2025,19:05:23,CUST0159,Nathaniel,52,Male,Student,Latur,Urban Brew,Cappuccino,Beverage,6,184.61,1107.66,8.03,55.38,1155.01,UPI,3,28,Karan,23,Dine-In,Yes,87
+160,25-05-2025,23:58:41,CUST0160,Brian,56,Female,New,Hyderabad,Urban Brew,Burger,Food,2,211.66,423.32,14.69,21.17,429.8,UPI,4,26,Priya,16,Dine-In,No,23
+161,07-03-2025,05:23:38,CUST0161,John,29,Male,Regular,Bangalore,Central Cafe,Burger,Food,6,277.72,1666.32,8.49,83.32,1741.15,Card,3,1,Amit,10,Takeaway,No,49
+162,02-01-2025,21:46:33,CUST0162,Anthony,59,Female,Office Worker,Pune,Central Cafe,Cake,Dessert,1,289.53,289.53,3.75,14.48,300.26,Cash,4,21,Rahul,6,Takeaway,Yes,89
+163,22-02-2025,03:10:10,CUST0163,Samuel,32,Male,Office Worker,Nagpur,Central Cafe,Burger,Food,5,222.1,1110.5,8.79,55.53,1157.24,Cash,1,20,Amit,12,Takeaway,No,26
+164,01-05-2025,15:29:15,CUST0164,Joshua,32,Male,New,Bangalore,Urban Brew,Burger,Food,4,295.59,1182.36,4.41,59.12,1237.07,UPI,4,29,Rahul,20,Takeaway,No,20
+165,30-06-2025,19:42:37,CUST0165,Heather,53,Female,Regular,Bangalore,Cafe Bliss,Cold Coffee,Beverage,6,282.42,1694.52,0.59,84.73,1778.66,UPI,4,20,Neha,12,Takeaway,No,81
+166,16-05-2025,14:29:15,CUST0166,Michael,45,Female,New,Mumbai,Central Cafe,Black Tea,Beverage,2,165.05,330.1,6.59,16.51,340.02,Card,2,9,Priya,12,Takeaway,No,91
+167,28-02-2025,17:35:54,CUST0167,Michael,44,Male,Student,Pune,Central Cafe,Sandwich,Food,1,205.91,205.91,2.78,10.3,213.43,UPI,5,17,Rahul,9,Dine-In,Yes,9
+168,04-05-2025,11:35:04,CUST0168,Andrew,38,Male,Office Worker,Nagpur,Central Cafe,Muffin,Dessert,1,134.91,134.91,3.57,6.75,138.09,Card,3,27,Sneha,16,Takeaway,No,26
+169,20-04-2025,00:33:10,CUST0169,Kathleen,25,Female,Student,Bangalore,Cafe Bliss,Cold Coffee,Beverage,6,327.87,1967.22,11.06,98.36,2054.52,Cash,5,23,Karan,14,Takeaway,Yes,76
+170,11-02-2025,06:03:44,CUST0170,Kyle,24,Male,Regular,Latur,Central Cafe,Cold Coffee,Beverage,2,274.91,549.82,5.67,27.49,571.64,Card,2,2,Karan,23,Dine-In,Yes,26
+171,16-03-2025,18:49:04,CUST0171,Gregory,51,Male,New,Pune,Cafe Bliss,Green Tea,Beverage,2,142.01,284.02,8.41,14.2,289.81,Cash,5,23,Amit,22,Dine-In,No,99
+172,09-01-2025,12:49:24,CUST0172,Debra,51,Female,Office Worker,Latur,Urban Brew,Pasta,Food,5,312.04,1560.2,6.05,78.01,1632.16,Card,3,22,Karan,24,Takeaway,No,9
+173,26-04-2025,00:52:49,CUST0173,Curtis,54,Male,New,Pune,Urban Brew,Pasta,Food,2,337.15,674.3,3.65,33.71,704.36,UPI,5,28,Rahul,29,Takeaway,Yes,6
+174,19-02-2025,07:42:23,CUST0174,Wesley,23,Male,Student,Latur,Cafe Bliss,Green Tea,Beverage,5,150.4,752,12.52,37.6,777.08,UPI,4,7,Rahul,16,Takeaway,No,42
+175,20-05-2025,03:56:48,CUST0175,Robin,26,Female,Regular,Hyderabad,Central Cafe,Pizza,Food,4,409.77,1639.08,5.54,81.95,1715.49,UPI,1,19,Rahul,24,Dine-In,No,20
+176,18-05-2025,00:03:33,CUST0176,Aaron,59,Male,Regular,Latur,Cafe Bliss,Pasta,Food,6,320.99,1925.94,2.16,96.3,2020.08,UPI,2,16,Rahul,17,Takeaway,No,23
+177,20-03-2025,19:15:37,CUST0177,Andrea,36,Male,Office Worker,Mumbai,Urban Brew,Cold Coffee,Beverage,2,238.58,477.16,13.23,23.86,487.79,UPI,5,8,Priya,14,Dine-In,No,92
+178,16-04-2025,23:59:26,CUST0178,Jose,20,Female,Office Worker,Pune,Cafe Bliss,Pizza,Food,5,368.47,1842.35,2.33,92.12,1932.14,Cash,4,18,Rahul,13,Takeaway,Yes,99
+179,15-06-2025,04:09:09,CUST0179,Barbara,41,Female,New,Bangalore,Urban Brew,Mocha,Beverage,6,232.81,1396.86,6.35,69.84,1460.35,Card,1,2,Karan,6,Dine-In,No,16
+180,30-03-2025,07:53:52,CUST0180,Jennifer,57,Male,Office Worker,Pune,Coffee Point,Brownie,Dessert,3,242.07,726.21,12.66,36.31,749.86,Card,2,1,Rahul,18,Dine-In,Yes,41
+181,06-03-2025,06:02:06,CUST0181,Laura,59,Female,Regular,Hyderabad,Central Cafe,Espresso,Beverage,6,103.75,622.5,11.06,31.12,642.56,Card,4,1,Sneha,16,Dine-In,Yes,8
+182,20-04-2025,23:47:47,CUST0182,Christopher,44,Female,New,Pune,Urban Brew,French Fries,Food,3,167.75,503.25,5.48,25.16,522.93,Cash,4,30,Rahul,9,Dine-In,No,13
+183,03-02-2025,00:00:04,CUST0183,Glenn,26,Female,Office Worker,Bangalore,Urban Brew,Mocha,Beverage,2,201.84,403.68,8.07,20.18,415.79,Card,5,21,Rahul,15,Dine-In,No,53
+184,30-05-2025,01:27:58,CUST0184,Jeanne,37,Female,Office Worker,Latur,Urban Brew,Latte,Beverage,1,264.9,264.9,10.03,13.24,268.11,Card,4,30,Neha,13,Takeaway,Yes,10
+185,11-02-2025,22:35:14,CUST0185,William,59,Female,Regular,Hyderabad,Urban Brew,Burger,Food,1,262.96,262.96,13.47,13.15,262.64,UPI,5,3,Rahul,7,Takeaway,No,94
+186,12-01-2025,00:35:45,CUST0186,Cameron,39,Male,New,Bangalore,Central Cafe,Pasta,Food,2,274,548,5.71,27.4,569.69,Card,2,10,Sneha,21,Takeaway,Yes,70
+187,27-06-2025,13:10:19,CUST0187,Kaitlyn,52,Female,Regular,Bangalore,Cafe Bliss,Cold Coffee,Beverage,3,271.83,815.49,2.65,40.77,853.61,Card,3,25,Sneha,14,Dine-In,Yes,30
+188,12-02-2025,11:45:38,CUST0188,Gloria,21,Female,Regular,Latur,Coffee Point,French Fries,Food,4,149.16,596.64,2.49,29.83,623.98,Cash,5,26,Priya,10,Takeaway,No,53
+189,17-05-2025,21:12:01,CUST0189,Jorge,32,Male,Regular,Bangalore,Coffee Point,Cold Coffee,Beverage,5,296.97,1484.85,9.89,74.24,1549.2,Cash,5,5,Amit,7,Dine-In,No,77
+190,07-04-2025,02:31:11,CUST0190,Peggy,58,Female,Regular,Latur,Coffee Point,Latte,Beverage,3,198.75,596.25,9.78,29.81,616.28,Card,1,14,Karan,17,Takeaway,No,78
+191,28-05-2025,07:20:06,CUST0191,Gerald,44,Male,Office Worker,Hyderabad,Urban Brew,Cappuccino,Beverage,6,187.76,1126.56,4.28,56.33,1178.61,Card,1,15,Karan,23,Takeaway,Yes,15
+192,06-04-2025,07:36:44,CUST0192,Kimberly,41,Male,Regular,Pune,Central Cafe,Latte,Beverage,5,245.08,1225.4,1.41,61.27,1285.26,Cash,2,7,Amit,8,Takeaway,No,87
+193,17-04-2025,19:22:37,CUST0193,Zachary,39,Male,New,Bangalore,Urban Brew,Muffin,Dessert,3,142.43,427.29,11.68,21.36,436.97,Card,1,28,Neha,21,Dine-In,Yes,55
+194,30-03-2025,21:14:35,CUST0194,Brianna,49,Female,Regular,Nagpur,Urban Brew,Muffin,Dessert,2,203.44,406.88,5.93,20.34,421.29,UPI,5,10,Amit,13,Dine-In,No,96
+195,07-01-2025,04:13:41,CUST0195,Eric,37,Female,New,Hyderabad,Central Cafe,Sandwich,Food,1,166.5,166.5,0.82,8.33,174.01,Card,4,23,Priya,25,Dine-In,No,34
+196,27-01-2025,04:15:17,CUST0196,Lisa,48,Female,Office Worker,Bangalore,Coffee Point,French Fries,Food,1,175.77,175.77,8.37,8.79,176.19,Card,2,26,Priya,22,Takeaway,No,49
+197,04-02-2025,17:20:04,CUST0197,Donald,28,Female,Office Worker,Nagpur,Urban Brew,Burger,Food,4,247.65,990.6,0.84,49.53,1039.29,Card,1,28,Neha,20,Dine-In,Yes,14
+198,19-04-2025,20:11:08,CUST0198,Carl,44,Male,Student,Mumbai,Central Cafe,Cold Coffee,Beverage,3,284.81,854.43,11.61,42.72,885.54,UPI,4,12,Neha,14,Takeaway,Yes,53
+199,09-03-2025,17:40:01,CUST0199,Tonya,22,Female,Regular,Pune,Central Cafe,Brownie,Dessert,5,223.41,1117.05,2.73,55.85,1170.17,Card,1,15,Karan,30,Takeaway,Yes,65
+200,11-02-2025,06:16:25,CUST0200,Kyle,53,Male,New,Pune,Central Cafe,Black Tea,Beverage,6,162.72,976.32,8.31,48.82,1016.83,Card,2,4,Amit,21,Takeaway,Yes,17
+201,29-04-2025,04:12:34,CUST0201,Heather,39,Female,Office Worker,Bangalore,Urban Brew,Black Tea,Beverage,5,123.08,615.4,6.92,30.77,639.25,Card,1,5,Sneha,20,Takeaway,Yes,39
+202,01-06-2025,13:34:27,CUST0202,Carrie,44,Female,New,Pune,Urban Brew,Pasta,Food,6,326.36,1958.16,13.47,97.91,2042.6,Card,1,7,Rahul,11,Takeaway,Yes,76
+203,05-05-2025,14:35:42,CUST0203,Natalie,56,Female,New,Hyderabad,Cafe Bliss,French Fries,Food,6,236.14,1416.84,6.84,70.84,1480.84,Card,2,22,Neha,21,Dine-In,No,64
+204,29-03-2025,23:36:00,CUST0204,John,31,Male,Office Worker,Mumbai,Coffee Point,Sandwich,Food,6,135.2,811.2,12.32,40.56,839.44,Cash,5,11,Priya,14,Takeaway,Yes,44
+205,22-04-2025,08:47:57,CUST0205,Stanley,44,Male,New,Bangalore,Central Cafe,Brownie,Dessert,3,235.3,705.9,6.03,35.3,735.17,Card,5,5,Rahul,22,Takeaway,Yes,11
+206,10-04-2025,07:38:40,CUST0206,Ashley,59,Male,Student,Hyderabad,Urban Brew,Cappuccino,Beverage,4,229.26,917.04,13.19,45.85,949.7,Cash,5,24,Priya,5,Dine-In,Yes,70
+207,09-03-2025,04:51:04,CUST0207,Brittany,46,Male,Regular,Pune,Central Cafe,Mocha,Beverage,5,262.74,1313.7,6.69,65.69,1372.7,Card,3,30,Karan,14,Dine-In,Yes,58
+208,17-02-2025,19:20:20,CUST0208,Amber,39,Male,Office Worker,Latur,Coffee Point,Mocha,Beverage,2,276.99,553.98,11.45,27.7,570.23,Card,2,18,Amit,27,Dine-In,Yes,35
+209,05-04-2025,19:23:11,CUST0209,Judy,40,Female,New,Nagpur,Coffee Point,Burger,Food,3,259.72,779.16,4.69,38.96,813.43,Card,5,22,Neha,28,Dine-In,Yes,80
+210,26-03-2025,12:06:35,CUST0210,Gary,51,Male,Office Worker,Hyderabad,Cafe Bliss,Burger,Food,3,218.74,656.22,5.17,32.81,683.86,Card,1,6,Sneha,23,Dine-In,Yes,15
+211,17-06-2025,04:16:29,CUST0211,Andrew,56,Male,Office Worker,Mumbai,Central Cafe,Pasta,Food,5,321.62,1608.1,4.01,80.41,1684.5,UPI,2,15,Amit,6,Takeaway,Yes,97
+212,27-05-2025,04:21:19,CUST0212,Steve,24,Female,Office Worker,Latur,Central Cafe,Burger,Food,5,233.91,1169.55,8.46,58.48,1219.57,Cash,1,16,Priya,22,Dine-In,Yes,69
+213,18-04-2025,23:02:19,CUST0213,Phillip,28,Male,Student,Mumbai,Central Cafe,Burger,Food,6,297.89,1787.34,5.93,89.37,1870.78,UPI,5,13,Amit,19,Takeaway,Yes,96
+214,20-01-2025,16:01:59,CUST0214,Barbara,43,Male,Regular,Mumbai,Coffee Point,Sandwich,Food,2,181.34,362.68,10.21,18.13,370.6,UPI,5,28,Sneha,19,Takeaway,Yes,73
+215,12-03-2025,04:26:35,CUST0215,Derek,29,Female,Student,Pune,Cafe Bliss,Burger,Food,2,271.2,542.4,1.91,27.12,567.61,UPI,2,23,Amit,12,Takeaway,No,63
+216,23-05-2025,16:53:33,CUST0216,Heather,19,Female,Student,Bangalore,Cafe Bliss,Burger,Food,1,210.75,210.75,8.44,10.54,212.85,Card,5,13,Rahul,29,Dine-In,No,51
+217,12-02-2025,11:02:36,CUST0217,Albert,27,Female,Regular,Hyderabad,Central Cafe,Cake,Dessert,3,289.35,868.05,2.42,43.4,909.03,Cash,3,25,Sneha,15,Dine-In,Yes,27
+218,27-06-2025,11:28:01,CUST0218,Brian,27,Male,New,Bangalore,Urban Brew,Pasta,Food,4,332.52,1330.08,12.65,66.5,1383.93,Card,2,12,Rahul,19,Takeaway,No,31
+219,28-05-2025,04:13:21,CUST0219,Jennifer,28,Male,Office Worker,Pune,Coffee Point,Sandwich,Food,2,137.95,275.9,12.19,13.79,277.5,Cash,1,9,Sneha,20,Dine-In,No,67
+220,09-02-2025,14:09:43,CUST0220,Rachel,52,Male,Regular,Nagpur,Coffee Point,Espresso,Beverage,3,173.01,519.03,8.42,25.95,536.56,UPI,3,17,Amit,27,Dine-In,No,28
+221,12-04-2025,02:31:30,CUST0221,Philip,18,Female,Regular,Pune,Cafe Bliss,Brownie,Dessert,5,201.01,1005.05,7.51,50.25,1047.79,UPI,2,23,Karan,8,Takeaway,Yes,20
+222,12-02-2025,03:06:10,CUST0222,Devin,30,Female,Regular,Pune,Coffee Point,Cold Coffee,Beverage,3,321.67,965.01,6.73,48.25,1006.53,Cash,5,16,Priya,24,Takeaway,No,27
+223,14-01-2025,14:18:34,CUST0223,Carl,22,Female,Student,Hyderabad,Urban Brew,Cake,Dessert,5,331.79,1658.95,1.66,82.95,1740.24,Cash,3,3,Sneha,27,Dine-In,Yes,19
+224,08-06-2025,01:13:31,CUST0224,James,21,Male,Office Worker,Pune,Coffee Point,Cappuccino,Beverage,6,177.69,1066.14,1.39,53.31,1118.06,Cash,3,7,Neha,15,Takeaway,No,43
+225,03-03-2025,07:40:11,CUST0225,Joshua,39,Female,New,Nagpur,Coffee Point,Sandwich,Food,4,220.57,882.28,2.44,44.11,923.95,Cash,1,13,Amit,25,Dine-In,Yes,69
+226,27-06-2025,14:41:09,CUST0226,Katherine,50,Male,Regular,Pune,Cafe Bliss,French Fries,Food,1,204.4,204.4,1.39,10.22,213.23,Cash,2,24,Rahul,15,Dine-In,No,42
+227,27-06-2025,03:20:06,CUST0227,Eric,59,Female,Regular,Mumbai,Coffee Point,Pasta,Food,4,349.31,1397.24,8.06,69.86,1459.04,Card,1,14,Priya,19,Dine-In,No,14
+228,27-05-2025,18:55:09,CUST0228,Omar,20,Female,New,Mumbai,Cafe Bliss,Pasta,Food,3,271.15,813.45,3.68,40.67,850.44,Cash,1,24,Priya,28,Takeaway,No,73
+229,29-04-2025,13:06:22,CUST0229,Jennifer,46,Female,Student,Nagpur,Coffee Point,French Fries,Food,6,218.78,1312.68,3.41,65.63,1374.9,Cash,2,25,Priya,18,Takeaway,No,6
+230,26-01-2025,07:18:18,CUST0230,Tonya,44,Female,Office Worker,Nagpur,Urban Brew,Cake,Dessert,5,295.64,1478.2,11.94,73.91,1540.17,Cash,3,4,Priya,22,Takeaway,Yes,24
+231,12-01-2025,21:03:22,CUST0231,Jessica,18,Male,Regular,Mumbai,Coffee Point,Cold Coffee,Beverage,5,299.89,1499.45,2.97,74.97,1571.45,UPI,3,27,Rahul,19,Takeaway,Yes,58
+232,03-06-2025,05:36:48,CUST0232,John,22,Male,New,Pune,Urban Brew,Cake,Dessert,5,351.58,1757.9,1.52,87.89,1844.27,Card,3,3,Karan,29,Takeaway,Yes,59
+233,03-04-2025,14:59:46,CUST0233,Elizabeth,18,Male,Regular,Pune,Cafe Bliss,Sandwich,Food,6,186.63,1119.78,9.47,55.99,1166.3,Cash,4,8,Rahul,6,Takeaway,No,86
+234,19-04-2025,14:15:08,CUST0234,Amanda,28,Female,Office Worker,Nagpur,Urban Brew,Cake,Dessert,4,379.92,1519.68,12.36,75.98,1583.3,Cash,1,30,Priya,12,Takeaway,Yes,73
+235,17-03-2025,09:32:05,CUST0235,Emily,58,Female,Office Worker,Latur,Cafe Bliss,Espresso,Beverage,6,188.5,1131,6.48,56.55,1181.07,UPI,1,18,Karan,12,Dine-In,No,48
+236,20-04-2025,21:16:58,CUST0236,Mary,34,Female,Regular,Hyderabad,Coffee Point,Pasta,Food,6,354.35,2126.1,4.22,106.31,2228.19,UPI,2,24,Amit,7,Takeaway,No,33
+237,31-05-2025,23:24:35,CUST0237,Rebecca,37,Male,New,Mumbai,Cafe Bliss,Espresso,Beverage,5,172.63,863.15,14.17,43.16,892.14,Cash,4,24,Karan,27,Takeaway,Yes,80
+238,17-06-2025,00:35:02,CUST0238,James,44,Male,New,Nagpur,Central Cafe,Muffin,Dessert,3,150.51,451.53,13.32,22.58,460.79,UPI,1,9,Neha,17,Takeaway,Yes,87
+239,25-06-2025,03:04:14,CUST0239,Dennis,41,Female,Office Worker,Nagpur,Central Cafe,Espresso,Beverage,1,122.61,122.61,4.6,6.13,124.14,UPI,1,1,Karan,14,Takeaway,No,9
+240,27-06-2025,16:23:42,CUST0240,Thomas,30,Male,New,Mumbai,Central Cafe,Cold Coffee,Beverage,5,306.92,1534.6,2.27,76.73,1609.06,Cash,4,8,Amit,28,Dine-In,Yes,98
+241,24-05-2025,09:11:28,CUST0241,Sarah,31,Female,Office Worker,Mumbai,Urban Brew,Green Tea,Beverage,5,92.7,463.5,11.28,23.18,475.4,UPI,5,16,Rahul,19,Takeaway,No,62
+242,23-05-2025,06:59:26,CUST0242,Michele,58,Female,Student,Pune,Urban Brew,French Fries,Food,4,228.85,915.4,9.53,45.77,951.64,Card,3,6,Amit,19,Takeaway,Yes,92
+243,21-01-2025,06:14:14,CUST0243,Jennifer,41,Male,Student,Latur,Cafe Bliss,Green Tea,Beverage,1,94.66,94.66,2.2,4.73,97.19,UPI,2,2,Sneha,20,Takeaway,No,29
+244,27-05-2025,10:22:51,CUST0244,Eric,50,Male,Student,Mumbai,Urban Brew,French Fries,Food,4,191.07,764.28,10.61,38.21,791.88,UPI,5,26,Amit,21,Takeaway,Yes,19
+245,03-05-2025,04:15:28,CUST0245,Eric,58,Male,Regular,Nagpur,Coffee Point,Cold Coffee,Beverage,5,305.87,1529.35,7.75,76.47,1598.07,UPI,4,16,Amit,26,Takeaway,No,20
+246,08-05-2025,04:31:58,CUST0246,Timothy,26,Female,Student,Latur,Coffee Point,Cold Coffee,Beverage,5,289.54,1447.7,2.79,72.39,1517.3,UPI,4,11,Amit,8,Takeaway,Yes,52
+247,25-01-2025,17:40:51,CUST0247,Tiffany,25,Male,Student,Bangalore,Cafe Bliss,Latte,Beverage,2,182.58,365.16,7.03,18.26,376.39,UPI,3,7,Neha,27,Dine-In,Yes,86
+248,22-06-2025,01:05:31,CUST0248,Shelly,23,Female,New,Latur,Urban Brew,Mocha,Beverage,4,211.57,846.28,8.39,42.31,880.2,Cash,3,13,Neha,12,Dine-In,No,19
+249,17-05-2025,02:23:07,CUST0249,Caleb,28,Female,Regular,Nagpur,Coffee Point,Mocha,Beverage,6,205.01,1230.06,4.35,61.5,1287.21,Cash,1,28,Sneha,26,Dine-In,Yes,67
+250,03-05-2025,03:30:49,CUST0250,Stephanie,60,Male,Student,Nagpur,Urban Brew,Latte,Beverage,5,270.99,1354.95,11.52,67.75,1411.18,UPI,3,18,Rahul,17,Dine-In,No,92
+251,26-03-2025,21:48:06,CUST0251,Christine,34,Male,Student,Pune,Coffee Point,Latte,Beverage,6,235.48,1412.88,5.86,70.64,1477.66,Cash,5,25,Amit,23,Dine-In,Yes,6
+252,09-02-2025,05:07:35,CUST0252,Christopher,39,Female,Regular,Bangalore,Urban Brew,Cold Coffee,Beverage,4,300.99,1203.96,3.21,60.2,1260.95,Cash,3,20,Priya,20,Dine-In,Yes,57
+253,03-04-2025,22:32:19,CUST0253,Jeffrey,47,Female,Student,Nagpur,Coffee Point,Burger,Food,1,251.65,251.65,12.21,12.58,252.02,UPI,2,5,Rahul,22,Takeaway,Yes,85
+254,10-02-2025,03:56:01,CUST0254,John,43,Male,Student,Mumbai,Central Cafe,Pizza,Food,3,377.01,1131.03,7.33,56.55,1180.25,Cash,4,20,Rahul,12,Takeaway,No,19
+255,24-01-2025,10:27:29,CUST0255,Steven,42,Female,Student,Mumbai,Coffee Point,Black Tea,Beverage,3,153.89,461.67,7.43,23.08,477.32,Card,3,1,Sneha,5,Takeaway,No,62
+256,12-05-2025,06:14:33,CUST0256,Anna,42,Female,Office Worker,Bangalore,Urban Brew,Burger,Food,3,267.95,803.85,7.15,40.19,836.89,Card,3,11,Sneha,8,Dine-In,No,99
+257,24-02-2025,01:35:41,CUST0257,Jonathan,39,Male,Student,Bangalore,Central Cafe,Sandwich,Food,3,138.34,415.02,8.28,20.75,427.49,Card,3,4,Karan,25,Dine-In,Yes,55
+258,12-03-2025,21:49:42,CUST0258,Kathryn,31,Male,Student,Hyderabad,Central Cafe,French Fries,Food,3,233.67,701.01,5.75,35.05,730.31,Card,3,21,Neha,28,Dine-In,Yes,56
+259,24-03-2025,18:18:34,CUST0259,Megan,42,Female,Office Worker,Bangalore,Urban Brew,Brownie,Dessert,3,202.63,607.89,9.04,30.39,629.24,Card,3,7,Priya,14,Dine-In,Yes,44
+260,14-03-2025,13:04:48,CUST0260,Tammy,44,Female,Office Worker,Latur,Coffee Point,Cake,Dessert,3,363.59,1090.77,11.82,54.54,1133.49,Cash,2,24,Sneha,5,Dine-In,No,11
+261,07-05-2025,18:32:12,CUST0261,Christopher,27,Female,New,Bangalore,Urban Brew,Brownie,Dessert,2,163.6,327.2,13.29,16.36,330.27,UPI,3,9,Amit,6,Dine-In,Yes,20
+262,09-05-2025,02:55:20,CUST0262,Carrie,32,Male,Regular,Nagpur,Urban Brew,Pasta,Food,1,309.7,309.7,0.32,15.48,324.86,Card,2,22,Rahul,28,Takeaway,No,97
+263,10-04-2025,04:02:50,CUST0263,Rhonda,22,Female,New,Bangalore,Central Cafe,Latte,Beverage,2,229.25,458.5,14.58,22.93,466.85,UPI,2,11,Karan,27,Dine-In,No,47
+264,19-04-2025,08:46:14,CUST0264,Charles,28,Male,Office Worker,Nagpur,Central Cafe,Cappuccino,Beverage,3,165.86,497.58,1.2,24.88,521.26,Cash,5,23,Amit,8,Takeaway,Yes,68
+265,15-04-2025,01:55:19,CUST0265,Donald,34,Male,New,Latur,Cafe Bliss,Green Tea,Beverage,6,172.15,1032.9,12.31,51.65,1072.24,UPI,1,16,Priya,26,Dine-In,No,52
+266,14-02-2025,18:40:02,CUST0266,Jacqueline,35,Female,Office Worker,Latur,Central Cafe,Latte,Beverage,6,236.81,1420.86,12.95,71.04,1478.95,Cash,2,18,Rahul,22,Dine-In,No,42
+267,18-04-2025,08:41:38,CUST0267,Anthony,32,Female,Student,Nagpur,Central Cafe,French Fries,Food,2,159.84,319.68,10.65,15.98,325.01,Cash,2,28,Priya,6,Takeaway,No,50
+268,21-04-2025,08:03:18,CUST0268,Carol,51,Female,Office Worker,Pune,Cafe Bliss,Green Tea,Beverage,3,129.19,387.57,14.04,19.38,392.91,Card,2,5,Priya,7,Dine-In,No,66
+269,19-01-2025,12:50:42,CUST0269,Kenneth,43,Female,Regular,Pune,Cafe Bliss,Cappuccino,Beverage,4,169.07,676.28,10.84,33.81,699.25,Card,4,10,Karan,24,Takeaway,No,94
+270,10-06-2025,20:09:45,CUST0270,Jennifer,25,Male,Regular,Mumbai,Urban Brew,Cake,Dessert,5,280.1,1400.5,6.67,70.03,1463.86,Card,5,3,Rahul,17,Dine-In,No,85
+271,13-01-2025,06:18:37,CUST0271,Thomas,23,Male,Student,Pune,Central Cafe,Black Tea,Beverage,2,140.08,280.16,7.94,14.01,286.23,Card,1,5,Amit,5,Takeaway,No,63
+272,05-02-2025,15:56:23,CUST0272,Erin,26,Male,New,Latur,Cafe Bliss,Burger,Food,2,277.85,555.7,9.61,27.79,573.88,Card,1,2,Neha,27,Takeaway,No,33
+273,07-05-2025,05:18:51,CUST0273,David,48,Female,Office Worker,Nagpur,Urban Brew,Green Tea,Beverage,5,178.36,891.8,1.83,44.59,934.56,Cash,1,9,Amit,13,Takeaway,Yes,9
+274,21-06-2025,10:31:39,CUST0274,Amy,60,Male,Student,Hyderabad,Central Cafe,Brownie,Dessert,5,174.14,870.7,13.84,43.53,900.39,Card,2,12,Amit,20,Dine-In,No,38
+275,15-06-2025,03:08:22,CUST0275,Christopher,18,Male,Student,Pune,Cafe Bliss,Cold Coffee,Beverage,1,273.5,273.5,5.15,13.68,282.03,Card,5,21,Sneha,30,Takeaway,No,100
+276,03-03-2025,01:05:46,CUST0276,Antonio,48,Female,Regular,Latur,Urban Brew,Pasta,Food,2,317.02,634.04,13.99,31.7,651.75,Card,4,9,Rahul,18,Dine-In,No,98
+277,13-02-2025,20:21:48,CUST0277,Lisa,56,Female,Regular,Mumbai,Central Cafe,Muffin,Dessert,6,143.78,862.68,8.85,43.13,896.96,UPI,1,14,Karan,15,Takeaway,No,68
+278,07-03-2025,15:25:31,CUST0278,Haley,25,Female,Office Worker,Pune,Cafe Bliss,Cake,Dessert,1,311.58,311.58,7.74,15.58,319.42,UPI,2,7,Sneha,11,Dine-In,No,36
+279,20-01-2025,04:01:38,CUST0279,Brian,60,Female,New,Pune,Coffee Point,Latte,Beverage,2,231.19,462.38,6.44,23.12,479.06,Cash,4,2,Neha,11,Dine-In,Yes,24
+280,16-05-2025,23:23:32,CUST0280,Pamela,22,Male,New,Pune,Central Cafe,Latte,Beverage,3,208.68,626.04,9.52,31.3,647.82,UPI,5,18,Amit,18,Dine-In,Yes,10
+281,20-05-2025,01:33:26,CUST0281,Julia,47,Female,Office Worker,Mumbai,Central Cafe,French Fries,Food,4,221.75,887,7.44,44.35,923.91,UPI,3,19,Rahul,5,Dine-In,No,50
+282,24-05-2025,05:05:19,CUST0282,Rhonda,30,Male,New,Pune,Central Cafe,Black Tea,Beverage,5,152.22,761.1,3.82,38.05,795.33,UPI,4,20,Karan,28,Takeaway,Yes,8
+283,13-03-2025,12:39:10,CUST0283,Kari,49,Male,Office Worker,Pune,Urban Brew,Black Tea,Beverage,2,109.32,218.64,6.91,10.93,222.66,UPI,3,24,Priya,19,Dine-In,No,56
+284,15-06-2025,12:05:01,CUST0284,Johnathan,48,Male,New,Mumbai,Urban Brew,Cappuccino,Beverage,6,252.11,1512.66,0.24,75.63,1588.05,Card,3,4,Amit,20,Dine-In,No,35
+285,11-06-2025,18:47:34,CUST0285,Thomas,60,Female,Student,Hyderabad,Central Cafe,Espresso,Beverage,5,155.2,776,1.29,38.8,813.51,Cash,5,5,Sneha,7,Takeaway,No,31
+286,21-02-2025,16:10:05,CUST0286,Colin,21,Female,Regular,Nagpur,Central Cafe,Latte,Beverage,2,198.85,397.7,11.56,19.89,406.03,UPI,4,29,Neha,8,Takeaway,Yes,22
+287,19-02-2025,16:20:21,CUST0287,Catherine,44,Female,New,Latur,Cafe Bliss,Sandwich,Food,6,217.24,1303.44,9.7,65.17,1358.91,UPI,4,3,Neha,30,Dine-In,No,44
+288,28-03-2025,17:31:40,CUST0288,Dawn,31,Female,Student,Pune,Cafe Bliss,Pizza,Food,1,395.56,395.56,6.51,19.78,408.83,Cash,5,23,Sneha,18,Takeaway,No,42
+289,09-02-2025,00:34:41,CUST0289,Eric,34,Male,Student,Pune,Coffee Point,Pasta,Food,3,269.07,807.21,0.33,40.36,847.24,Card,3,2,Priya,18,Dine-In,Yes,63
+290,11-02-2025,15:42:29,CUST0290,Megan,41,Male,Student,Nagpur,Central Cafe,Brownie,Dessert,5,179.53,897.65,0.78,44.88,941.75,Card,2,26,Rahul,22,Dine-In,Yes,88
+291,03-04-2025,05:39:33,CUST0291,Amanda,31,Male,Regular,Pune,Central Cafe,French Fries,Food,5,199.25,996.25,4.74,49.81,1041.32,UPI,5,16,Neha,11,Takeaway,No,62
+292,24-01-2025,06:03:24,CUST0292,Julie,55,Male,Regular,Bangalore,Coffee Point,Latte,Beverage,4,275.37,1101.48,13.3,55.07,1143.25,UPI,4,9,Priya,30,Dine-In,Yes,67
+293,26-04-2025,22:57:31,CUST0293,Michael,20,Male,Office Worker,Mumbai,Central Cafe,Pasta,Food,3,347.54,1042.62,7.45,52.13,1087.3,Card,2,2,Priya,5,Dine-In,Yes,58
+294,27-03-2025,19:04:43,CUST0294,Samantha,55,Female,Regular,Bangalore,Central Cafe,Latte,Beverage,3,215.12,645.36,1.22,32.27,676.41,UPI,5,25,Karan,26,Takeaway,Yes,30
+295,01-01-2025,12:06:21,CUST0295,Alice,52,Male,Student,Pune,Central Cafe,Pizza,Food,2,356.93,713.86,11.54,35.69,738.01,Card,4,14,Amit,22,Takeaway,No,77
+296,02-03-2025,14:53:26,CUST0296,Kevin,43,Male,Student,Bangalore,Coffee Point,Cold Coffee,Beverage,6,255.17,1531.02,2.74,76.55,1604.83,UPI,4,7,Amit,11,Dine-In,No,86
+297,25-01-2025,07:47:23,CUST0297,William,21,Female,Regular,Bangalore,Urban Brew,Green Tea,Beverage,5,118.99,594.95,13.28,29.75,611.42,Cash,4,3,Karan,12,Takeaway,Yes,81
+298,16-05-2025,12:28:51,CUST0298,Sean,40,Male,New,Pune,Cafe Bliss,Cake,Dessert,2,313.27,626.54,5.18,31.33,652.69,UPI,1,7,Priya,16,Takeaway,Yes,36
+299,13-06-2025,10:59:00,CUST0299,Jake,20,Male,Office Worker,Hyderabad,Central Cafe,Pasta,Food,2,271.55,543.1,1.23,27.16,569.03,Cash,3,28,Priya,25,Dine-In,No,61
+300,03-06-2025,14:14:57,CUST0300,Steve,34,Female,Regular,Mumbai,Urban Brew,Brownie,Dessert,1,162.72,162.72,0.9,8.14,169.96,Cash,5,24,Sneha,14,Takeaway,Yes,98
+301,29-04-2025,20:52:51,CUST0301,Stacey,41,Female,Student,Bangalore,Cafe Bliss,Sandwich,Food,2,198.68,397.36,4.32,19.87,412.91,Cash,2,21,Neha,21,Dine-In,No,23
+302,15-04-2025,12:05:00,CUST0302,Angela,25,Male,Office Worker,Bangalore,Central Cafe,Green Tea,Beverage,3,106.57,319.71,1.06,15.99,334.64,UPI,3,23,Priya,12,Dine-In,No,88
+303,02-04-2025,23:50:05,CUST0303,Linda,49,Female,Student,Pune,Central Cafe,Brownie,Dessert,1,162.28,162.28,0.94,8.11,169.45,UPI,4,21,Sneha,17,Takeaway,Yes,26
+304,18-06-2025,22:18:51,CUST0304,Rebecca,37,Female,New,Hyderabad,Central Cafe,Cold Coffee,Beverage,2,271.89,543.78,6.02,27.19,564.95,Card,5,5,Karan,24,Dine-In,No,66
+305,26-01-2025,03:25:50,CUST0305,Kenneth,24,Male,Student,Pune,Cafe Bliss,Latte,Beverage,2,224.42,448.84,7.03,22.44,464.25,Card,3,14,Priya,29,Takeaway,Yes,24
+306,23-03-2025,15:16:17,CUST0306,Martha,31,Male,Regular,Hyderabad,Cafe Bliss,French Fries,Food,1,231.41,231.41,9.52,11.57,233.46,UPI,4,5,Neha,23,Dine-In,No,76
+307,11-01-2025,20:05:36,CUST0307,John,18,Male,Regular,Pune,Cafe Bliss,Muffin,Dessert,1,116.82,116.82,14.52,5.84,108.14,Cash,1,13,Amit,26,Dine-In,Yes,63
+308,30-03-2025,15:50:32,CUST0308,Katherine,37,Male,New,Pune,Coffee Point,Pizza,Food,6,359.95,2159.7,0.17,107.98,2267.51,Card,5,18,Sneha,16,Takeaway,Yes,42
+309,06-04-2025,06:54:51,CUST0309,David,23,Female,Office Worker,Hyderabad,Central Cafe,Burger,Food,2,292.85,585.7,11.16,29.29,603.83,Card,4,24,Karan,17,Dine-In,No,25
+310,03-06-2025,10:42:39,CUST0310,Anthony,33,Male,Regular,Mumbai,Coffee Point,Burger,Food,1,292.39,292.39,1.26,14.62,305.75,Card,2,28,Neha,6,Dine-In,Yes,49
+311,01-06-2025,00:20:37,CUST0311,Stephanie,56,Female,New,Nagpur,Coffee Point,French Fries,Food,3,181.45,544.35,8.24,27.22,563.33,Cash,1,12,Neha,15,Dine-In,No,67
+312,19-03-2025,06:56:25,CUST0312,Steven,57,Female,Office Worker,Pune,Cafe Bliss,Cake,Dessert,4,364.63,1458.52,8.95,72.93,1522.5,UPI,4,16,Priya,25,Takeaway,Yes,30
+313,14-04-2025,23:04:55,CUST0313,Stephanie,39,Female,New,Bangalore,Cafe Bliss,Cake,Dessert,6,288.12,1728.72,1.53,86.44,1813.63,Card,3,1,Amit,13,Dine-In,No,30
+314,16-06-2025,19:12:15,CUST0314,Michael,60,Male,Regular,Mumbai,Central Cafe,Cold Coffee,Beverage,2,254.3,508.6,6.08,25.43,527.95,UPI,3,15,Karan,13,Takeaway,Yes,19
+315,03-06-2025,04:27:27,CUST0315,Patrick,60,Female,Student,Mumbai,Urban Brew,Black Tea,Beverage,3,129.21,387.63,14.01,19.38,393,UPI,2,19,Sneha,29,Takeaway,Yes,97
+316,23-05-2025,15:21:49,CUST0316,Catherine,24,Male,Regular,Pune,Urban Brew,Mocha,Beverage,3,290.35,871.05,3.45,43.55,911.15,Card,1,5,Sneha,21,Dine-In,No,25
+317,25-02-2025,23:01:39,CUST0317,Timothy,49,Female,Office Worker,Mumbai,Coffee Point,Espresso,Beverage,4,159.13,636.52,10.46,31.83,657.89,Card,3,21,Priya,10,Takeaway,No,42
+318,03-01-2025,16:11:30,CUST0318,Robert,27,Female,Student,Latur,Central Cafe,Cold Coffee,Beverage,1,293.4,293.4,5,14.67,303.07,UPI,5,5,Sneha,10,Dine-In,Yes,42
+319,02-04-2025,09:54:57,CUST0319,Curtis,32,Male,Student,Bangalore,Cafe Bliss,Burger,Food,6,227.68,1366.08,0.87,68.3,1433.51,Cash,3,3,Amit,22,Dine-In,Yes,83
+320,30-01-2025,17:19:05,CUST0320,Marc,46,Male,New,Hyderabad,Coffee Point,Mocha,Beverage,1,252.31,252.31,9.31,12.62,255.62,UPI,4,23,Sneha,19,Dine-In,Yes,86
+321,29-04-2025,10:52:30,CUST0321,George,56,Male,Student,Mumbai,Urban Brew,Latte,Beverage,6,243.63,1461.78,13.14,73.09,1521.73,UPI,4,3,Rahul,5,Takeaway,No,39
+322,30-04-2025,03:37:18,CUST0322,Michael,42,Male,Office Worker,Bangalore,Coffee Point,Latte,Beverage,1,266.67,266.67,10.59,13.33,269.41,Cash,2,19,Sneha,8,Dine-In,No,46
+323,02-03-2025,03:18:57,CUST0323,Zachary,47,Female,New,Nagpur,Urban Brew,Green Tea,Beverage,3,158.47,475.41,6.94,23.77,492.24,UPI,4,24,Amit,30,Takeaway,Yes,24
+324,12-01-2025,16:24:45,CUST0324,James,28,Male,Regular,Bangalore,Central Cafe,Brownie,Dessert,6,217.34,1304.04,9.63,65.2,1359.61,Cash,5,8,Priya,9,Dine-In,No,45
+325,28-06-2025,13:26:02,CUST0325,Melvin,51,Male,Student,Bangalore,Urban Brew,French Fries,Food,6,176.46,1058.76,2.55,52.94,1109.15,Cash,5,13,Priya,22,Takeaway,Yes,41
+326,16-05-2025,09:04:20,CUST0326,Allen,27,Male,Office Worker,Mumbai,Coffee Point,Muffin,Dessert,5,133.23,666.15,2.49,33.31,696.97,UPI,1,12,Priya,13,Dine-In,Yes,78
+327,08-01-2025,16:41:39,CUST0327,Melissa,49,Female,New,Mumbai,Cafe Bliss,Pizza,Food,1,421.4,421.4,7.72,21.07,434.75,UPI,3,5,Neha,13,Dine-In,No,100
+328,09-03-2025,22:13:53,CUST0328,Amy,32,Male,Regular,Bangalore,Coffee Point,Latte,Beverage,6,237.6,1425.6,8.47,71.28,1488.41,Card,2,22,Priya,15,Dine-In,No,89
+329,20-01-2025,20:52:43,CUST0329,Samantha,45,Female,New,Mumbai,Coffee Point,Green Tea,Beverage,2,93.88,187.76,5.15,9.39,192,Card,5,10,Sneha,7,Takeaway,No,17
+330,08-06-2025,00:37:28,CUST0330,Angela,18,Male,New,Pune,Cafe Bliss,French Fries,Food,6,189.4,1136.4,4.47,56.82,1188.75,Cash,5,20,Neha,12,Takeaway,No,46
+331,05-04-2025,00:36:37,CUST0331,Charles,39,Male,Office Worker,Bangalore,Cafe Bliss,Pasta,Food,6,321.32,1927.92,2.47,96.4,2021.85,Cash,2,20,Karan,5,Dine-In,Yes,83
+332,25-06-2025,23:58:12,CUST0332,Samantha,24,Male,New,Nagpur,Central Cafe,Mocha,Beverage,6,275.93,1655.58,9,82.78,1729.36,Card,1,28,Sneha,8,Dine-In,No,78
+333,28-03-2025,04:20:39,CUST0333,Jessica,45,Male,Regular,Pune,Central Cafe,French Fries,Food,3,207.29,621.87,5.68,31.09,647.28,Card,5,17,Amit,25,Dine-In,Yes,75
+334,26-05-2025,01:14:00,CUST0334,Julie,46,Male,Student,Bangalore,Coffee Point,Latte,Beverage,4,213.15,852.6,4.98,42.63,890.25,Cash,3,11,Priya,27,Takeaway,Yes,82
+335,11-06-2025,01:06:56,CUST0335,Samantha,48,Female,New,Bangalore,Central Cafe,Green Tea,Beverage,3,84.55,253.65,2.31,12.68,264.02,Cash,3,16,Sneha,30,Dine-In,Yes,14
+336,22-01-2025,02:44:56,CUST0336,Lori,58,Female,Office Worker,Latur,Coffee Point,Muffin,Dessert,4,189.79,759.16,9.32,37.96,787.8,Cash,4,6,Neha,28,Dine-In,No,51
+337,08-02-2025,16:57:24,CUST0337,Nathan,34,Female,Student,Bangalore,Central Cafe,Black Tea,Beverage,5,97.65,488.25,4.51,24.41,508.15,UPI,4,26,Amit,23,Takeaway,Yes,10
+338,14-06-2025,08:28:01,CUST0338,Logan,20,Female,Student,Bangalore,Coffee Point,Pasta,Food,2,340.32,680.64,11.33,34.03,703.34,UPI,3,28,Karan,19,Dine-In,No,26
+339,29-06-2025,06:01:36,CUST0339,Leslie,40,Female,Regular,Latur,Central Cafe,Espresso,Beverage,1,163.75,163.75,1.77,8.19,170.17,UPI,5,11,Rahul,16,Takeaway,Yes,23
+340,23-06-2025,12:30:57,CUST0340,Scott,24,Male,Student,Bangalore,Cafe Bliss,Latte,Beverage,6,260.63,1563.78,7.67,78.19,1634.3,UPI,2,12,Sneha,28,Dine-In,Yes,58
+341,15-03-2025,09:36:56,CUST0341,Christopher,51,Male,New,Nagpur,Central Cafe,French Fries,Food,3,215.87,647.61,0.32,32.38,679.67,UPI,5,25,Rahul,5,Dine-In,Yes,59
+342,01-01-2025,21:28:34,CUST0342,Kayla,43,Male,Office Worker,Mumbai,Cafe Bliss,Cold Coffee,Beverage,2,297.76,595.52,9.28,29.78,616.02,Card,5,17,Karan,19,Takeaway,Yes,85
+343,14-05-2025,00:18:59,CUST0343,Rebecca,60,Female,New,Hyderabad,Coffee Point,Cake,Dessert,5,293.31,1466.55,11.7,73.33,1528.18,UPI,2,2,Priya,12,Dine-In,No,24
+344,13-05-2025,21:39:04,CUST0344,Mallory,21,Male,New,Nagpur,Central Cafe,Latte,Beverage,6,219.54,1317.24,4.76,65.86,1378.34,Cash,1,10,Sneha,7,Dine-In,Yes,48
+345,04-02-2025,12:55:00,CUST0345,Rachel,54,Male,Student,Pune,Cafe Bliss,Cappuccino,Beverage,3,250.97,752.91,5.64,37.65,784.92,Cash,3,15,Priya,10,Takeaway,Yes,10
+346,30-04-2025,02:44:54,CUST0346,Tanya,31,Male,Regular,Bangalore,Cafe Bliss,Mocha,Beverage,2,202,404,6.56,20.2,417.64,UPI,4,5,Rahul,24,Dine-In,No,18
+347,29-06-2025,06:37:23,CUST0347,Justin,20,Female,New,Mumbai,Urban Brew,Mocha,Beverage,6,240.5,1443,6.35,72.15,1508.8,Card,2,8,Karan,15,Dine-In,No,24
+348,23-03-2025,10:11:09,CUST0348,Kevin,57,Male,Regular,Bangalore,Cafe Bliss,Burger,Food,1,232.12,232.12,4.79,11.61,238.94,Card,3,19,Priya,26,Dine-In,No,31
+349,19-05-2025,03:23:34,CUST0349,Nathaniel,29,Female,Regular,Nagpur,Cafe Bliss,Pasta,Food,1,328.23,328.23,6.92,16.41,337.72,Cash,3,16,Rahul,26,Dine-In,No,34
+350,11-05-2025,16:34:34,CUST0350,Mark,21,Female,Student,Bangalore,Coffee Point,Pasta,Food,2,354.76,709.52,11.53,35.48,733.47,Card,5,25,Sneha,9,Dine-In,Yes,71
+351,02-01-2025,09:16:56,CUST0351,Daniel,56,Female,Regular,Mumbai,Urban Brew,Green Tea,Beverage,2,109.07,218.14,8.65,10.91,220.4,UPI,3,20,Karan,11,Dine-In,No,65
+352,27-02-2025,06:54:26,CUST0352,Kenneth,26,Female,New,Pune,Central Cafe,Espresso,Beverage,6,128.12,768.72,12.13,38.44,795.03,Cash,3,1,Priya,26,Takeaway,Yes,24
+353,03-02-2025,07:14:26,CUST0353,Jeffrey,20,Female,Office Worker,Nagpur,Urban Brew,Cold Coffee,Beverage,5,238.95,1194.75,0.36,59.74,1254.13,Card,5,8,Karan,15,Takeaway,Yes,14
+354,16-02-2025,05:58:56,CUST0354,Leslie,48,Female,Office Worker,Pune,Central Cafe,Muffin,Dessert,1,200.9,200.9,1.52,10.05,209.43,UPI,2,19,Karan,16,Takeaway,No,18
+355,04-04-2025,21:04:11,CUST0355,Darryl,29,Male,Student,Pune,Cafe Bliss,Muffin,Dessert,1,165.39,165.39,12.42,8.27,161.24,UPI,1,12,Neha,10,Takeaway,Yes,12
+356,07-04-2025,23:37:58,CUST0356,Brooke,41,Male,Office Worker,Bangalore,Cafe Bliss,Latte,Beverage,5,262.58,1312.9,9.49,65.64,1369.05,UPI,4,10,Priya,12,Takeaway,Yes,29
+357,27-04-2025,14:00:57,CUST0357,Shaun,50,Female,Student,Nagpur,Coffee Point,Pizza,Food,3,384.04,1152.12,4.78,57.61,1204.95,Card,3,15,Karan,16,Takeaway,Yes,38
+358,20-06-2025,20:45:05,CUST0358,Michelle,51,Male,New,Hyderabad,Central Cafe,Espresso,Beverage,3,114.65,343.95,13.59,17.2,347.56,Cash,1,20,Sneha,18,Dine-In,Yes,49
+359,27-03-2025,20:37:44,CUST0359,Daniel,26,Female,Student,Hyderabad,Coffee Point,Mocha,Beverage,1,231.06,231.06,12.17,11.55,230.44,Card,1,22,Rahul,13,Takeaway,No,10
+360,04-02-2025,05:00:01,CUST0360,Gregory,47,Male,New,Nagpur,Urban Brew,Pasta,Food,6,270.94,1625.64,14.28,81.28,1692.64,Cash,3,19,Neha,21,Dine-In,Yes,30
+361,30-04-2025,16:45:11,CUST0361,Joshua,58,Male,New,Bangalore,Central Cafe,Cake,Dessert,3,347,1041,14.14,52.05,1078.91,Card,5,27,Karan,22,Takeaway,No,83
+362,18-03-2025,02:16:46,CUST0362,Robert,23,Male,Regular,Mumbai,Urban Brew,Black Tea,Beverage,5,163.74,818.7,4.83,40.94,854.81,UPI,1,28,Neha,27,Dine-In,No,8
+363,02-04-2025,13:13:06,CUST0363,Stacie,48,Female,Regular,Mumbai,Coffee Point,Cake,Dessert,1,368.39,368.39,3.44,18.42,383.37,Card,1,24,Neha,29,Takeaway,Yes,57
+364,04-01-2025,13:29:00,CUST0364,Patrick,52,Female,Office Worker,Nagpur,Urban Brew,Latte,Beverage,2,236.38,472.76,5.87,23.64,490.53,Card,4,1,Rahul,18,Dine-In,Yes,62
+365,30-06-2025,00:41:22,CUST0365,Angela,38,Male,Regular,Pune,Central Cafe,Cappuccino,Beverage,4,197.35,789.4,4.28,39.47,824.59,Cash,5,18,Rahul,9,Takeaway,No,94
+366,20-05-2025,19:29:30,CUST0366,Heather,27,Male,Regular,Latur,Cafe Bliss,Latte,Beverage,6,203.6,1221.6,14,61.08,1268.68,UPI,3,18,Sneha,15,Dine-In,No,25
+367,05-04-2025,09:27:41,CUST0367,Aaron,42,Male,Student,Pune,Central Cafe,Cold Coffee,Beverage,1,260.89,260.89,11.16,13.04,262.77,Card,5,16,Priya,24,Takeaway,No,46
+368,10-03-2025,23:03:01,CUST0368,Jason,40,Male,New,Pune,Coffee Point,Black Tea,Beverage,3,147.37,442.11,9.03,22.11,455.19,Card,3,7,Neha,29,Dine-In,Yes,69
+369,09-03-2025,17:05:12,CUST0369,Stephanie,51,Female,Student,Pune,Urban Brew,Latte,Beverage,5,248.16,1240.8,2.49,62.04,1300.35,UPI,4,15,Karan,21,Dine-In,No,78
+370,05-02-2025,08:39:49,CUST0370,Laura,46,Male,Office Worker,Hyderabad,Coffee Point,Pasta,Food,1,310.73,310.73,13.1,15.54,313.17,Cash,5,3,Rahul,14,Dine-In,Yes,81
+371,07-01-2025,10:02:04,CUST0371,Joseph,30,Female,Regular,Hyderabad,Cafe Bliss,Cake,Dessert,5,288.02,1440.1,12.63,72,1499.47,Cash,3,1,Neha,5,Dine-In,Yes,20
+372,22-01-2025,23:11:20,CUST0372,Steven,26,Female,New,Pune,Urban Brew,Brownie,Dessert,4,223.6,894.4,9.35,44.72,929.77,UPI,1,29,Karan,23,Dine-In,Yes,82
+373,19-03-2025,12:58:55,CUST0373,Brett,28,Male,New,Bangalore,Coffee Point,Cake,Dessert,5,342.46,1712.3,0.41,85.62,1797.51,Card,2,6,Priya,12,Takeaway,Yes,84
+374,19-06-2025,22:40:34,CUST0374,Kimberly,50,Female,Office Worker,Hyderabad,Cafe Bliss,French Fries,Food,4,220.39,881.56,12.06,44.08,913.58,UPI,4,14,Amit,30,Dine-In,No,13
+375,01-01-2025,06:44:28,CUST0375,Jerry,30,Female,Student,Mumbai,Urban Brew,Latte,Beverage,5,238.8,1194,9.37,59.7,1244.33,UPI,2,10,Amit,21,Takeaway,Yes,98
+376,27-04-2025,17:19:21,CUST0376,Melissa,40,Male,Student,Pune,Urban Brew,Cold Coffee,Beverage,4,293.67,1174.68,12.98,58.73,1220.43,UPI,2,27,Neha,18,Takeaway,Yes,27
+377,22-03-2025,22:01:59,CUST0377,Mary,55,Male,Student,Nagpur,Cafe Bliss,Green Tea,Beverage,2,113.64,227.28,11.23,11.36,227.41,UPI,5,5,Sneha,28,Dine-In,No,94
+378,04-02-2025,10:24:53,CUST0378,Christopher,19,Female,New,Latur,Urban Brew,Latte,Beverage,4,250.38,1001.52,8.5,50.08,1043.1,Cash,4,25,Neha,5,Dine-In,Yes,82
+379,20-04-2025,16:12:32,CUST0379,Erin,27,Male,Regular,Latur,Coffee Point,Cold Coffee,Beverage,5,282.11,1410.55,1.38,70.53,1479.7,Card,5,16,Sneha,16,Dine-In,No,65
+380,25-04-2025,12:47:49,CUST0380,Donna,20,Female,Student,Mumbai,Coffee Point,Mocha,Beverage,3,229.56,688.68,7.53,34.43,715.58,Cash,2,5,Rahul,12,Takeaway,Yes,94
+381,04-03-2025,10:53:05,CUST0381,Kylie,20,Male,Student,Bangalore,Urban Brew,Cappuccino,Beverage,2,178.6,357.2,3.44,17.86,371.62,UPI,3,24,Karan,5,Dine-In,No,19
+382,16-01-2025,20:52:15,CUST0382,Isabella,45,Male,New,Bangalore,Central Cafe,French Fries,Food,5,228.5,1142.5,8.01,57.12,1191.61,Cash,5,30,Neha,28,Dine-In,Yes,85
+383,16-06-2025,06:32:43,CUST0383,Karen,33,Male,Student,Bangalore,Urban Brew,Espresso,Beverage,3,139.98,419.94,4.51,21,436.43,UPI,3,21,Amit,13,Takeaway,Yes,20
+384,28-05-2025,20:23:47,CUST0384,Joseph,46,Male,Student,Pune,Coffee Point,Espresso,Beverage,1,146.98,146.98,9.56,7.35,144.77,Cash,1,8,Sneha,29,Dine-In,Yes,23
+385,23-05-2025,04:29:27,CUST0385,Brian,41,Female,New,Pune,Central Cafe,Black Tea,Beverage,1,162.75,162.75,2.9,8.14,167.99,UPI,4,19,Neha,25,Dine-In,Yes,40
+386,29-05-2025,02:53:58,CUST0386,Robert,43,Female,Regular,Mumbai,Central Cafe,Green Tea,Beverage,1,149.5,149.5,10.38,7.48,146.6,UPI,2,15,Rahul,13,Takeaway,No,91
+387,25-02-2025,12:20:10,CUST0387,Michael,31,Male,Regular,Latur,Central Cafe,Mocha,Beverage,4,210.3,841.2,3.71,42.06,879.55,Cash,4,18,Sneha,28,Dine-In,No,96
+388,06-05-2025,13:54:47,CUST0388,Jon,27,Female,Student,Hyderabad,Cafe Bliss,Brownie,Dessert,1,206.82,206.82,14.02,10.34,203.14,UPI,3,27,Neha,6,Dine-In,No,69
+389,20-02-2025,11:01:31,CUST0389,Shawn,31,Male,New,Bangalore,Central Cafe,Sandwich,Food,6,173.49,1040.94,4.81,52.05,1088.18,UPI,1,18,Neha,14,Dine-In,Yes,95
+390,07-01-2025,12:24:27,CUST0390,Robert,37,Female,New,Nagpur,Central Cafe,Black Tea,Beverage,1,96.24,96.24,1.11,4.81,99.94,Cash,4,14,Amit,13,Takeaway,No,54
+391,07-05-2025,00:06:30,CUST0391,Angela,42,Male,Office Worker,Latur,Coffee Point,Burger,Food,5,281.69,1408.45,4.51,70.42,1474.36,Cash,4,22,Neha,26,Takeaway,Yes,73
+392,20-03-2025,10:26:20,CUST0392,Paula,45,Female,Student,Pune,Coffee Point,Mocha,Beverage,3,261.66,784.98,5.81,39.25,818.42,Cash,4,23,Neha,5,Dine-In,No,84
+393,08-06-2025,21:33:45,CUST0393,Alicia,55,Male,Student,Pune,Cafe Bliss,Pizza,Food,1,338.33,338.33,7.48,16.92,347.77,Cash,3,6,Sneha,10,Dine-In,No,32
+394,30-05-2025,17:08:01,CUST0394,Ana,43,Male,Regular,Nagpur,Urban Brew,Cold Coffee,Beverage,3,240.95,722.85,0.09,36.14,758.9,Card,5,8,Amit,9,Dine-In,Yes,23
+395,21-05-2025,21:16:13,CUST0395,Peggy,53,Male,Student,Mumbai,Coffee Point,Espresso,Beverage,2,118.35,236.7,4.94,11.84,243.6,Cash,3,4,Karan,15,Dine-In,Yes,63
+396,07-04-2025,05:05:15,CUST0396,Jacob,42,Male,Office Worker,Pune,Urban Brew,Burger,Food,4,202.54,810.16,12.06,40.51,838.61,UPI,4,24,Priya,19,Dine-In,No,47
+397,29-06-2025,04:21:59,CUST0397,Jorge,47,Male,Office Worker,Latur,Coffee Point,Pasta,Food,4,265.05,1060.2,10.41,53.01,1102.8,UPI,4,23,Sneha,30,Takeaway,No,64
+398,30-05-2025,17:37:05,CUST0398,Matthew,40,Male,Office Worker,Latur,Central Cafe,Pizza,Food,6,416.92,2501.52,7.03,125.08,2619.57,UPI,5,2,Neha,8,Takeaway,Yes,81
+399,25-03-2025,23:11:24,CUST0399,Nathaniel,21,Male,New,Hyderabad,Urban Brew,French Fries,Food,5,180.93,904.65,1.24,45.23,948.64,UPI,5,21,Rahul,28,Dine-In,No,10
+400,15-05-2025,20:57:07,CUST0400,James,60,Female,Regular,Latur,Urban Brew,Cold Coffee,Beverage,5,299.31,1496.55,5.93,74.83,1565.45,Card,2,3,Neha,16,Dine-In,No,72
+401,09-04-2025,17:44:09,CUST0401,Sharon,31,Male,Student,Hyderabad,Coffee Point,Cake,Dessert,5,306.91,1534.55,9.08,76.73,1602.2,Card,5,3,Neha,22,Takeaway,No,98
+402,12-04-2025,23:18:52,CUST0402,Susan,50,Male,Student,Bangalore,Cafe Bliss,Brownie,Dessert,4,239.23,956.92,1.88,47.85,1002.89,UPI,3,12,Sneha,22,Takeaway,Yes,59
+403,25-05-2025,01:22:05,CUST0403,Kelsey,48,Female,Office Worker,Hyderabad,Central Cafe,Sandwich,Food,3,153.27,459.81,5.85,22.99,476.95,Card,4,17,Sneha,20,Dine-In,Yes,13
+404,29-05-2025,06:48:03,CUST0404,Joyce,35,Female,Office Worker,Bangalore,Urban Brew,Cold Coffee,Beverage,1,299.69,299.69,12.21,14.98,302.46,Card,2,8,Priya,27,Dine-In,No,38
+405,24-01-2025,11:48:28,CUST0405,Rachel,54,Female,Office Worker,Pune,Coffee Point,Cake,Dessert,3,335.02,1005.06,6.35,50.25,1048.96,UPI,5,27,Sneha,29,Dine-In,No,37
+406,09-04-2025,14:57:50,CUST0406,Gabriel,47,Male,Student,Nagpur,Cafe Bliss,Pizza,Food,6,335.08,2010.48,13.12,100.52,2097.88,UPI,1,17,Neha,16,Takeaway,Yes,33
+407,09-06-2025,14:11:57,CUST0407,Mark,36,Female,Student,Nagpur,Coffee Point,Burger,Food,2,274.58,549.16,12.38,27.46,564.24,Card,5,20,Neha,19,Dine-In,No,41
+408,23-06-2025,22:31:44,CUST0408,Julia,37,Male,Student,Nagpur,Urban Brew,Cappuccino,Beverage,4,252.86,1011.44,6.29,50.57,1055.72,Cash,5,27,Neha,18,Dine-In,No,73
+409,16-06-2025,15:04:56,CUST0409,Sergio,23,Female,Student,Bangalore,Cafe Bliss,Burger,Food,4,280.86,1123.44,7.85,56.17,1171.76,Cash,2,8,Sneha,22,Takeaway,No,81
+410,03-05-2025,02:22:43,CUST0410,Brian,32,Female,New,Mumbai,Central Cafe,Cake,Dessert,4,355.73,1422.92,12.67,71.15,1481.4,Card,2,13,Sneha,28,Dine-In,No,80
+411,02-02-2025,07:45:20,CUST0411,Erica,32,Female,Office Worker,Bangalore,Coffee Point,Espresso,Beverage,5,127.43,637.15,8.32,31.86,660.69,Cash,5,26,Amit,6,Dine-In,Yes,8
+412,18-06-2025,03:20:08,CUST0412,Ashley,54,Female,Office Worker,Bangalore,Central Cafe,Pizza,Food,6,423.14,2538.84,4.51,126.94,2661.27,Card,4,10,Neha,15,Takeaway,Yes,98
+413,27-05-2025,12:15:32,CUST0413,Adrian,41,Female,Student,Nagpur,Cafe Bliss,Cappuccino,Beverage,3,168.24,504.72,0.27,25.24,529.69,Cash,4,13,Rahul,28,Dine-In,No,54
+414,06-01-2025,20:38:42,CUST0414,Gregory,26,Female,Regular,Pune,Cafe Bliss,Pizza,Food,3,402.42,1207.26,1.95,60.36,1265.67,Card,2,29,Amit,19,Dine-In,No,7
+415,08-01-2025,14:51:49,CUST0415,Christopher,20,Female,Student,Pune,Urban Brew,Cold Coffee,Beverage,1,305.81,305.81,7.17,15.29,313.93,Card,4,5,Rahul,11,Dine-In,No,6
+416,09-05-2025,00:10:26,CUST0416,Jeanette,57,Male,Regular,Nagpur,Cafe Bliss,Cold Coffee,Beverage,2,238.77,477.54,12.23,23.88,489.19,UPI,4,25,Rahul,23,Dine-In,No,42
+417,12-02-2025,11:21:14,CUST0417,Bruce,30,Male,New,Mumbai,Urban Brew,Latte,Beverage,5,211.45,1057.25,1.34,52.86,1108.77,Card,1,27,Priya,20,Dine-In,No,32
+418,30-01-2025,07:21:22,CUST0418,Matthew,18,Female,New,Pune,Coffee Point,Latte,Beverage,3,260.59,781.77,4.51,39.09,816.35,Cash,2,30,Amit,15,Dine-In,No,21
+419,12-05-2025,21:47:40,CUST0419,Christopher,40,Male,Office Worker,Nagpur,Central Cafe,Latte,Beverage,1,195.06,195.06,0.85,9.75,203.96,Cash,2,9,Amit,17,Dine-In,Yes,40
+420,01-04-2025,12:17:18,CUST0420,Clifford,53,Female,New,Mumbai,Coffee Point,Cake,Dessert,2,351.81,703.62,13.48,35.18,725.32,Card,4,15,Sneha,27,Dine-In,Yes,56
+421,11-04-2025,02:54:59,CUST0421,Daniel,46,Female,Student,Latur,Central Cafe,Cold Coffee,Beverage,6,301.86,1811.16,9.67,90.56,1892.05,Card,4,11,Amit,9,Dine-In,No,7
+422,03-03-2025,02:04:21,CUST0422,Sarah,38,Female,Office Worker,Latur,Coffee Point,Mocha,Beverage,1,269.75,269.75,13.33,13.49,269.91,UPI,5,4,Rahul,17,Takeaway,No,17
+423,13-04-2025,10:31:49,CUST0423,Ronnie,20,Female,Office Worker,Nagpur,Cafe Bliss,Mocha,Beverage,3,222.92,668.76,1.45,33.44,700.75,Cash,1,30,Karan,7,Dine-In,Yes,50
+424,14-02-2025,14:10:25,CUST0424,Teresa,48,Female,New,Pune,Urban Brew,Sandwich,Food,1,179.7,179.7,1.07,8.98,187.61,Cash,2,20,Neha,23,Takeaway,No,87
+425,03-01-2025,11:31:35,CUST0425,Keith,22,Male,Student,Pune,Urban Brew,Cold Coffee,Beverage,1,247.13,247.13,11.04,12.36,248.45,Cash,2,10,Sneha,29,Dine-In,No,81
+426,27-05-2025,21:12:52,CUST0426,Jeffrey,19,Female,Student,Mumbai,Central Cafe,Mocha,Beverage,6,203.37,1220.22,11.19,61.01,1270.04,Card,3,10,Rahul,15,Takeaway,Yes,17
+427,09-04-2025,15:10:15,CUST0427,David,52,Male,Student,Hyderabad,Urban Brew,Brownie,Dessert,1,181.32,181.32,10.46,9.07,179.93,Card,1,4,Karan,24,Takeaway,No,38
+428,14-06-2025,17:51:30,CUST0428,Krystal,36,Female,Regular,Bangalore,Urban Brew,Mocha,Beverage,1,211.62,211.62,5.2,10.58,217,UPI,5,17,Sneha,11,Takeaway,No,80
+429,10-06-2025,13:55:26,CUST0429,Rhonda,58,Male,New,Hyderabad,Urban Brew,Burger,Food,1,296.72,296.72,12.99,14.84,298.57,Card,5,12,Amit,27,Dine-In,No,25
+430,01-04-2025,09:26:48,CUST0430,Kayla,29,Female,New,Nagpur,Urban Brew,Cake,Dessert,1,283.17,283.17,3.51,14.16,293.82,Card,2,26,Sneha,18,Dine-In,Yes,48
+431,14-04-2025,18:26:55,CUST0431,Jimmy,38,Female,Student,Pune,Urban Brew,Muffin,Dessert,5,117.77,588.85,5.11,29.44,613.18,Card,3,26,Karan,21,Dine-In,Yes,68
+432,10-03-2025,20:22:17,CUST0432,Lisa,21,Male,Office Worker,Nagpur,Cafe Bliss,Brownie,Dessert,6,192.78,1156.68,5.83,57.83,1208.68,Cash,5,9,Neha,5,Takeaway,Yes,29
+433,18-02-2025,06:21:30,CUST0433,Linda,52,Female,New,Latur,Urban Brew,Pasta,Food,2,273.83,547.66,14.63,27.38,560.41,UPI,2,5,Priya,11,Dine-In,Yes,97
+434,28-04-2025,21:10:06,CUST0434,Steven,28,Male,New,Latur,Urban Brew,Pasta,Food,2,283.74,567.48,4.1,28.37,591.75,Card,3,1,Rahul,21,Takeaway,No,25
+435,25-06-2025,13:14:31,CUST0435,Susan,30,Female,Student,Pune,Urban Brew,Pasta,Food,4,356.26,1425.04,3.12,71.25,1493.17,Card,4,10,Neha,9,Takeaway,No,37
+436,03-05-2025,14:30:52,CUST0436,Melissa,38,Male,Student,Hyderabad,Coffee Point,Pizza,Food,1,411.75,411.75,13.72,20.59,418.62,Cash,5,8,Neha,17,Dine-In,Yes,75
+437,31-01-2025,22:02:45,CUST0437,Brandon,38,Male,Student,Hyderabad,Urban Brew,Mocha,Beverage,3,277.48,832.44,10.16,41.62,863.9,Card,1,17,Rahul,21,Dine-In,No,22
+438,16-03-2025,13:04:38,CUST0438,Robert,28,Female,Student,Mumbai,Urban Brew,Mocha,Beverage,2,262.64,525.28,4.76,26.26,546.78,UPI,2,23,Amit,30,Takeaway,Yes,88
+439,01-04-2025,14:12:14,CUST0439,Kimberly,55,Male,Office Worker,Pune,Urban Brew,Pizza,Food,1,377.76,377.76,3.75,18.89,392.9,Cash,1,18,Karan,5,Dine-In,Yes,97
+440,25-02-2025,08:16:32,CUST0440,Melissa,53,Male,Regular,Pune,Cafe Bliss,Black Tea,Beverage,6,145.32,871.92,4.45,43.6,911.07,Cash,2,29,Karan,25,Takeaway,Yes,6
+441,21-02-2025,09:33:27,CUST0441,Patricia,44,Female,New,Mumbai,Central Cafe,Pizza,Food,6,354.37,2126.22,11.41,106.31,2221.12,Cash,5,25,Neha,17,Dine-In,No,88
+442,17-05-2025,17:53:34,CUST0442,Taylor,19,Female,Student,Nagpur,Coffee Point,Latte,Beverage,6,183.57,1101.42,5.47,55.07,1151.02,UPI,4,7,Rahul,19,Takeaway,No,86
+443,21-05-2025,12:21:10,CUST0443,Anthony,51,Male,Office Worker,Nagpur,Coffee Point,Sandwich,Food,2,217.27,434.54,1.22,21.73,455.05,Cash,1,15,Neha,8,Dine-In,No,89
+444,27-05-2025,06:15:53,CUST0444,Christina,54,Male,New,Hyderabad,Coffee Point,Espresso,Beverage,6,174.59,1047.54,10.47,52.38,1089.45,Card,3,30,Neha,25,Dine-In,Yes,81
+445,08-03-2025,20:41:13,CUST0445,Stephen,51,Female,Student,Latur,Coffee Point,Black Tea,Beverage,5,116.72,583.6,0.03,29.18,612.75,Card,1,24,Sneha,19,Takeaway,No,36
+446,22-05-2025,08:00:15,CUST0446,John,55,Male,Regular,Bangalore,Central Cafe,Latte,Beverage,2,201.63,403.26,0.61,20.16,422.81,Cash,4,4,Priya,24,Takeaway,Yes,61
+447,27-04-2025,12:38:47,CUST0447,Joshua,22,Female,Regular,Latur,Central Cafe,Pizza,Food,2,330.97,661.94,14.91,33.1,680.13,Cash,5,24,Karan,29,Takeaway,No,81
+448,01-04-2025,04:52:45,CUST0448,Alex,19,Male,Regular,Hyderabad,Urban Brew,Pizza,Food,2,345.5,691,11.79,34.55,713.76,Cash,4,21,Priya,5,Dine-In,Yes,22
+449,12-06-2025,00:21:01,CUST0449,Ashley,37,Male,New,Nagpur,Urban Brew,Cappuccino,Beverage,3,187.57,562.71,3.64,28.14,587.21,UPI,5,23,Rahul,22,Takeaway,No,47
+450,22-04-2025,15:29:08,CUST0450,Sherri,21,Male,Office Worker,Mumbai,Cafe Bliss,French Fries,Food,1,142.02,142.02,1.75,7.1,147.37,UPI,4,22,Amit,30,Dine-In,No,22
+451,06-01-2025,15:37:50,CUST0451,Taylor,19,Male,Office Worker,Bangalore,Cafe Bliss,Cappuccino,Beverage,6,254.78,1528.68,6.64,76.43,1598.47,UPI,1,18,Karan,20,Takeaway,Yes,66
+452,17-01-2025,22:53:03,CUST0452,Carl,54,Male,New,Bangalore,Cafe Bliss,Pasta,Food,4,264.28,1057.12,4.01,52.86,1105.97,UPI,2,30,Amit,9,Takeaway,No,23
+453,22-04-2025,07:33:44,CUST0453,Selena,55,Female,Office Worker,Latur,Cafe Bliss,French Fries,Food,1,208.99,208.99,9.23,10.45,210.21,UPI,2,21,Karan,7,Dine-In,Yes,48
+454,27-03-2025,01:24:46,CUST0454,Steven,53,Male,Student,Nagpur,Central Cafe,Black Tea,Beverage,5,131.48,657.4,5.4,32.87,684.87,Card,5,17,Rahul,20,Dine-In,No,95
+455,29-01-2025,08:31:52,CUST0455,Connie,50,Female,Regular,Pune,Urban Brew,Mocha,Beverage,4,247.14,988.56,7.52,49.43,1030.47,UPI,2,7,Neha,13,Takeaway,Yes,40
+456,29-06-2025,00:33:09,CUST0456,Michael,46,Male,Student,Nagpur,Central Cafe,Pasta,Food,4,340.19,1360.76,13.96,68.04,1414.84,Card,2,23,Karan,8,Takeaway,No,21
+457,01-03-2025,05:23:08,CUST0457,Damon,46,Male,Student,Hyderabad,Coffee Point,French Fries,Food,2,209.51,419.02,12.95,20.95,427.02,UPI,4,8,Sneha,21,Takeaway,No,62
+458,21-05-2025,03:47:30,CUST0458,Angela,22,Male,Office Worker,Pune,Urban Brew,Pasta,Food,4,297.4,1189.6,0.16,59.48,1248.92,Card,2,13,Sneha,19,Takeaway,Yes,47
+459,15-06-2025,10:56:28,CUST0459,Chad,45,Male,New,Latur,Cafe Bliss,Latte,Beverage,5,183.07,915.35,12.26,45.77,948.86,Cash,2,17,Amit,21,Takeaway,Yes,31
+460,14-06-2025,23:13:26,CUST0460,Tamara,30,Male,Student,Nagpur,Urban Brew,Sandwich,Food,3,193.5,580.5,3.5,29.03,606.03,Card,2,20,Sneha,16,Takeaway,Yes,57
+461,12-03-2025,06:41:49,CUST0461,Margaret,51,Male,Student,Bangalore,Urban Brew,Green Tea,Beverage,5,163.71,818.55,2.82,40.93,856.66,Cash,3,3,Amit,12,Takeaway,No,43
+462,20-03-2025,11:53:15,CUST0462,Justin,47,Female,Regular,Bangalore,Central Cafe,Mocha,Beverage,3,230.64,691.92,5.52,34.6,721,Cash,4,16,Neha,9,Takeaway,Yes,94
+463,16-06-2025,17:53:02,CUST0463,Miranda,34,Female,Regular,Hyderabad,Coffee Point,Burger,Food,1,241.6,241.6,1.42,12.08,252.26,Card,5,26,Sneha,10,Takeaway,Yes,9
+464,13-05-2025,20:53:14,CUST0464,Kathryn,58,Male,New,Pune,Coffee Point,Sandwich,Food,5,130.87,654.35,10.25,32.72,676.82,Cash,3,10,Amit,22,Dine-In,No,62
+465,16-03-2025,10:24:24,CUST0465,Stephanie,53,Female,Student,Hyderabad,Central Cafe,Pasta,Food,5,275.15,1375.75,1.45,68.79,1443.09,UPI,3,20,Neha,23,Takeaway,No,13
+466,15-01-2025,06:17:19,CUST0466,Martin,50,Female,New,Bangalore,Urban Brew,Pasta,Food,1,322.04,322.04,4.41,16.1,333.73,Cash,4,25,Sneha,8,Dine-In,Yes,95
+467,20-03-2025,00:50:49,CUST0467,Meghan,27,Female,Regular,Hyderabad,Urban Brew,Latte,Beverage,5,200.78,1003.9,8.03,50.2,1046.07,Card,2,5,Priya,23,Takeaway,Yes,44
+468,09-06-2025,12:04:39,CUST0468,Jose,59,Male,Regular,Latur,Central Cafe,Espresso,Beverage,6,102.04,612.24,3.95,30.61,638.9,UPI,5,29,Neha,30,Takeaway,No,77
+469,10-01-2025,06:22:06,CUST0469,Paula,41,Female,Student,Hyderabad,Central Cafe,Espresso,Beverage,1,126.04,126.04,8.78,6.3,123.56,Cash,5,17,Rahul,19,Dine-In,No,15
+470,03-06-2025,14:39:09,CUST0470,John,58,Female,Regular,Hyderabad,Cafe Bliss,Cold Coffee,Beverage,5,256.99,1284.95,6.7,64.25,1342.5,Cash,2,7,Rahul,18,Takeaway,No,28
+471,31-01-2025,23:46:02,CUST0471,Sean,54,Female,New,Hyderabad,Coffee Point,French Fries,Food,4,151.82,607.28,5.39,30.36,632.25,Cash,2,7,Sneha,30,Dine-In,Yes,72
+472,28-02-2025,00:37:33,CUST0472,Daniel,37,Female,Student,Nagpur,Urban Brew,Pasta,Food,2,332.84,665.68,12.09,33.28,686.87,UPI,2,25,Karan,9,Takeaway,Yes,20
+473,07-02-2025,14:49:58,CUST0473,Alyssa,52,Male,Student,Pune,Coffee Point,Brownie,Dessert,2,220.55,441.1,2.17,22.06,460.99,Card,1,17,Neha,29,Takeaway,Yes,41
+474,03-01-2025,07:09:46,CUST0474,Kent,21,Male,New,Latur,Central Cafe,Cold Coffee,Beverage,4,233.53,934.12,3.06,46.71,977.77,Card,5,22,Sneha,14,Takeaway,No,76
+475,16-04-2025,02:24:22,CUST0475,Anthony,19,Female,Student,Nagpur,Central Cafe,Muffin,Dessert,6,174.32,1045.92,11.21,52.3,1087.01,Card,3,17,Sneha,25,Takeaway,Yes,59
+476,09-06-2025,01:09:39,CUST0476,Alice,51,Female,Regular,Latur,Coffee Point,Brownie,Dessert,1,229.71,229.71,13.21,11.49,227.99,Cash,3,12,Karan,13,Dine-In,No,100
+477,24-01-2025,10:04:51,CUST0477,Amanda,39,Female,Student,Bangalore,Urban Brew,Sandwich,Food,2,164.73,329.46,9.79,16.47,336.14,Card,1,14,Priya,5,Dine-In,Yes,21
+478,27-02-2025,12:34:05,CUST0478,Christopher,19,Male,Student,Latur,Urban Brew,Pizza,Food,1,408.14,408.14,12.47,20.41,416.08,Card,3,21,Neha,21,Dine-In,Yes,35
+479,19-01-2025,02:12:55,CUST0479,Robert,24,Female,New,Latur,Cafe Bliss,Mocha,Beverage,6,218.28,1309.68,11.98,65.48,1363.18,Card,4,21,Neha,21,Dine-In,No,56
+480,03-06-2025,22:17:48,CUST0480,Stephanie,57,Female,Regular,Mumbai,Cafe Bliss,Mocha,Beverage,6,298.74,1792.44,3.44,89.62,1878.62,Cash,2,22,Karan,14,Takeaway,No,53
+481,25-04-2025,12:14:01,CUST0481,Grace,27,Male,Regular,Nagpur,Urban Brew,Muffin,Dessert,4,169.97,679.88,8.94,33.99,704.93,Cash,1,18,Amit,12,Takeaway,No,59
+482,25-06-2025,20:12:42,CUST0482,Marissa,53,Male,Student,Bangalore,Central Cafe,Mocha,Beverage,5,267.16,1335.8,10.67,66.79,1391.92,Card,4,2,Priya,29,Dine-In,Yes,65
+483,14-05-2025,03:56:39,CUST0483,David,43,Male,Student,Pune,Central Cafe,Muffin,Dessert,2,144.43,288.86,2.99,14.44,300.31,Cash,3,21,Priya,26,Dine-In,No,37
+484,24-02-2025,06:08:32,CUST0484,Jesse,50,Male,New,Nagpur,Central Cafe,Sandwich,Food,3,174.82,524.46,13.22,26.22,537.46,Cash,1,3,Amit,22,Takeaway,No,72
+485,08-04-2025,12:18:13,CUST0485,Aaron,40,Female,Student,Hyderabad,Central Cafe,Cappuccino,Beverage,4,228.41,913.64,1.76,45.68,957.56,Cash,3,5,Rahul,7,Dine-In,Yes,11
+486,09-02-2025,03:46:11,CUST0486,Marc,48,Female,Office Worker,Pune,Central Cafe,French Fries,Food,6,178.49,1070.94,8.83,53.55,1115.66,Card,1,6,Priya,30,Dine-In,Yes,49
+487,25-04-2025,16:16:29,CUST0487,William,18,Male,New,Latur,Coffee Point,Cappuccino,Beverage,6,175.57,1053.42,10.96,52.67,1095.13,Card,1,20,Karan,13,Takeaway,No,95
+488,14-01-2025,02:18:40,CUST0488,Wendy,39,Male,New,Pune,Central Cafe,Espresso,Beverage,1,152.34,152.34,4.59,7.62,155.37,Card,1,27,Priya,26,Takeaway,No,99
+489,12-05-2025,05:00:24,CUST0489,Amy,52,Female,Student,Latur,Urban Brew,Muffin,Dessert,3,202.96,608.88,7.48,30.44,631.84,Card,5,11,Rahul,20,Dine-In,No,80
+490,04-03-2025,15:16:31,CUST0490,Erin,52,Male,Office Worker,Pune,Coffee Point,Sandwich,Food,6,216.09,1296.54,1.81,64.83,1359.56,UPI,2,29,Sneha,8,Takeaway,Yes,96
+491,20-06-2025,21:18:22,CUST0491,Alejandra,50,Male,Office Worker,Nagpur,Cafe Bliss,Cappuccino,Beverage,3,240.02,720.06,14.91,36,741.15,Card,4,24,Neha,28,Dine-In,Yes,84
+492,07-01-2025,14:40:06,CUST0492,Kenneth,31,Male,Student,Latur,Cafe Bliss,Cake,Dessert,2,345.35,690.7,4.95,34.54,720.29,Card,4,20,Sneha,18,Dine-In,Yes,71
+493,02-06-2025,07:40:48,CUST0493,Allison,42,Female,Office Worker,Bangalore,Central Cafe,Cake,Dessert,4,346.02,1384.08,0.31,69.2,1452.97,UPI,3,9,Amit,23,Takeaway,No,22
+494,17-02-2025,14:02:24,CUST0494,Brian,44,Male,New,Hyderabad,Urban Brew,Sandwich,Food,6,193,1158,1.04,57.9,1214.86,Cash,1,11,Rahul,25,Takeaway,No,78
+495,21-03-2025,01:12:07,CUST0495,Jane,54,Male,Regular,Hyderabad,Cafe Bliss,Mocha,Beverage,6,215.77,1294.62,2.83,64.73,1356.52,UPI,4,4,Karan,17,Takeaway,Yes,78
+496,10-01-2025,16:31:50,CUST0496,Kimberly,30,Female,New,Nagpur,Coffee Point,Espresso,Beverage,4,160.93,643.72,14.92,32.19,660.99,UPI,1,25,Priya,22,Dine-In,Yes,14
+497,17-04-2025,01:09:21,CUST0497,Nancy,25,Male,Office Worker,Mumbai,Coffee Point,Cold Coffee,Beverage,5,318.61,1593.05,8.6,79.65,1664.1,Card,4,18,Karan,27,Dine-In,No,55
+498,04-05-2025,13:29:55,CUST0498,Crystal,37,Male,Student,Latur,Cafe Bliss,Cappuccino,Beverage,3,230.51,691.53,9.27,34.58,716.84,UPI,4,29,Amit,15,Dine-In,No,48
+499,25-01-2025,23:58:44,CUST0499,John,37,Male,Office Worker,Hyderabad,Coffee Point,French Fries,Food,5,228.8,1144,12.95,57.2,1188.25,UPI,5,7,Amit,21,Dine-In,Yes,48
+500,27-06-2025,12:55:38,CUST0500,Albert,19,Female,Student,Mumbai,Coffee Point,Cold Coffee,Beverage,5,303.47,1517.35,7.16,75.87,1586.06,Card,4,28,Karan,23,Takeaway,No,7
+501,08-03-2025,08:50:12,CUST0501,Larry,60,Female,Office Worker,Latur,Urban Brew,Pizza,Food,2,409.54,819.08,10.65,40.95,849.38,Cash,4,15,Priya,7,Takeaway,No,37
+502,20-04-2025,18:55:08,CUST0502,Oscar,36,Female,New,Bangalore,Cafe Bliss,French Fries,Food,4,220.07,880.28,2.03,44.01,922.26,Card,5,5,Rahul,6,Dine-In,No,96
+503,11-04-2025,10:30:35,CUST0503,Breanna,38,Male,Regular,Mumbai,Urban Brew,Pizza,Food,5,394.84,1974.2,10.98,98.71,2061.93,Cash,1,27,Rahul,30,Takeaway,Yes,87
+504,29-05-2025,03:33:49,CUST0504,James,21,Female,Office Worker,Latur,Central Cafe,Espresso,Beverage,3,198.96,596.88,3.93,29.84,622.79,Card,5,30,Karan,15,Dine-In,No,29
+505,28-01-2025,02:54:37,CUST0505,John,37,Male,Regular,Latur,Central Cafe,Sandwich,Food,6,155.43,932.58,10.35,46.63,968.86,Cash,1,26,Rahul,25,Takeaway,Yes,82
+506,11-03-2025,16:05:21,CUST0506,Philip,47,Female,New,Pune,Urban Brew,Cappuccino,Beverage,3,213.7,641.1,12.01,32.05,661.14,Card,2,21,Priya,5,Dine-In,No,79
+507,20-03-2025,17:23:45,CUST0507,James,34,Male,Student,Bangalore,Coffee Point,Espresso,Beverage,2,162.62,325.24,7.67,16.26,333.83,Cash,1,21,Karan,9,Takeaway,No,76
+508,18-06-2025,05:38:16,CUST0508,Shawn,29,Female,Regular,Bangalore,Urban Brew,Sandwich,Food,5,157.12,785.6,14.14,39.28,810.74,UPI,2,23,Sneha,9,Dine-In,Yes,72
+509,22-01-2025,10:43:38,CUST0509,Brandon,26,Female,Office Worker,Latur,Cafe Bliss,Latte,Beverage,4,224.35,897.4,14.74,44.87,927.53,UPI,4,26,Neha,28,Dine-In,No,43
+510,10-05-2025,08:31:54,CUST0510,Brittney,49,Male,Regular,Bangalore,Coffee Point,Sandwich,Food,1,146.96,146.96,10.62,7.35,143.69,UPI,4,21,Amit,5,Takeaway,No,68
+511,09-02-2025,15:53:24,CUST0511,Robert,35,Female,New,Hyderabad,Central Cafe,Cake,Dessert,2,304.22,608.44,10.69,30.42,628.17,Card,4,8,Amit,29,Takeaway,Yes,66
+512,11-02-2025,09:39:35,CUST0512,Gary,49,Male,Regular,Mumbai,Cafe Bliss,Brownie,Dessert,6,245.71,1474.26,14.78,73.71,1533.19,Card,4,11,Neha,6,Takeaway,No,82
+513,02-03-2025,00:38:48,CUST0513,Sierra,59,Male,Student,Mumbai,Coffee Point,Cold Coffee,Beverage,5,294.98,1474.9,5.14,73.75,1543.51,Card,3,5,Sneha,20,Takeaway,No,79
+514,06-04-2025,02:10:01,CUST0514,Joshua,41,Male,Regular,Mumbai,Coffee Point,Brownie,Dessert,6,224.06,1344.36,12.4,67.22,1399.18,Cash,1,5,Karan,21,Takeaway,Yes,71
+515,09-06-2025,05:17:13,CUST0515,Timothy,45,Male,Student,Latur,Central Cafe,Cold Coffee,Beverage,1,233.89,233.89,12.16,11.69,233.42,Cash,2,13,Sneha,17,Takeaway,Yes,81
+516,02-03-2025,23:37:41,CUST0516,Chad,33,Female,Student,Bangalore,Central Cafe,Black Tea,Beverage,3,106.95,320.85,3.95,16.04,332.94,Card,4,14,Karan,17,Takeaway,No,41
+517,05-06-2025,18:54:56,CUST0517,Kathy,38,Male,Office Worker,Bangalore,Cafe Bliss,Brownie,Dessert,4,259,1036,1.66,51.8,1086.14,UPI,3,20,Karan,5,Takeaway,No,44
+518,20-02-2025,09:49:11,CUST0518,Nancy,55,Female,Regular,Latur,Central Cafe,Mocha,Beverage,3,282.09,846.27,10.22,42.31,878.36,Cash,1,30,Sneha,22,Takeaway,Yes,51
+519,28-01-2025,05:05:54,CUST0519,Kimberly,34,Male,Regular,Bangalore,Urban Brew,Green Tea,Beverage,6,168.58,1011.48,3.21,50.57,1058.84,Card,1,16,Rahul,6,Takeaway,No,32
+520,13-03-2025,07:33:44,CUST0520,Denise,29,Male,New,Mumbai,Coffee Point,Cake,Dessert,2,324.52,649.04,13.68,32.45,667.81,Cash,2,15,Priya,15,Takeaway,No,15
+521,21-03-2025,11:41:15,CUST0521,Rose,37,Female,New,Latur,Urban Brew,French Fries,Food,5,236.35,1181.75,0.63,59.09,1240.21,Cash,4,3,Neha,20,Takeaway,No,35
+522,31-03-2025,14:54:48,CUST0522,Chelsey,47,Male,New,Nagpur,Coffee Point,Espresso,Beverage,4,117.32,469.28,1.94,23.46,490.8,Card,2,12,Neha,9,Dine-In,Yes,22
+523,08-03-2025,06:40:11,CUST0523,Jesse,27,Female,Office Worker,Nagpur,Cafe Bliss,Brownie,Dessert,2,170.86,341.72,4.96,17.09,353.85,Cash,4,16,Amit,10,Takeaway,Yes,38
+524,16-01-2025,04:14:19,CUST0524,Amber,26,Female,Office Worker,Latur,Cafe Bliss,Green Tea,Beverage,2,138.14,276.28,0.73,13.81,289.36,Card,1,30,Amit,21,Takeaway,No,59
+525,24-05-2025,18:43:04,CUST0525,Jerry,47,Male,New,Bangalore,Cafe Bliss,Pizza,Food,3,388.44,1165.32,12.66,58.27,1210.93,Cash,5,20,Neha,14,Takeaway,No,86
+526,03-03-2025,03:09:14,CUST0526,Carrie,24,Female,Student,Nagpur,Central Cafe,Black Tea,Beverage,2,111.84,223.68,9.67,11.18,225.19,Cash,2,28,Karan,18,Dine-In,No,6
+527,19-02-2025,15:57:06,CUST0527,Linda,18,Male,New,Hyderabad,Urban Brew,Brownie,Dessert,3,239.6,718.8,4.82,35.94,749.92,Card,5,15,Rahul,20,Dine-In,Yes,90
+528,10-05-2025,05:17:14,CUST0528,Rebecca,19,Male,Regular,Nagpur,Central Cafe,Pasta,Food,2,265.83,531.66,1.37,26.58,556.87,UPI,1,1,Karan,28,Dine-In,Yes,77
+529,06-04-2025,13:36:38,CUST0529,Jordan,33,Female,New,Bangalore,Central Cafe,Cake,Dessert,3,305.76,917.28,5.07,45.86,958.07,Card,5,22,Priya,13,Dine-In,No,74
+530,21-04-2025,20:10:36,CUST0530,Daniel,28,Female,Office Worker,Nagpur,Urban Brew,Espresso,Beverage,4,156.54,626.16,14.43,31.31,643.04,UPI,2,5,Sneha,7,Takeaway,Yes,66
+531,29-03-2025,14:40:29,CUST0531,Randy,18,Male,Office Worker,Pune,Cafe Bliss,French Fries,Food,2,218.91,437.82,11,21.89,448.71,Cash,5,26,Priya,29,Takeaway,Yes,63
+532,04-03-2025,01:04:26,CUST0532,Christopher,47,Male,Office Worker,Hyderabad,Urban Brew,Muffin,Dessert,4,156.43,625.72,1.51,31.29,655.5,Cash,2,20,Rahul,22,Takeaway,Yes,43
+533,08-04-2025,10:46:11,CUST0533,Debra,34,Male,Office Worker,Nagpur,Coffee Point,Black Tea,Beverage,3,90.05,270.15,5.25,13.51,278.41,Card,3,12,Sneha,24,Takeaway,No,77
+534,26-06-2025,12:22:43,CUST0534,Caitlyn,24,Male,Regular,Nagpur,Coffee Point,Burger,Food,5,215.21,1076.05,5.17,53.8,1124.68,Card,4,5,Neha,15,Takeaway,No,23
+535,29-04-2025,01:27:11,CUST0535,Julie,23,Female,Office Worker,Mumbai,Urban Brew,Mocha,Beverage,1,280.99,280.99,1.28,14.05,293.76,Card,2,3,Rahul,19,Takeaway,Yes,17
+536,29-01-2025,17:07:19,CUST0536,Christopher,34,Male,Regular,Nagpur,Urban Brew,Pasta,Food,4,341.92,1367.68,10.94,68.38,1425.12,UPI,4,28,Karan,20,Takeaway,Yes,25
+537,20-02-2025,16:29:48,CUST0537,Brooke,19,Male,New,Bangalore,Coffee Point,Latte,Beverage,5,206.6,1033,8.42,51.65,1076.23,Card,2,18,Neha,16,Dine-In,Yes,44
+538,07-06-2025,13:01:16,CUST0538,Patricia,19,Male,New,Mumbai,Central Cafe,Brownie,Dessert,5,193.06,965.3,14.75,48.27,998.82,Card,5,17,Amit,15,Dine-In,Yes,73
+539,16-05-2025,20:30:19,CUST0539,Monica,25,Female,New,Nagpur,Coffee Point,Muffin,Dessert,3,149.52,448.56,11.7,22.43,459.29,Cash,2,8,Amit,16,Dine-In,No,37
+540,08-01-2025,10:02:01,CUST0540,Alfred,39,Male,Office Worker,Latur,Coffee Point,Cold Coffee,Beverage,2,255.03,510.06,3.12,25.5,532.44,UPI,2,30,Karan,23,Dine-In,No,55
+541,14-01-2025,11:25:29,CUST0541,Scott,22,Female,Student,Bangalore,Coffee Point,Espresso,Beverage,4,149.46,597.84,6.56,29.89,621.17,Card,1,10,Rahul,6,Dine-In,Yes,65
+542,07-02-2025,09:18:18,CUST0542,Aaron,58,Male,Office Worker,Pune,Urban Brew,Black Tea,Beverage,4,125.56,502.24,13.12,25.11,514.23,Cash,3,3,Karan,23,Takeaway,No,78
+543,22-03-2025,13:06:59,CUST0543,Jesus,49,Female,Regular,Mumbai,Central Cafe,Pizza,Food,2,363.46,726.92,6.64,36.35,756.63,Card,4,11,Amit,27,Dine-In,No,33
+544,10-03-2025,16:06:26,CUST0544,Wanda,53,Male,Student,Nagpur,Coffee Point,Green Tea,Beverage,2,133.44,266.88,3.3,13.34,276.92,Card,5,8,Karan,24,Takeaway,No,8
+545,05-05-2025,01:15:32,CUST0545,Shawn,52,Male,Office Worker,Bangalore,Urban Brew,Pizza,Food,6,367.07,2202.42,12.1,110.12,2300.44,Cash,1,16,Karan,14,Takeaway,No,25
+546,14-02-2025,05:03:35,CUST0546,Ashley,36,Female,Office Worker,Pune,Coffee Point,Cappuccino,Beverage,6,193.81,1162.86,2.31,58.14,1218.69,UPI,1,28,Rahul,18,Takeaway,Yes,5
+547,20-05-2025,13:33:33,CUST0547,Amy,60,Male,Student,Mumbai,Central Cafe,Mocha,Beverage,6,260.9,1565.4,12.91,78.27,1630.76,Cash,2,3,Karan,29,Takeaway,No,54
+548,27-06-2025,19:13:45,CUST0548,Steve,42,Male,Student,Nagpur,Coffee Point,Latte,Beverage,6,245.9,1475.4,12.76,73.77,1536.41,Cash,3,8,Rahul,8,Takeaway,No,37
+549,23-01-2025,02:58:33,CUST0549,Christian,33,Male,Student,Hyderabad,Coffee Point,Pizza,Food,6,404.89,2429.34,14.66,121.47,2536.15,Card,3,25,Priya,26,Dine-In,No,83
+550,01-06-2025,05:22:47,CUST0550,Eugene,60,Male,New,Nagpur,Cafe Bliss,Muffin,Dessert,6,140.99,845.94,8.17,42.3,880.07,Cash,4,1,Karan,24,Takeaway,Yes,73
+551,21-02-2025,02:10:30,CUST0551,Laura,25,Female,New,Nagpur,Coffee Point,Brownie,Dessert,5,197.41,987.05,4.01,49.35,1032.39,Cash,4,15,Neha,29,Takeaway,No,60
+552,22-02-2025,13:45:10,CUST0552,Edwin,26,Female,Regular,Hyderabad,Urban Brew,Latte,Beverage,6,207.61,1245.66,12.63,62.28,1295.31,UPI,4,22,Priya,17,Takeaway,No,65
+553,16-02-2025,12:44:05,CUST0553,Tonya,21,Male,Regular,Bangalore,Cafe Bliss,Latte,Beverage,6,269.04,1614.24,6.24,80.71,1688.71,UPI,2,28,Amit,22,Dine-In,No,32
+554,03-03-2025,15:31:26,CUST0554,Alan,40,Female,Student,Latur,Cafe Bliss,Green Tea,Beverage,6,86.81,520.86,2.63,26.04,544.27,UPI,1,25,Neha,8,Takeaway,Yes,88
+555,24-05-2025,21:11:43,CUST0555,Samuel,59,Male,Student,Bangalore,Urban Brew,Espresso,Beverage,6,181.37,1088.22,9.67,54.41,1132.96,Cash,3,28,Neha,25,Dine-In,No,34
+556,23-01-2025,14:09:27,CUST0556,Mitchell,39,Male,Student,Nagpur,Urban Brew,Espresso,Beverage,3,139.76,419.28,0,20.96,440.24,UPI,4,18,Rahul,24,Takeaway,No,73
+557,16-04-2025,22:54:29,CUST0557,Regina,56,Female,New,Hyderabad,Central Cafe,Pasta,Food,1,358.58,358.58,6.16,17.93,370.35,UPI,2,30,Rahul,7,Dine-In,No,96
+558,24-06-2025,12:43:40,CUST0558,Casey,52,Female,Office Worker,Mumbai,Urban Brew,Brownie,Dessert,4,229,916,0.57,45.8,961.23,Cash,2,25,Karan,9,Takeaway,No,85
+559,30-03-2025,02:40:35,CUST0559,Michael,28,Male,New,Pune,Coffee Point,Cake,Dessert,6,362.03,2172.18,11.22,108.61,2269.57,Card,1,1,Karan,16,Takeaway,Yes,58
+560,04-04-2025,17:19:47,CUST0560,Erika,30,Female,Student,Latur,Cafe Bliss,Sandwich,Food,4,143.72,574.88,14.13,28.74,589.49,UPI,5,6,Sneha,5,Dine-In,No,41
+561,15-01-2025,22:54:39,CUST0561,Jesse,59,Female,Office Worker,Pune,Coffee Point,Cappuccino,Beverage,3,255.42,766.26,5.1,38.31,799.47,Cash,2,3,Amit,23,Dine-In,No,29
+562,28-01-2025,00:59:31,CUST0562,Kimberly,27,Male,New,Bangalore,Urban Brew,Pasta,Food,1,272.9,272.9,11.69,13.64,274.85,UPI,2,19,Karan,24,Dine-In,Yes,15
+563,06-02-2025,23:04:46,CUST0563,Kimberly,50,Female,Office Worker,Pune,Urban Brew,Cappuccino,Beverage,4,162.55,650.2,8.19,32.51,674.52,Cash,3,10,Neha,23,Takeaway,No,14
+564,17-02-2025,02:28:50,CUST0564,Timothy,36,Male,New,Bangalore,Urban Brew,Mocha,Beverage,6,261.61,1569.66,8.18,78.48,1639.96,Cash,2,14,Rahul,6,Takeaway,No,23
+565,21-03-2025,13:10:42,CUST0565,Thomas,39,Male,Office Worker,Pune,Urban Brew,Cake,Dessert,4,315.73,1262.92,6.89,63.15,1319.18,Cash,5,7,Rahul,15,Takeaway,Yes,52
+566,28-03-2025,03:19:10,CUST0566,Herbert,52,Female,Regular,Hyderabad,Coffee Point,Pizza,Food,4,343.91,1375.64,8.08,68.78,1436.34,UPI,1,30,Neha,12,Takeaway,No,8
+567,25-06-2025,23:38:14,CUST0567,Angela,38,Female,New,Latur,Cafe Bliss,Cold Coffee,Beverage,5,263.49,1317.45,12.46,65.87,1370.86,UPI,3,26,Neha,8,Dine-In,Yes,79
+568,30-03-2025,20:54:08,CUST0568,Linda,29,Female,Regular,Bangalore,Cafe Bliss,Sandwich,Food,2,169,338,10.85,16.9,344.05,UPI,3,5,Rahul,14,Takeaway,Yes,17
+569,28-04-2025,19:21:31,CUST0569,Christopher,55,Female,Student,Nagpur,Coffee Point,Pasta,Food,5,337.92,1689.6,10.49,84.48,1763.59,UPI,4,4,Rahul,11,Takeaway,No,92
+570,17-03-2025,14:35:48,CUST0570,Tammy,55,Female,Regular,Latur,Central Cafe,Cappuccino,Beverage,4,247.47,989.88,5.56,49.49,1033.81,UPI,3,8,Karan,6,Dine-In,No,52
+571,31-01-2025,10:20:02,CUST0571,Zachary,29,Male,Regular,Nagpur,Cafe Bliss,Cappuccino,Beverage,4,212.23,848.92,14.36,42.45,877.01,Card,5,22,Amit,21,Dine-In,Yes,59
+572,02-05-2025,10:23:58,CUST0572,Jennifer,23,Male,New,Nagpur,Cafe Bliss,Burger,Food,6,242.02,1452.12,13.24,72.61,1511.49,Cash,1,17,Karan,20,Dine-In,No,55
+573,08-01-2025,00:58:25,CUST0573,Amanda,52,Female,Student,Latur,Cafe Bliss,Espresso,Beverage,5,127.96,639.8,5.96,31.99,665.83,UPI,1,6,Priya,14,Takeaway,No,67
+574,26-06-2025,22:52:27,CUST0574,Gary,34,Female,Office Worker,Pune,Central Cafe,Pasta,Food,3,350.53,1051.59,6.91,52.58,1097.26,Cash,4,18,Rahul,17,Dine-In,Yes,59
+575,10-02-2025,22:17:56,CUST0575,Curtis,51,Male,Student,Pune,Urban Brew,Pasta,Food,6,268.02,1608.12,1.02,80.41,1687.51,UPI,3,11,Amit,23,Takeaway,Yes,41
+576,24-01-2025,03:23:26,CUST0576,Nicholas,36,Male,New,Nagpur,Central Cafe,Pasta,Food,2,327.94,655.88,12.9,32.79,675.77,UPI,5,14,Karan,25,Takeaway,Yes,52
+577,09-06-2025,04:34:17,CUST0577,Michael,52,Female,Student,Bangalore,Cafe Bliss,Cappuccino,Beverage,6,199.31,1195.86,9.92,59.79,1245.73,Cash,2,4,Priya,24,Dine-In,Yes,81
+578,10-03-2025,22:46:38,CUST0578,David,28,Male,Office Worker,Latur,Cafe Bliss,French Fries,Food,6,161.81,970.86,2.18,48.54,1017.22,Cash,5,6,Rahul,19,Dine-In,No,21
+579,05-01-2025,11:25:29,CUST0579,Michael,34,Female,New,Latur,Central Cafe,Latte,Beverage,5,269.89,1349.45,9.92,67.47,1407,Card,1,26,Neha,11,Dine-In,No,27
+580,31-03-2025,01:36:24,CUST0580,Lauren,37,Female,Student,Nagpur,Cafe Bliss,Muffin,Dessert,4,141.5,566,12.8,28.3,581.5,Cash,3,9,Karan,20,Dine-In,Yes,67
+581,05-04-2025,07:04:26,CUST0581,Brittany,41,Male,Regular,Bangalore,Cafe Bliss,Cappuccino,Beverage,2,194.97,389.94,2.23,19.5,407.21,Cash,4,14,Amit,15,Takeaway,No,8
+582,13-02-2025,10:53:05,CUST0582,Pamela,49,Female,Student,Nagpur,Coffee Point,Muffin,Dessert,4,153.83,615.32,1.82,30.77,644.27,Cash,3,17,Priya,24,Takeaway,Yes,55
+583,22-04-2025,23:27:06,CUST0583,Margaret,43,Female,Regular,Hyderabad,Central Cafe,Burger,Food,3,271.83,815.49,13.74,40.77,842.52,UPI,4,5,Neha,8,Dine-In,Yes,54
+584,15-06-2025,10:27:33,CUST0584,Michael,21,Female,Student,Latur,Urban Brew,French Fries,Food,2,178.17,356.34,14.38,17.82,359.78,Cash,1,25,Sneha,18,Takeaway,Yes,93
+585,14-02-2025,01:08:44,CUST0585,Nicole,33,Male,Regular,Hyderabad,Urban Brew,Mocha,Beverage,5,203.79,1018.95,1.73,50.95,1068.17,UPI,1,8,Priya,21,Dine-In,No,100
+586,23-04-2025,01:28:59,CUST0586,Debra,24,Female,Office Worker,Hyderabad,Cafe Bliss,Brownie,Dessert,2,197.31,394.62,0.59,19.73,413.76,UPI,4,29,Amit,28,Takeaway,No,84
+587,13-01-2025,17:07:18,CUST0587,Roger,28,Female,New,Latur,Coffee Point,Muffin,Dessert,3,141.28,423.84,3.49,21.19,441.54,Card,2,14,Rahul,11,Takeaway,No,91
+588,30-01-2025,01:33:33,CUST0588,Michael,48,Female,New,Bangalore,Urban Brew,French Fries,Food,4,178.06,712.24,14.68,35.61,733.17,Cash,5,6,Amit,26,Takeaway,Yes,90
+589,30-06-2025,21:17:42,CUST0589,Tiffany,56,Male,Student,Mumbai,Urban Brew,Espresso,Beverage,6,193.49,1160.94,13.15,58.05,1205.84,Card,3,15,Karan,25,Takeaway,Yes,8
+590,19-01-2025,13:39:39,CUST0590,Philip,57,Male,Regular,Nagpur,Central Cafe,French Fries,Food,3,144.84,434.52,10.02,21.73,446.23,Card,4,24,Karan,19,Dine-In,No,65
+591,21-04-2025,00:12:39,CUST0591,Kimberly,21,Male,Student,Latur,Cafe Bliss,Sandwich,Food,4,220.78,883.12,0.85,44.16,926.43,Card,2,24,Karan,30,Dine-In,No,74
+592,08-04-2025,13:01:33,CUST0592,Ashley,43,Female,New,Pune,Coffee Point,Green Tea,Beverage,5,92.05,460.25,0.35,23.01,482.91,Cash,4,6,Neha,27,Takeaway,No,70
+593,07-03-2025,09:47:55,CUST0593,Frank,44,Male,Office Worker,Latur,Urban Brew,Green Tea,Beverage,1,125.11,125.11,8.49,6.26,122.88,Cash,4,27,Karan,21,Dine-In,No,73
+594,11-03-2025,12:30:50,CUST0594,Megan,51,Female,Regular,Latur,Urban Brew,Sandwich,Food,3,147.09,441.27,11.68,22.06,451.65,Card,5,28,Sneha,12,Takeaway,No,81
+595,03-05-2025,18:11:43,CUST0595,Pamela,58,Male,Student,Hyderabad,Urban Brew,Pizza,Food,6,421.35,2528.1,7.91,126.41,2646.6,Cash,4,5,Sneha,28,Dine-In,No,64
+596,24-02-2025,23:09:48,CUST0596,Mary,37,Female,Regular,Bangalore,Urban Brew,Mocha,Beverage,1,251.27,251.27,5.75,12.56,258.08,Card,2,3,Neha,22,Dine-In,Yes,32
+597,27-05-2025,04:44:59,CUST0597,Nicole,25,Male,Office Worker,Pune,Central Cafe,Green Tea,Beverage,2,179.72,359.44,1.41,17.97,376,Cash,4,18,Priya,19,Dine-In,Yes,16
+598,27-02-2025,15:46:57,CUST0598,Jeffrey,53,Male,Regular,Bangalore,Coffee Point,Green Tea,Beverage,2,109.79,219.58,4.74,10.98,225.82,UPI,4,11,Priya,20,Dine-In,No,83
+599,18-01-2025,09:26:35,CUST0599,Richard,36,Male,Student,Nagpur,Coffee Point,Muffin,Dessert,4,161.5,646,11.31,32.3,666.99,UPI,4,16,Rahul,14,Takeaway,Yes,34
+600,16-05-2025,13:24:30,CUST0600,Mary,52,Female,Office Worker,Hyderabad,Cafe Bliss,Burger,Food,1,296.38,296.38,11.43,14.82,299.77,Cash,2,29,Neha,25,Takeaway,Yes,29
+601,30-01-2025,21:08:19,CUST0601,Dawn,43,Female,Student,Hyderabad,Coffee Point,French Fries,Food,3,216.81,650.43,8.88,32.52,674.07,Card,1,11,Priya,17,Dine-In,No,68
+602,19-05-2025,04:12:19,CUST0602,Russell,39,Female,Student,Latur,Central Cafe,Burger,Food,1,209.42,209.42,13.07,10.47,206.82,Card,3,21,Rahul,10,Dine-In,No,41
+603,09-04-2025,05:03:57,CUST0603,Judy,54,Female,Regular,Bangalore,Central Cafe,French Fries,Food,3,191.52,574.56,12.49,28.73,590.8,Card,5,7,Amit,21,Takeaway,Yes,42
+604,23-01-2025,11:49:48,CUST0604,Tina,25,Female,New,Latur,Urban Brew,Muffin,Dessert,6,206.86,1241.16,2.11,62.06,1301.11,Cash,3,4,Rahul,8,Dine-In,Yes,9
+605,11-01-2025,07:34:21,CUST0605,Juan,46,Female,New,Mumbai,Central Cafe,Black Tea,Beverage,5,79.08,395.4,7.17,19.77,408,Card,2,21,Rahul,29,Dine-In,No,78
+606,21-06-2025,06:58:11,CUST0606,Carmen,25,Female,New,Pune,Cafe Bliss,Green Tea,Beverage,4,171.01,684.04,4.49,34.2,713.75,Card,1,6,Amit,6,Takeaway,No,57
+607,06-01-2025,14:10:24,CUST0607,Jennifer,51,Female,New,Hyderabad,Cafe Bliss,Cake,Dessert,1,358.72,358.72,0.17,17.94,376.49,Cash,1,14,Priya,5,Dine-In,No,78
+608,05-02-2025,00:07:04,CUST0608,Steven,55,Male,Student,Latur,Coffee Point,Latte,Beverage,1,238.96,238.96,7.67,11.95,243.24,Cash,1,7,Karan,15,Dine-In,No,76
+609,07-04-2025,19:48:08,CUST0609,Cheryl,60,Male,Student,Nagpur,Urban Brew,Cappuccino,Beverage,3,218.36,655.08,0.47,32.75,687.36,Cash,4,12,Priya,28,Takeaway,Yes,75
+610,17-04-2025,13:52:19,CUST0610,Jennifer,53,Female,Regular,Mumbai,Coffee Point,Cappuccino,Beverage,3,185.65,556.95,0.49,27.85,584.31,Card,5,22,Amit,6,Takeaway,No,35
+611,01-06-2025,11:49:19,CUST0611,Kathryn,52,Female,Regular,Bangalore,Coffee Point,Sandwich,Food,3,138.71,416.13,1.21,20.81,435.73,UPI,5,10,Karan,19,Dine-In,Yes,23
+612,12-03-2025,10:02:41,CUST0612,Gabriel,35,Female,Office Worker,Hyderabad,Central Cafe,Latte,Beverage,4,196.76,787.04,6.68,39.35,819.71,Card,4,18,Rahul,28,Takeaway,No,57
+613,20-04-2025,11:06:47,CUST0613,Katherine,31,Female,New,Hyderabad,Cafe Bliss,Muffin,Dessert,3,136.27,408.81,2.45,20.44,426.8,UPI,4,7,Karan,27,Takeaway,No,98
+614,24-01-2025,07:37:45,CUST0614,Jennifer,24,Female,Office Worker,Mumbai,Cafe Bliss,Mocha,Beverage,6,227.22,1363.32,12.8,68.17,1418.69,UPI,2,17,Neha,28,Dine-In,Yes,94
+615,04-06-2025,12:38:54,CUST0615,Brandon,31,Male,New,Mumbai,Coffee Point,Pasta,Food,5,312.92,1564.6,9.95,78.23,1632.88,UPI,5,15,Amit,26,Dine-In,Yes,10
+616,30-01-2025,15:24:34,CUST0616,Paul,46,Male,Regular,Hyderabad,Coffee Point,Brownie,Dessert,6,212,1272,2.34,63.6,1333.26,Cash,2,13,Sneha,16,Takeaway,Yes,39
+617,07-06-2025,21:02:52,CUST0617,Ryan,48,Female,New,Nagpur,Coffee Point,Pizza,Food,3,378,1134,7.3,56.7,1183.4,Cash,4,25,Amit,10,Takeaway,No,85
+618,11-01-2025,23:13:35,CUST0618,Ricardo,59,Male,Office Worker,Pune,Central Cafe,Mocha,Beverage,4,256.42,1025.68,0.29,51.28,1076.67,UPI,5,19,Karan,13,Dine-In,No,79
+619,15-06-2025,20:20:37,CUST0619,Thomas,37,Male,New,Hyderabad,Coffee Point,Burger,Food,1,285.1,285.1,3.9,14.26,295.46,Card,1,30,Rahul,20,Dine-In,No,91
+620,18-02-2025,00:03:11,CUST0620,Ralph,57,Male,Regular,Pune,Urban Brew,Pasta,Food,1,261.46,261.46,5.73,13.07,268.8,Cash,4,9,Sneha,7,Takeaway,No,93
+621,20-03-2025,01:42:39,CUST0621,Aimee,23,Male,Regular,Hyderabad,Cafe Bliss,Black Tea,Beverage,4,107.18,428.72,12.93,21.44,437.23,UPI,2,12,Amit,30,Takeaway,Yes,28
+622,04-04-2025,11:59:20,CUST0622,Brad,53,Female,Student,Nagpur,Cafe Bliss,French Fries,Food,6,167.98,1007.88,3.32,50.39,1054.95,Cash,2,3,Amit,26,Dine-In,Yes,87
+623,20-01-2025,08:16:19,CUST0623,Annette,58,Male,Office Worker,Latur,Coffee Point,Latte,Beverage,2,239.11,478.22,10.13,23.91,492,Cash,1,27,Priya,19,Dine-In,Yes,12
+624,06-06-2025,22:15:18,CUST0624,Jennifer,33,Female,Regular,Nagpur,Urban Brew,Espresso,Beverage,1,138.95,138.95,6.18,6.95,139.72,Cash,1,17,Karan,22,Takeaway,Yes,31
+625,15-01-2025,00:20:59,CUST0625,Daniel,26,Male,Office Worker,Hyderabad,Cafe Bliss,French Fries,Food,6,170.41,1022.46,7.7,51.12,1065.88,UPI,4,25,Neha,27,Takeaway,Yes,66
+626,14-05-2025,23:04:13,CUST0626,Travis,30,Male,New,Latur,Urban Brew,Cold Coffee,Beverage,1,302.64,302.64,6.13,15.13,311.64,Card,2,29,Rahul,5,Dine-In,No,14
+627,31-03-2025,08:09:32,CUST0627,Autumn,45,Female,Regular,Latur,Urban Brew,Muffin,Dessert,1,182.76,182.76,2.05,9.14,189.85,UPI,4,21,Karan,13,Dine-In,Yes,74
+628,12-04-2025,12:09:46,CUST0628,Andrew,41,Female,Office Worker,Hyderabad,Coffee Point,Sandwich,Food,3,229.13,687.39,9.16,34.37,712.6,Cash,3,18,Rahul,15,Dine-In,Yes,37
+629,22-06-2025,16:06:00,CUST0629,Shelby,41,Male,Regular,Hyderabad,Cafe Bliss,Green Tea,Beverage,5,172.95,864.75,12.77,43.24,895.22,Card,3,8,Neha,28,Takeaway,No,37
+630,19-01-2025,14:56:04,CUST0630,Justin,52,Male,Regular,Hyderabad,Coffee Point,Black Tea,Beverage,5,112.63,563.15,10.24,28.16,581.07,UPI,5,18,Karan,11,Takeaway,Yes,45
+631,23-05-2025,15:44:05,CUST0631,Lauren,45,Male,New,Mumbai,Coffee Point,Latte,Beverage,5,207.52,1037.6,9.32,51.88,1080.16,Card,5,19,Rahul,9,Dine-In,No,32
+632,10-05-2025,08:59:20,CUST0632,Claudia,37,Female,Office Worker,Mumbai,Urban Brew,French Fries,Food,1,225.89,225.89,11.07,11.29,226.11,Cash,4,17,Karan,9,Dine-In,Yes,94
+633,11-03-2025,21:26:26,CUST0633,Joseph,26,Male,New,Latur,Coffee Point,Cake,Dessert,3,344.44,1033.32,9.51,51.67,1075.48,Card,3,20,Priya,7,Dine-In,Yes,23
+634,18-01-2025,15:17:08,CUST0634,Deborah,20,Female,Office Worker,Pune,Urban Brew,Brownie,Dessert,1,206.68,206.68,10.82,10.33,206.19,Card,5,16,Rahul,24,Dine-In,Yes,85
+635,09-02-2025,07:05:07,CUST0635,Andrew,32,Female,Student,Bangalore,Urban Brew,Cold Coffee,Beverage,6,250.04,1500.24,8.07,75.01,1567.18,Cash,5,21,Amit,10,Dine-In,Yes,12
+636,15-02-2025,20:59:43,CUST0636,David,40,Female,New,Mumbai,Coffee Point,Espresso,Beverage,1,181.49,181.49,10.84,9.07,179.72,Cash,3,12,Amit,6,Dine-In,Yes,74
+637,02-06-2025,16:25:05,CUST0637,Matthew,43,Female,Student,Bangalore,Cafe Bliss,Latte,Beverage,1,229.49,229.49,2.98,11.47,237.98,UPI,5,9,Rahul,23,Takeaway,No,80
+638,02-05-2025,15:44:01,CUST0638,Jonathan,29,Male,New,Nagpur,Coffee Point,Latte,Beverage,5,231.39,1156.95,10.09,57.85,1204.71,UPI,4,9,Sneha,29,Dine-In,No,78
+639,15-02-2025,13:36:36,CUST0639,Christian,38,Female,Student,Mumbai,Central Cafe,Cappuccino,Beverage,5,175.86,879.3,12.7,43.97,910.57,Cash,1,6,Neha,7,Takeaway,Yes,44
+640,13-02-2025,12:25:46,CUST0640,Amanda,43,Male,Office Worker,Nagpur,Central Cafe,Green Tea,Beverage,3,80.21,240.63,14.3,12.03,238.36,Card,1,4,Neha,7,Takeaway,No,34
+641,24-06-2025,14:11:02,CUST0641,Andrew,40,Female,Office Worker,Pune,Cafe Bliss,Brownie,Dessert,6,162.98,977.88,0.92,48.89,1025.85,Cash,1,14,Priya,9,Takeaway,Yes,19
+642,21-04-2025,15:13:06,CUST0642,Kelly,45,Male,New,Bangalore,Coffee Point,Burger,Food,2,279.49,558.98,8.2,27.95,578.73,Cash,4,8,Rahul,25,Takeaway,Yes,84
+643,26-01-2025,06:03:49,CUST0643,John,38,Male,New,Mumbai,Coffee Point,French Fries,Food,2,182.71,365.42,5,18.27,378.69,Card,5,7,Neha,27,Takeaway,Yes,71
+644,29-05-2025,02:23:03,CUST0644,Lindsay,18,Male,Student,Hyderabad,Urban Brew,Pizza,Food,4,342.65,1370.6,12.67,68.53,1426.46,Cash,2,13,Amit,14,Takeaway,No,73
+645,07-01-2025,06:32:50,CUST0645,Tiffany,27,Male,Student,Latur,Urban Brew,Brownie,Dessert,6,202.44,1214.64,5.05,60.73,1270.32,Card,5,17,Sneha,18,Dine-In,Yes,40
+646,23-05-2025,05:06:50,CUST0646,Nathan,29,Male,New,Bangalore,Coffee Point,Black Tea,Beverage,6,134.41,806.46,7.29,40.32,839.49,UPI,3,14,Amit,28,Dine-In,No,36
+647,22-01-2025,10:49:39,CUST0647,Shelby,53,Male,Student,Mumbai,Central Cafe,Green Tea,Beverage,4,111.03,444.12,11.41,22.21,454.92,UPI,1,7,Priya,7,Dine-In,Yes,97
+648,26-04-2025,07:56:18,CUST0648,Erik,53,Female,Student,Mumbai,Urban Brew,Cappuccino,Beverage,4,258.27,1033.08,11.05,51.65,1073.68,UPI,1,22,Amit,22,Takeaway,No,44
+649,07-01-2025,18:14:18,CUST0649,Holly,29,Female,Regular,Nagpur,Coffee Point,Brownie,Dessert,5,165.26,826.3,7.99,41.31,859.62,Card,2,16,Karan,25,Takeaway,Yes,81
+650,12-01-2025,00:54:32,CUST0650,Jasmine,47,Male,Regular,Latur,Coffee Point,Burger,Food,1,226.01,226.01,11.02,11.3,226.29,Cash,2,14,Karan,27,Takeaway,No,70
+651,27-01-2025,07:00:02,CUST0651,Sarah,34,Female,Regular,Mumbai,Urban Brew,Muffin,Dessert,1,189.67,189.67,6.69,9.48,192.46,UPI,1,13,Rahul,26,Takeaway,Yes,8
+652,28-04-2025,14:15:17,CUST0652,Kimberly,40,Female,Office Worker,Mumbai,Coffee Point,Pizza,Food,2,360.83,721.66,0.41,36.08,757.33,Card,5,4,Karan,24,Takeaway,No,43
+653,13-06-2025,14:36:17,CUST0653,Barbara,25,Male,New,Latur,Central Cafe,Cappuccino,Beverage,5,213.18,1065.9,8.55,53.3,1110.65,Cash,3,22,Karan,21,Dine-In,Yes,95
+654,06-05-2025,23:55:58,CUST0654,Erik,43,Female,New,Bangalore,Central Cafe,Cake,Dessert,4,303.84,1215.36,6.18,60.77,1269.95,Card,3,17,Amit,25,Dine-In,Yes,82
+655,25-05-2025,09:05:52,CUST0655,Michael,41,Male,Student,Bangalore,Central Cafe,Espresso,Beverage,5,128.99,644.95,0.18,32.25,677.02,Card,3,8,Rahul,26,Takeaway,Yes,9
+656,05-04-2025,15:33:07,CUST0656,Thomas,51,Female,Student,Bangalore,Cafe Bliss,Espresso,Beverage,3,141.58,424.74,7.97,21.24,438.01,Card,3,2,Sneha,5,Takeaway,No,11
+657,12-06-2025,06:51:04,CUST0657,Danielle,51,Male,Office Worker,Hyderabad,Cafe Bliss,Cappuccino,Beverage,1,183.92,183.92,9.61,9.2,183.51,Card,4,28,Sneha,28,Dine-In,Yes,93
+658,28-06-2025,16:02:06,CUST0658,Jamie,45,Female,Student,Bangalore,Central Cafe,Green Tea,Beverage,2,119.73,239.46,5.59,11.97,245.84,Cash,1,11,Rahul,12,Takeaway,Yes,87
+659,28-04-2025,08:02:59,CUST0659,Bryan,60,Female,Regular,Pune,Urban Brew,Green Tea,Beverage,2,171.44,342.88,8.56,17.14,351.46,Cash,1,28,Priya,14,Dine-In,No,92
+660,18-06-2025,01:21:27,CUST0660,Theresa,52,Female,Student,Mumbai,Urban Brew,Sandwich,Food,4,193.91,775.64,2.98,38.78,811.44,UPI,5,27,Neha,25,Takeaway,Yes,66
+661,21-04-2025,16:39:40,CUST0661,Joseph,30,Female,Office Worker,Hyderabad,Cafe Bliss,Green Tea,Beverage,3,119.13,357.39,8.24,17.87,367.02,UPI,5,7,Neha,30,Takeaway,Yes,55
+662,10-01-2025,02:09:11,CUST0662,Taylor,54,Male,Regular,Latur,Central Cafe,Cappuccino,Beverage,6,227.57,1365.42,14.73,68.27,1418.96,Cash,5,24,Neha,23,Dine-In,No,61
+663,09-06-2025,14:17:01,CUST0663,Richard,48,Female,Office Worker,Latur,Cafe Bliss,Muffin,Dessert,4,167.5,670,1.37,33.5,702.13,UPI,4,2,Neha,15,Dine-In,Yes,70
+664,08-06-2025,23:53:16,CUST0664,Nathan,48,Female,Regular,Latur,Coffee Point,Mocha,Beverage,5,250.44,1252.2,14.81,62.61,1300,Card,2,15,Neha,7,Takeaway,No,55
+665,20-06-2025,06:26:46,CUST0665,Carrie,35,Female,New,Bangalore,Urban Brew,Sandwich,Food,2,225.99,451.98,9.67,22.6,464.91,UPI,2,12,Amit,18,Dine-In,Yes,19
+666,12-03-2025,04:35:57,CUST0666,Peter,24,Male,Regular,Pune,Central Cafe,Cake,Dessert,3,302,906,0.63,45.3,950.67,Cash,2,28,Amit,16,Dine-In,Yes,40
+667,29-01-2025,22:20:02,CUST0667,Tracy,54,Female,New,Nagpur,Central Cafe,Espresso,Beverage,6,158.59,951.54,7.51,47.58,991.61,Cash,1,18,Priya,20,Dine-In,Yes,13
+668,14-05-2025,08:07:22,CUST0668,Lynn,19,Male,Office Worker,Latur,Urban Brew,Sandwich,Food,6,163.89,983.34,12.98,49.17,1019.53,Cash,1,29,Karan,11,Dine-In,No,94
+669,01-03-2025,14:17:58,CUST0669,Richard,34,Female,New,Latur,Central Cafe,Espresso,Beverage,1,151.81,151.81,14.03,7.59,145.37,UPI,2,24,Priya,7,Takeaway,No,84
+670,17-02-2025,01:28:47,CUST0670,Deborah,53,Female,Office Worker,Hyderabad,Central Cafe,Mocha,Beverage,5,243.27,1216.35,4.92,60.82,1272.25,Cash,1,15,Karan,7,Takeaway,No,96
+671,18-05-2025,20:05:14,CUST0671,Nathan,42,Male,Student,Pune,Urban Brew,Latte,Beverage,4,196.29,785.16,13.63,39.26,810.79,Card,5,8,Neha,10,Takeaway,Yes,6
+672,12-01-2025,08:09:41,CUST0672,Kristin,43,Female,Student,Hyderabad,Urban Brew,Cake,Dessert,1,364.25,364.25,10.39,18.21,372.07,Card,2,28,Neha,16,Dine-In,Yes,83
+673,09-04-2025,11:08:58,CUST0673,Lori,29,Female,Regular,Mumbai,Coffee Point,Pasta,Food,1,312.68,312.68,5.61,15.63,322.7,UPI,4,30,Rahul,21,Takeaway,No,88
+674,07-04-2025,07:20:26,CUST0674,Maxwell,34,Male,Student,Mumbai,Coffee Point,Pizza,Food,5,355.65,1778.25,5.6,88.91,1861.56,Card,2,19,Sneha,10,Dine-In,No,95
+675,19-01-2025,11:00:34,CUST0675,Jason,48,Male,Student,Hyderabad,Cafe Bliss,Sandwich,Food,5,226.03,1130.15,10.85,56.51,1175.81,UPI,3,23,Sneha,16,Dine-In,Yes,37
+676,07-06-2025,21:55:18,CUST0676,Olivia,20,Male,Student,Hyderabad,Coffee Point,Burger,Food,6,212.99,1277.94,1.38,63.9,1340.46,Card,2,5,Priya,20,Takeaway,No,9
+677,20-02-2025,21:12:09,CUST0677,Summer,19,Female,Student,Bangalore,Coffee Point,Brownie,Dessert,3,227.94,683.82,14.43,34.19,703.58,Card,4,19,Neha,22,Takeaway,Yes,76
+678,07-05-2025,17:30:54,CUST0678,Dawn,30,Female,Student,Pune,Urban Brew,Green Tea,Beverage,5,164.02,820.1,8.4,41.01,852.71,Card,2,8,Amit,26,Dine-In,Yes,87
+679,06-04-2025,07:32:18,CUST0679,Amber,40,Female,Regular,Mumbai,Central Cafe,Latte,Beverage,3,231.29,693.87,10.15,34.69,718.41,Cash,5,2,Karan,13,Dine-In,Yes,49
+680,10-05-2025,20:10:20,CUST0680,Tammy,48,Male,Student,Mumbai,Coffee Point,Espresso,Beverage,4,161.59,646.36,1.7,32.32,676.98,Cash,4,7,Amit,22,Takeaway,Yes,51
+681,28-05-2025,13:49:36,CUST0681,Madeline,52,Female,Regular,Bangalore,Central Cafe,Cake,Dessert,4,323.28,1293.12,2.89,64.66,1354.89,UPI,2,12,Priya,30,Dine-In,Yes,95
+682,16-01-2025,19:21:42,CUST0682,Brandon,33,Female,Office Worker,Hyderabad,Cafe Bliss,Black Tea,Beverage,6,149.8,898.8,3.85,44.94,939.89,UPI,2,30,Amit,20,Takeaway,Yes,84
+683,28-02-2025,18:46:48,CUST0683,Robert,33,Female,New,Nagpur,Coffee Point,Burger,Food,2,294.27,588.54,13.95,29.43,604.02,UPI,5,24,Amit,21,Takeaway,Yes,50
+684,07-02-2025,07:54:49,CUST0684,Eric,32,Female,New,Pune,Urban Brew,Cappuccino,Beverage,1,232.21,232.21,1.52,11.61,242.3,UPI,1,5,Sneha,18,Dine-In,No,49
+685,22-05-2025,06:51:41,CUST0685,Christopher,60,Female,New,Latur,Coffee Point,Cold Coffee,Beverage,3,323.68,971.04,5.44,48.55,1014.15,Card,4,11,Rahul,7,Takeaway,Yes,55
+686,13-06-2025,13:49:05,CUST0686,Chloe,25,Male,Regular,Pune,Central Cafe,Cappuccino,Beverage,5,200.27,1001.35,8.92,50.07,1042.5,UPI,5,29,Priya,21,Dine-In,No,43
+687,04-05-2025,19:13:59,CUST0687,Scott,52,Male,Office Worker,Bangalore,Urban Brew,Brownie,Dessert,4,163.38,653.52,9.03,32.68,677.17,Cash,5,13,Karan,19,Takeaway,No,36
+688,21-01-2025,16:31:54,CUST0688,Jill,36,Female,Office Worker,Pune,Urban Brew,Brownie,Dessert,1,190,190,10.15,9.5,189.35,Card,1,19,Rahul,23,Dine-In,Yes,20
+689,22-02-2025,15:23:53,CUST0689,Juan,29,Female,Office Worker,Bangalore,Coffee Point,Latte,Beverage,4,262.03,1048.12,13.3,52.41,1087.23,UPI,1,4,Amit,17,Dine-In,No,44
+690,11-06-2025,22:15:29,CUST0690,Trevor,34,Male,New,Bangalore,Central Cafe,Cold Coffee,Beverage,1,245.84,245.84,10.78,12.29,247.35,UPI,3,30,Neha,21,Dine-In,Yes,83
+691,10-02-2025,20:32:12,CUST0691,James,23,Male,Student,Hyderabad,Urban Brew,Brownie,Dessert,2,220.95,441.9,14.31,22.09,449.68,Card,2,30,Priya,23,Dine-In,Yes,87
+692,24-05-2025,02:45:56,CUST0692,Andrea,34,Male,Student,Bangalore,Coffee Point,Black Tea,Beverage,2,78.32,156.64,5.45,7.83,159.02,Cash,4,24,Priya,9,Takeaway,No,74
+693,03-03-2025,10:53:17,CUST0693,James,54,Male,New,Bangalore,Central Cafe,Espresso,Beverage,1,175.92,175.92,7.49,8.8,177.23,UPI,2,26,Neha,12,Takeaway,No,74
+694,07-01-2025,00:40:52,CUST0694,Haley,33,Male,New,Latur,Central Cafe,Pizza,Food,5,330.53,1652.65,14.95,82.63,1720.33,UPI,5,17,Amit,18,Takeaway,Yes,39
+695,25-02-2025,03:26:14,CUST0695,Blake,29,Female,New,Nagpur,Cafe Bliss,Cake,Dessert,5,341.99,1709.95,1.97,85.5,1793.48,UPI,4,6,Neha,22,Takeaway,No,31
+696,27-05-2025,07:03:43,CUST0696,Cassie,41,Male,Student,Latur,Cafe Bliss,Mocha,Beverage,2,243.95,487.9,6.04,24.39,506.25,Card,4,26,Rahul,10,Dine-In,Yes,79
+697,18-06-2025,03:41:54,CUST0697,Amy,24,Male,New,Latur,Coffee Point,Mocha,Beverage,6,277.7,1666.2,2.65,83.31,1746.86,Cash,5,21,Rahul,25,Dine-In,No,81
+698,26-05-2025,01:04:33,CUST0698,Michael,44,Male,Office Worker,Nagpur,Central Cafe,Muffin,Dessert,5,153.39,766.95,13.25,38.35,792.05,UPI,4,30,Neha,30,Dine-In,No,56
+699,27-02-2025,00:10:31,CUST0699,Rebecca,25,Male,Student,Pune,Urban Brew,Sandwich,Food,2,193.99,387.98,11.26,19.4,396.12,UPI,2,27,Neha,21,Dine-In,Yes,43
+700,08-03-2025,19:01:27,CUST0700,Nancy,49,Male,Student,Bangalore,Coffee Point,French Fries,Food,2,150.78,301.56,13.74,15.08,302.9,Card,3,20,Priya,30,Takeaway,Yes,10
+701,26-04-2025,19:09:03,CUST0701,Jasmine,20,Female,Student,Pune,Central Cafe,Cold Coffee,Beverage,5,288.75,1443.75,9.33,72.19,1506.61,Cash,3,4,Neha,25,Dine-In,Yes,58
+702,25-03-2025,01:10:56,CUST0702,Oscar,57,Female,New,Pune,Cafe Bliss,Latte,Beverage,3,244.85,734.55,13.61,36.73,757.67,Card,4,17,Neha,22,Takeaway,No,81
+703,06-01-2025,05:03:31,CUST0703,Jacqueline,34,Female,Regular,Nagpur,Coffee Point,Cake,Dessert,5,319.49,1597.45,12.64,79.87,1664.68,Card,4,27,Sneha,27,Dine-In,No,8
+704,05-05-2025,17:08:32,CUST0704,Mary,45,Female,Student,Hyderabad,Central Cafe,Pizza,Food,3,382.96,1148.88,1.2,57.44,1205.12,Card,3,8,Sneha,19,Dine-In,No,41
+705,04-05-2025,04:57:18,CUST0705,Andrew,37,Male,New,Mumbai,Central Cafe,Green Tea,Beverage,1,163.24,163.24,8.11,8.16,163.29,UPI,1,26,Neha,28,Dine-In,Yes,16
+706,20-02-2025,05:57:33,CUST0706,Amy,60,Female,Office Worker,Mumbai,Urban Brew,Mocha,Beverage,5,282.24,1411.2,13.04,70.56,1468.72,Card,2,1,Karan,25,Takeaway,Yes,74
+707,30-04-2025,20:04:21,CUST0707,William,21,Female,Regular,Nagpur,Cafe Bliss,Cold Coffee,Beverage,5,322.88,1614.4,7.59,80.72,1687.53,UPI,3,23,Neha,10,Dine-In,Yes,56
+708,31-01-2025,20:02:33,CUST0708,Christopher,27,Male,Student,Nagpur,Cafe Bliss,Pizza,Food,6,373.51,2241.06,5.57,112.05,2347.54,UPI,4,26,Karan,5,Takeaway,Yes,30
+709,07-03-2025,21:08:00,CUST0709,Nathan,33,Male,New,Hyderabad,Cafe Bliss,Black Tea,Beverage,6,167.75,1006.5,13.28,50.33,1043.55,Card,1,1,Sneha,11,Takeaway,Yes,61
+710,10-02-2025,04:55:39,CUST0710,Summer,58,Female,New,Nagpur,Central Cafe,Muffin,Dessert,1,160.37,160.37,11.86,8.02,156.53,UPI,5,13,Priya,16,Takeaway,No,44
+711,28-01-2025,13:35:57,CUST0711,Karen,46,Female,Regular,Nagpur,Cafe Bliss,French Fries,Food,6,171.49,1028.94,7.41,51.45,1072.98,Card,1,2,Sneha,9,Takeaway,No,55
+712,12-05-2025,18:00:57,CUST0712,Juan,48,Female,Student,Latur,Urban Brew,Mocha,Beverage,1,250,250,0.39,12.5,262.11,UPI,4,29,Neha,29,Dine-In,Yes,5
+713,23-01-2025,01:10:22,CUST0713,Jessica,18,Male,Office Worker,Latur,Urban Brew,Sandwich,Food,4,158.54,634.16,11.63,31.71,654.24,UPI,2,26,Sneha,25,Takeaway,Yes,12
+714,28-02-2025,05:11:33,CUST0714,Aaron,48,Female,Regular,Hyderabad,Urban Brew,Muffin,Dessert,2,182.18,364.36,4.47,18.22,378.11,Card,2,25,Rahul,16,Takeaway,Yes,96
+715,26-03-2025,14:07:14,CUST0715,Debra,26,Female,Student,Nagpur,Cafe Bliss,French Fries,Food,5,179.53,897.65,5.63,44.88,936.9,UPI,2,8,Amit,20,Takeaway,Yes,100
+716,15-03-2025,00:52:24,CUST0716,Timothy,41,Male,Regular,Pune,Central Cafe,Cold Coffee,Beverage,5,324.88,1624.4,4.04,81.22,1701.58,UPI,5,14,Karan,23,Dine-In,Yes,25
+717,16-06-2025,19:31:57,CUST0717,Shane,22,Female,Office Worker,Hyderabad,Coffee Point,Sandwich,Food,2,164.22,328.44,1.83,16.42,343.03,Card,3,12,Rahul,20,Takeaway,Yes,34
+718,19-06-2025,15:26:12,CUST0718,Kayla,60,Male,Regular,Latur,Coffee Point,Pizza,Food,5,383.72,1918.6,10.57,95.93,2003.96,Card,1,21,Amit,8,Dine-In,Yes,69
+719,23-05-2025,17:05:17,CUST0719,John,32,Female,Office Worker,Pune,Coffee Point,Burger,Food,4,294.62,1178.48,0.73,58.92,1236.67,Cash,4,10,Neha,8,Dine-In,No,60
+720,15-03-2025,02:58:54,CUST0720,Cindy,47,Male,Regular,Mumbai,Urban Brew,Mocha,Beverage,2,226.49,452.98,0.45,22.65,475.18,Cash,4,22,Karan,21,Dine-In,Yes,51
+721,28-01-2025,12:23:13,CUST0721,Collin,45,Male,Student,Hyderabad,Central Cafe,Muffin,Dessert,2,150.65,301.3,6.81,15.07,309.56,UPI,5,10,Rahul,13,Dine-In,Yes,34
+722,22-01-2025,05:18:42,CUST0722,Alexander,30,Female,New,Mumbai,Coffee Point,Cappuccino,Beverage,5,198.93,994.65,11.99,49.73,1032.39,UPI,3,27,Sneha,26,Takeaway,Yes,6
+723,14-04-2025,10:33:41,CUST0723,Julia,54,Male,Office Worker,Nagpur,Cafe Bliss,French Fries,Food,4,191.46,765.84,5.87,38.29,798.26,Card,5,22,Priya,23,Dine-In,No,58
+724,18-03-2025,12:02:29,CUST0724,Kathy,36,Male,Regular,Hyderabad,Coffee Point,Green Tea,Beverage,5,150.52,752.6,5.44,37.63,784.79,UPI,3,10,Sneha,16,Takeaway,No,36
+725,29-04-2025,23:22:03,CUST0725,Jonathan,26,Male,Office Worker,Nagpur,Central Cafe,Mocha,Beverage,6,252.99,1517.94,12.16,75.9,1581.68,UPI,2,11,Amit,29,Takeaway,No,70
+726,29-05-2025,01:37:06,CUST0726,Brianna,41,Male,Student,Bangalore,Central Cafe,Pasta,Food,3,350.74,1052.22,6.36,52.61,1098.47,Card,5,16,Amit,19,Dine-In,Yes,52
+727,12-02-2025,22:14:21,CUST0727,Amanda,56,Male,New,Mumbai,Cafe Bliss,Muffin,Dessert,2,150.44,300.88,11.99,15.04,303.93,Card,1,11,Rahul,20,Takeaway,No,16
+728,10-06-2025,14:07:43,CUST0728,Diana,38,Male,New,Pune,Cafe Bliss,French Fries,Food,1,178.32,178.32,12.36,8.92,174.88,UPI,4,18,Sneha,18,Dine-In,Yes,93
+729,14-04-2025,18:41:04,CUST0729,Lori,25,Female,New,Pune,Coffee Point,Mocha,Beverage,1,247.49,247.49,3.2,12.37,256.66,Cash,1,22,Priya,17,Dine-In,Yes,32
+730,24-04-2025,23:33:06,CUST0730,Matthew,37,Male,New,Pune,Urban Brew,Latte,Beverage,2,260.72,521.44,8.72,26.07,538.79,Card,5,10,Amit,11,Dine-In,Yes,46
+731,13-05-2025,10:44:55,CUST0731,Gregory,29,Female,Regular,Bangalore,Urban Brew,Pizza,Food,6,393.51,2361.06,10.15,118.05,2468.96,Card,4,27,Neha,13,Takeaway,Yes,95
+732,29-03-2025,22:01:24,CUST0732,Kayla,34,Male,Regular,Hyderabad,Coffee Point,Muffin,Dessert,5,184.42,922.1,0.34,46.1,967.86,UPI,3,24,Neha,28,Dine-In,Yes,35
+733,21-05-2025,11:33:46,CUST0733,Mary,55,Male,Student,Hyderabad,Coffee Point,Cake,Dessert,4,376.39,1505.56,3.16,75.28,1577.68,Cash,3,27,Karan,29,Dine-In,Yes,37
+734,18-03-2025,01:57:49,CUST0734,Jessica,37,Female,New,Latur,Coffee Point,Cappuccino,Beverage,6,185.86,1115.16,5.37,55.76,1165.55,Cash,3,15,Rahul,21,Dine-In,Yes,51
+735,29-03-2025,02:01:25,CUST0735,Dustin,38,Female,Student,Bangalore,Central Cafe,Cake,Dessert,4,298.58,1194.32,7.26,59.72,1246.78,Card,4,23,Amit,28,Dine-In,No,15
+736,20-03-2025,17:03:31,CUST0736,Amy,35,Female,New,Mumbai,Coffee Point,Mocha,Beverage,6,220.6,1323.6,13.73,66.18,1376.05,UPI,4,21,Karan,10,Dine-In,No,71
+737,22-05-2025,22:28:35,CUST0737,Donald,34,Male,Student,Hyderabad,Coffee Point,French Fries,Food,1,161.45,161.45,6.05,8.07,163.47,Card,3,18,Rahul,7,Takeaway,No,33
+738,13-04-2025,12:52:45,CUST0738,Denise,34,Female,Regular,Latur,Central Cafe,Pizza,Food,3,408.02,1224.06,2.44,61.2,1282.82,UPI,5,14,Amit,27,Dine-In,No,56
+739,15-03-2025,23:02:57,CUST0739,Lee,23,Female,Office Worker,Mumbai,Coffee Point,Espresso,Beverage,6,120.33,721.98,8.45,36.1,749.63,Card,3,7,Karan,6,Takeaway,Yes,10
+740,06-01-2025,07:50:25,CUST0740,Rebekah,43,Male,Student,Latur,Central Cafe,Pizza,Food,2,350.6,701.2,2.97,35.06,733.29,UPI,1,2,Sneha,6,Takeaway,Yes,92
+741,03-01-2025,06:00:37,CUST0741,Logan,32,Male,New,Latur,Central Cafe,Green Tea,Beverage,1,84.97,84.97,12.63,4.25,76.59,Cash,2,20,Rahul,25,Takeaway,No,74
+742,13-06-2025,22:12:28,CUST0742,Devin,50,Male,New,Hyderabad,Urban Brew,Cake,Dessert,3,302.39,907.17,12.29,45.36,940.24,UPI,5,29,Sneha,25,Takeaway,Yes,92
+743,16-01-2025,18:48:38,CUST0743,Diane,26,Male,Student,Pune,Urban Brew,Brownie,Dessert,5,211.8,1059,12.96,52.95,1098.99,Card,3,8,Rahul,25,Takeaway,Yes,27
+744,05-05-2025,13:22:37,CUST0744,Brian,55,Female,Student,Hyderabad,Urban Brew,Cold Coffee,Beverage,1,265.4,265.4,11.71,13.27,266.96,Card,3,9,Karan,20,Dine-In,No,50
+745,22-06-2025,10:45:49,CUST0745,Michele,26,Female,Student,Hyderabad,Cafe Bliss,Mocha,Beverage,4,279.74,1118.96,12.85,55.95,1162.06,UPI,3,21,Amit,11,Takeaway,Yes,72
+746,10-06-2025,09:35:44,CUST0746,Brandon,24,Female,Office Worker,Pune,Coffee Point,Cappuccino,Beverage,3,249.85,749.55,0.86,37.48,786.17,UPI,5,23,Priya,23,Takeaway,Yes,95
+747,03-02-2025,16:13:34,CUST0747,Maureen,60,Female,Office Worker,Pune,Cafe Bliss,Pasta,Food,6,260.06,1560.36,7.5,78.02,1630.88,UPI,3,19,Sneha,27,Dine-In,Yes,28
+748,02-05-2025,10:38:12,CUST0748,David,60,Female,Office Worker,Mumbai,Coffee Point,Latte,Beverage,1,228.68,228.68,3.04,11.43,237.07,Cash,2,18,Karan,27,Takeaway,No,96
+749,15-06-2025,13:33:18,CUST0749,Meredith,48,Female,Regular,Mumbai,Urban Brew,Green Tea,Beverage,3,109.93,329.79,0.83,16.49,345.45,Card,2,27,Priya,16,Dine-In,No,58
+750,05-03-2025,09:01:50,CUST0750,Jonathan,36,Female,New,Pune,Coffee Point,French Fries,Food,5,140.98,704.9,9.96,35.24,730.18,Cash,5,5,Karan,15,Dine-In,No,17
+751,12-03-2025,20:01:22,CUST0751,Gina,26,Female,New,Nagpur,Coffee Point,Green Tea,Beverage,5,116.99,584.95,14.53,29.25,599.67,Card,5,11,Neha,29,Dine-In,No,90
+752,23-06-2025,10:21:28,CUST0752,Katherine,42,Female,Regular,Hyderabad,Cafe Bliss,Cold Coffee,Beverage,1,313.24,313.24,7.21,15.66,321.69,Cash,5,15,Neha,11,Takeaway,No,20
+753,27-05-2025,18:43:40,CUST0753,Tiffany,36,Male,New,Bangalore,Coffee Point,Mocha,Beverage,2,286.04,572.08,10.3,28.6,590.38,Card,2,20,Sneha,27,Dine-In,No,32
+754,11-04-2025,03:34:55,CUST0754,Barbara,48,Female,New,Nagpur,Cafe Bliss,Sandwich,Food,3,206.74,620.22,0.77,31.01,650.46,Card,1,1,Neha,28,Takeaway,Yes,53
+755,04-02-2025,00:45:54,CUST0755,Phillip,49,Male,Office Worker,Mumbai,Central Cafe,Sandwich,Food,2,203.17,406.34,13.41,20.32,413.25,UPI,5,16,Sneha,28,Takeaway,Yes,85
+756,18-01-2025,18:22:56,CUST0756,Richard,32,Male,Regular,Bangalore,Coffee Point,Cold Coffee,Beverage,5,247.5,1237.5,9.26,61.88,1290.12,Cash,2,2,Neha,28,Dine-In,No,16
+757,25-03-2025,20:38:51,CUST0757,Grant,26,Female,New,Pune,Urban Brew,Cappuccino,Beverage,5,244.83,1224.15,1.33,61.21,1284.03,Card,5,23,Karan,9,Takeaway,No,84
+758,25-03-2025,17:40:07,CUST0758,Daniel,49,Male,Regular,Mumbai,Central Cafe,Latte,Beverage,4,215.53,862.12,3.86,43.11,901.37,Cash,4,13,Karan,20,Takeaway,No,87
+759,19-01-2025,01:42:22,CUST0759,Thomas,53,Male,New,Hyderabad,Cafe Bliss,Latte,Beverage,5,254.98,1274.9,11.17,63.74,1327.47,Cash,5,21,Rahul,5,Dine-In,Yes,70
+760,17-01-2025,15:04:22,CUST0760,Matthew,21,Female,New,Bangalore,Urban Brew,Cake,Dessert,3,354.32,1062.96,8.94,53.15,1107.17,Cash,1,5,Priya,18,Dine-In,Yes,53
+761,01-03-2025,17:04:56,CUST0761,David,32,Female,Student,Bangalore,Cafe Bliss,Brownie,Dessert,5,238.92,1194.6,10.95,59.73,1243.38,Card,4,1,Neha,5,Takeaway,No,59
+762,26-06-2025,23:08:06,CUST0762,Robert,19,Female,Student,Hyderabad,Central Cafe,Cappuccino,Beverage,4,181.15,724.6,13.11,36.23,747.72,UPI,5,15,Rahul,15,Takeaway,Yes,49
+763,25-06-2025,13:17:51,CUST0763,Carly,49,Male,Office Worker,Nagpur,Urban Brew,French Fries,Food,1,196.21,196.21,14.54,9.81,191.48,Cash,3,7,Neha,16,Dine-In,Yes,65
+764,26-03-2025,02:48:49,CUST0764,Michael,40,Male,Regular,Nagpur,Coffee Point,Latte,Beverage,4,255.34,1021.36,14.85,51.07,1057.58,UPI,5,13,Neha,30,Dine-In,No,81
+765,21-04-2025,03:24:27,CUST0765,Tanya,57,Female,Office Worker,Bangalore,Central Cafe,Espresso,Beverage,1,148.75,148.75,7.12,7.44,149.07,Card,1,25,Priya,12,Takeaway,Yes,61
+766,02-06-2025,19:31:12,CUST0766,Charles,35,Female,Regular,Hyderabad,Urban Brew,Muffin,Dessert,2,202.86,405.72,1.05,20.29,424.96,Cash,2,22,Priya,21,Takeaway,Yes,82
+767,13-03-2025,07:19:41,CUST0767,Jeff,35,Female,Student,Nagpur,Cafe Bliss,Green Tea,Beverage,4,164.72,658.88,10.41,32.94,681.41,Card,5,16,Rahul,20,Takeaway,No,84
+768,03-06-2025,10:31:41,CUST0768,Sarah,60,Female,Office Worker,Pune,Coffee Point,Cold Coffee,Beverage,6,272.05,1632.3,14.6,81.62,1699.32,Card,4,5,Karan,5,Dine-In,Yes,42
+769,13-04-2025,13:55:39,CUST0769,Christopher,26,Female,Student,Hyderabad,Central Cafe,French Fries,Food,5,223.61,1118.05,13.89,55.9,1160.06,Card,5,16,Karan,25,Takeaway,No,34
+770,14-02-2025,15:16:10,CUST0770,Jeffrey,48,Male,Student,Pune,Urban Brew,Cappuccino,Beverage,1,217.07,217.07,10.16,10.85,217.76,Card,2,1,Priya,11,Dine-In,Yes,10
+771,09-03-2025,03:14:13,CUST0771,Kristen,34,Female,Regular,Nagpur,Central Cafe,Espresso,Beverage,2,121.07,242.14,13.6,12.11,240.65,UPI,3,10,Karan,11,Dine-In,No,93
+772,26-02-2025,23:16:13,CUST0772,Anna,57,Female,Office Worker,Pune,Urban Brew,Sandwich,Food,1,130.12,130.12,2.52,6.51,134.11,Cash,4,17,Neha,23,Dine-In,Yes,43
+773,21-06-2025,12:57:04,CUST0773,Jacob,42,Female,Office Worker,Hyderabad,Central Cafe,Cold Coffee,Beverage,2,278.7,557.4,10.31,27.87,574.96,Card,4,16,Priya,24,Dine-In,Yes,73
+774,29-01-2025,08:38:35,CUST0774,Thomas,42,Female,Office Worker,Pune,Coffee Point,Pasta,Food,5,324.22,1621.1,7.28,81.06,1694.88,UPI,5,8,Karan,23,Dine-In,No,60
+775,07-03-2025,20:50:22,CUST0775,Allison,50,Female,Regular,Mumbai,Urban Brew,Sandwich,Food,3,171.75,515.25,4.57,25.76,536.44,UPI,1,11,Sneha,15,Dine-In,No,13
+776,21-06-2025,10:52:45,CUST0776,Jeanette,28,Female,New,Mumbai,Urban Brew,Cappuccino,Beverage,6,189.78,1138.68,13.02,56.93,1182.59,Card,2,22,Sneha,7,Takeaway,No,15
+777,11-03-2025,13:12:57,CUST0777,Andrea,32,Male,Office Worker,Mumbai,Urban Brew,Latte,Beverage,3,256.61,769.83,8.05,38.49,800.27,Card,1,20,Rahul,18,Takeaway,No,93
+778,16-04-2025,10:28:22,CUST0778,Michael,27,Female,Office Worker,Nagpur,Cafe Bliss,Pizza,Food,1,424.81,424.81,6.99,21.24,439.06,Cash,4,28,Neha,11,Takeaway,Yes,76
+779,23-04-2025,00:06:14,CUST0779,Jeremy,28,Male,Regular,Nagpur,Central Cafe,Cappuccino,Beverage,1,196.36,196.36,5.02,9.82,201.16,Card,5,27,Amit,23,Takeaway,No,35
+780,04-05-2025,22:36:43,CUST0780,Joshua,58,Female,Student,Nagpur,Urban Brew,Burger,Food,6,225.56,1353.36,8.97,67.67,1412.06,Card,1,30,Karan,18,Takeaway,Yes,89
+781,20-03-2025,05:43:07,CUST0781,Gregg,56,Male,Student,Mumbai,Coffee Point,Pizza,Food,6,370.58,2223.48,5.87,111.17,2328.78,Card,2,1,Karan,17,Dine-In,No,76
+782,03-04-2025,16:07:26,CUST0782,Lisa,59,Female,Office Worker,Nagpur,Urban Brew,Pizza,Food,3,345.94,1037.82,9.78,51.89,1079.93,Card,2,13,Neha,5,Dine-In,Yes,30
+783,05-01-2025,22:09:28,CUST0783,Steven,27,Female,Student,Bangalore,Central Cafe,Burger,Food,6,298.64,1791.84,3.52,89.59,1877.91,Cash,3,13,Rahul,17,Dine-In,Yes,5
+784,16-04-2025,06:57:13,CUST0784,Matthew,51,Female,New,Nagpur,Coffee Point,Pasta,Food,4,354.11,1416.44,0.49,70.82,1486.77,Cash,1,29,Priya,23,Takeaway,No,68
+785,05-01-2025,21:41:11,CUST0785,Mary,30,Female,Regular,Mumbai,Urban Brew,Green Tea,Beverage,1,91.9,91.9,8.89,4.6,87.61,Card,5,11,Neha,5,Dine-In,Yes,68
+786,16-06-2025,14:46:46,CUST0786,Angela,26,Female,Student,Mumbai,Coffee Point,Burger,Food,1,289.24,289.24,2.56,14.46,301.14,UPI,2,20,Neha,17,Dine-In,Yes,60
+787,09-06-2025,15:02:47,CUST0787,Douglas,57,Female,Office Worker,Pune,Central Cafe,Latte,Beverage,6,183.79,1102.74,8.09,55.14,1149.79,UPI,4,24,Karan,22,Takeaway,No,80
+788,05-01-2025,14:49:10,CUST0788,Stephen,26,Female,Regular,Pune,Urban Brew,Sandwich,Food,1,182.75,182.75,14.28,9.14,177.61,UPI,4,12,Priya,6,Takeaway,Yes,91
+789,15-03-2025,12:56:58,CUST0789,Felicia,26,Female,Office Worker,Latur,Cafe Bliss,Latte,Beverage,2,227.3,454.6,2.12,22.73,475.21,UPI,2,6,Karan,24,Dine-In,No,36
+790,13-04-2025,11:12:21,CUST0790,Kristin,34,Female,Regular,Hyderabad,Cafe Bliss,Cold Coffee,Beverage,3,281.48,844.44,4.66,42.22,882,Card,2,27,Rahul,7,Dine-In,No,14
+791,09-05-2025,13:48:35,CUST0791,Jennifer,46,Male,Student,Latur,Urban Brew,Cake,Dessert,4,366.59,1466.36,4.91,73.32,1534.77,Cash,3,22,Karan,9,Dine-In,No,43
+792,02-01-2025,09:32:32,CUST0792,Shannon,22,Male,Office Worker,Bangalore,Central Cafe,Brownie,Dessert,6,173.27,1039.62,10.16,51.98,1081.44,Card,5,10,Priya,21,Dine-In,Yes,92
+793,01-01-2025,21:07:25,CUST0793,Eric,45,Male,New,Nagpur,Urban Brew,Muffin,Dessert,6,138.28,829.68,14.16,41.48,857,Cash,1,23,Amit,9,Takeaway,Yes,24
+794,23-05-2025,07:01:14,CUST0794,Allison,39,Male,New,Latur,Urban Brew,Black Tea,Beverage,2,151.06,302.12,0.24,15.11,316.99,Card,1,29,Sneha,14,Takeaway,Yes,78
+795,13-01-2025,20:07:27,CUST0795,Michael,29,Female,New,Pune,Cafe Bliss,Pizza,Food,3,380.19,1140.57,5.65,57.03,1191.95,Card,1,25,Neha,20,Dine-In,No,28
+796,23-01-2025,20:05:35,CUST0796,Nicholas,52,Female,Regular,Bangalore,Coffee Point,Black Tea,Beverage,3,154.88,464.64,0.4,23.23,487.47,UPI,5,2,Neha,8,Takeaway,Yes,10
+797,21-04-2025,19:11:57,CUST0797,Sharon,58,Female,Office Worker,Hyderabad,Urban Brew,Cake,Dessert,1,379.73,379.73,9.66,18.99,389.06,Card,1,28,Karan,18,Takeaway,Yes,89
+798,13-05-2025,21:32:35,CUST0798,Alexander,22,Male,New,Pune,Coffee Point,Espresso,Beverage,5,122.51,612.55,5.57,30.63,637.61,Cash,5,20,Rahul,21,Takeaway,No,13
+799,28-04-2025,10:05:56,CUST0799,Taylor,51,Male,Office Worker,Latur,Central Cafe,Black Tea,Beverage,5,154.38,771.9,1.61,38.59,808.88,UPI,2,29,Priya,21,Dine-In,Yes,68
+800,04-04-2025,05:16:34,CUST0800,Debra,24,Male,Regular,Nagpur,Central Cafe,Cappuccino,Beverage,6,185.35,1112.1,0.69,55.6,1167.01,Card,3,7,Karan,19,Takeaway,No,20
+801,10-03-2025,22:19:31,CUST0801,Yolanda,43,Male,Office Worker,Pune,Urban Brew,Cold Coffee,Beverage,4,233.88,935.52,12.67,46.78,969.63,Cash,4,19,Rahul,27,Takeaway,Yes,16
+802,10-02-2025,08:22:24,CUST0802,Gina,26,Female,Regular,Pune,Cafe Bliss,Green Tea,Beverage,1,161.31,161.31,2.89,8.07,166.49,Cash,4,30,Karan,24,Takeaway,Yes,42
+803,28-02-2025,23:51:24,CUST0803,Michael,42,Male,New,Bangalore,Central Cafe,Pizza,Food,6,343.29,2059.74,14.58,102.99,2148.15,Cash,5,19,Neha,9,Dine-In,Yes,92
+804,02-06-2025,18:59:24,CUST0804,Scott,53,Male,Student,Nagpur,Coffee Point,Burger,Food,6,282.73,1696.38,7.35,84.82,1773.85,UPI,3,25,Priya,6,Takeaway,Yes,24
+805,12-06-2025,17:14:21,CUST0805,Jared,49,Female,Office Worker,Nagpur,Cafe Bliss,Pasta,Food,2,314.41,628.82,8.08,31.44,652.18,Cash,5,4,Rahul,12,Dine-In,No,28
+806,14-06-2025,15:25:16,CUST0806,Daniel,25,Male,Regular,Latur,Central Cafe,French Fries,Food,5,217.08,1085.4,4.87,54.27,1134.8,UPI,3,27,Amit,29,Takeaway,Yes,71
+807,10-05-2025,00:34:36,CUST0807,Jessica,28,Female,New,Hyderabad,Central Cafe,Pizza,Food,3,393.54,1180.62,1.19,59.03,1238.46,Cash,5,9,Karan,18,Dine-In,Yes,31
+808,19-03-2025,14:16:15,CUST0808,Brandon,40,Male,New,Mumbai,Coffee Point,Cake,Dessert,6,346.35,2078.1,10.17,103.91,2171.84,Cash,4,19,Amit,19,Dine-In,Yes,37
+809,05-05-2025,14:13:50,CUST0809,Christina,55,Male,Regular,Hyderabad,Cafe Bliss,Brownie,Dessert,5,220.44,1102.2,3.71,55.11,1153.6,Card,4,13,Neha,25,Dine-In,No,72
+810,24-02-2025,00:22:56,CUST0810,Phillip,54,Male,Student,Latur,Central Cafe,Latte,Beverage,4,240.77,963.08,3.48,48.15,1007.75,Cash,4,15,Amit,21,Takeaway,Yes,38
+811,11-05-2025,08:31:51,CUST0811,Elizabeth,33,Female,Student,Latur,Central Cafe,Burger,Food,1,267.13,267.13,2.77,13.36,277.72,Card,2,9,Sneha,19,Dine-In,Yes,87
+812,10-01-2025,15:06:27,CUST0812,Daniel,36,Male,Regular,Mumbai,Urban Brew,Pizza,Food,3,347.97,1043.91,9.09,52.2,1087.02,Card,3,15,Karan,29,Takeaway,Yes,59
+813,26-06-2025,03:25:45,CUST0813,Shawn,60,Female,Regular,Bangalore,Cafe Bliss,Pasta,Food,3,291.99,875.97,12.53,43.8,907.24,UPI,2,25,Karan,25,Takeaway,Yes,76
+814,11-05-2025,10:20:51,CUST0814,William,29,Male,Regular,Hyderabad,Cafe Bliss,Burger,Food,5,257.83,1289.15,11.12,64.46,1342.49,Cash,3,20,Amit,17,Takeaway,Yes,100
+815,27-06-2025,00:01:18,CUST0815,Thomas,43,Male,Regular,Mumbai,Cafe Bliss,Sandwich,Food,2,216.71,433.42,5.71,21.67,449.38,Card,2,14,Priya,10,Dine-In,No,10
+816,19-02-2025,04:43:56,CUST0816,Cameron,32,Male,Office Worker,Latur,Coffee Point,Burger,Food,6,218.78,1312.68,11.54,65.63,1366.77,UPI,1,15,Priya,20,Dine-In,No,29
+817,25-05-2025,14:30:45,CUST0817,Amy,50,Male,Office Worker,Hyderabad,Urban Brew,Muffin,Dessert,2,167.99,335.98,14.94,16.8,337.84,UPI,3,14,Amit,8,Dine-In,Yes,32
+818,26-01-2025,17:24:55,CUST0818,Carla,32,Female,New,Mumbai,Central Cafe,Brownie,Dessert,5,240.14,1200.7,1.63,60.03,1259.1,UPI,3,27,Sneha,17,Takeaway,No,27
+819,28-01-2025,22:38:32,CUST0819,Leon,46,Male,Regular,Nagpur,Coffee Point,Espresso,Beverage,2,143.82,287.64,11.19,14.38,290.83,UPI,4,17,Priya,27,Dine-In,No,89
+820,08-06-2025,15:47:19,CUST0820,Eric,33,Male,Student,Nagpur,Coffee Point,Green Tea,Beverage,3,92,276,0.12,13.8,289.68,Card,2,4,Neha,23,Takeaway,No,99
+821,26-05-2025,01:26:04,CUST0821,Kristina,20,Male,Office Worker,Bangalore,Coffee Point,Burger,Food,2,212.01,424.02,12.96,21.2,432.26,UPI,4,25,Amit,30,Dine-In,Yes,19
+822,08-02-2025,12:02:18,CUST0822,Sheri,53,Male,New,Mumbai,Urban Brew,Pizza,Food,3,332.02,996.06,7.43,49.8,1038.43,Cash,4,26,Priya,28,Dine-In,Yes,97
+823,27-05-2025,15:51:57,CUST0823,Jennifer,60,Male,Office Worker,Mumbai,Coffee Point,Cake,Dessert,3,313.38,940.14,14.31,47.01,972.84,Card,4,16,Karan,24,Takeaway,Yes,20
+824,16-04-2025,14:23:58,CUST0824,Emily,29,Male,Office Worker,Hyderabad,Cafe Bliss,Pasta,Food,4,286.05,1144.2,5.41,57.21,1196,UPI,5,17,Priya,13,Takeaway,No,76
+825,11-05-2025,17:23:14,CUST0825,Matthew,41,Male,Office Worker,Pune,Central Cafe,Latte,Beverage,1,250.33,250.33,12,12.52,250.85,UPI,4,7,Amit,21,Dine-In,Yes,35
+826,04-06-2025,18:37:06,CUST0826,Steven,24,Male,Regular,Bangalore,Coffee Point,Cappuccino,Beverage,2,200.29,400.58,1.49,20.03,419.12,UPI,5,6,Karan,11,Takeaway,Yes,58
+827,01-04-2025,05:42:31,CUST0827,Brian,47,Male,Student,Latur,Coffee Point,Black Tea,Beverage,6,88.64,531.84,4.11,26.59,554.32,UPI,3,11,Karan,30,Dine-In,No,31
+828,09-06-2025,20:09:17,CUST0828,Kathleen,42,Female,Student,Mumbai,Urban Brew,Mocha,Beverage,6,286.77,1720.62,13.43,86.03,1793.22,Cash,4,1,Sneha,13,Takeaway,No,94
+829,09-02-2025,14:28:38,CUST0829,Andrea,36,Male,Regular,Pune,Coffee Point,Espresso,Beverage,5,196.72,983.6,0.01,49.18,1032.77,UPI,2,4,Amit,20,Dine-In,Yes,15
+830,15-02-2025,14:13:54,CUST0830,Jacob,32,Male,Student,Latur,Central Cafe,Espresso,Beverage,6,127.12,762.72,14.85,38.14,786.01,UPI,5,21,Rahul,17,Takeaway,No,100
+831,13-03-2025,15:30:15,CUST0831,Sarah,56,Male,New,Latur,Coffee Point,Pizza,Food,6,368.63,2211.78,5.88,110.59,2316.49,Cash,5,23,Sneha,24,Takeaway,Yes,22
+832,19-02-2025,19:43:48,CUST0832,Renee,34,Female,Office Worker,Latur,Coffee Point,Espresso,Beverage,1,116.19,116.19,13.84,5.81,108.16,Cash,4,9,Karan,18,Dine-In,Yes,54
+833,22-04-2025,22:12:29,CUST0833,Jerry,45,Female,Office Worker,Pune,Urban Brew,Latte,Beverage,1,234.7,234.7,13.97,11.73,232.46,UPI,3,5,Karan,8,Dine-In,Yes,24
+834,10-02-2025,14:29:05,CUST0834,Ronald,36,Female,Student,Mumbai,Urban Brew,Cake,Dessert,2,376.88,753.76,12.78,37.69,778.67,Cash,5,9,Neha,14,Takeaway,Yes,100
+835,26-03-2025,23:40:49,CUST0835,Adrienne,23,Female,Student,Bangalore,Urban Brew,Latte,Beverage,6,239.42,1436.52,6.57,71.83,1501.78,Cash,5,30,Amit,9,Dine-In,Yes,57
+836,08-06-2025,19:55:19,CUST0836,Sonia,50,Male,Office Worker,Hyderabad,Coffee Point,Cold Coffee,Beverage,3,308.27,924.81,5.85,46.24,965.2,UPI,1,24,Priya,5,Dine-In,Yes,44
+837,10-05-2025,18:03:05,CUST0837,Lisa,23,Female,Regular,Bangalore,Urban Brew,Cappuccino,Beverage,6,227.45,1364.7,3.38,68.23,1429.55,UPI,5,30,Rahul,22,Dine-In,No,91
+838,02-06-2025,23:30:35,CUST0838,Jacqueline,30,Male,Office Worker,Hyderabad,Central Cafe,Pasta,Food,5,288.22,1441.1,7.82,72.06,1505.34,UPI,5,17,Amit,20,Takeaway,Yes,99
+839,21-06-2025,20:56:46,CUST0839,Cody,46,Male,New,Hyderabad,Central Cafe,Pasta,Food,4,282.69,1130.76,6.79,56.54,1180.51,Card,4,19,Rahul,26,Takeaway,No,70
+840,20-06-2025,17:32:39,CUST0840,Brandon,24,Female,Regular,Latur,Cafe Bliss,Black Tea,Beverage,1,169.99,169.99,9.09,8.5,169.4,Card,2,27,Rahul,16,Takeaway,Yes,78
+841,24-02-2025,19:44:23,CUST0841,Sydney,31,Male,Student,Pune,Coffee Point,Pizza,Food,3,365.49,1096.47,11.56,54.82,1139.73,Card,4,22,Rahul,26,Takeaway,No,30
+842,13-02-2025,22:20:42,CUST0842,Joseph,34,Female,Regular,Mumbai,Central Cafe,Cake,Dessert,3,374.65,1123.95,0.48,56.2,1179.67,Card,1,27,Priya,17,Takeaway,No,67
+843,15-01-2025,00:09:51,CUST0843,Meredith,27,Female,Regular,Pune,Coffee Point,Latte,Beverage,5,252.44,1262.2,5.33,63.11,1319.98,UPI,4,29,Neha,22,Dine-In,Yes,68
+844,28-06-2025,11:42:31,CUST0844,Elizabeth,34,Female,New,Pune,Cafe Bliss,Brownie,Dessert,1,247.67,247.67,8.75,12.38,251.3,UPI,3,26,Rahul,23,Dine-In,Yes,6
+845,04-01-2025,05:33:27,CUST0845,Jason,23,Male,Student,Nagpur,Central Cafe,Cold Coffee,Beverage,1,317.73,317.73,12.65,15.89,320.97,Card,5,20,Sneha,28,Takeaway,No,50
+846,31-05-2025,16:47:58,CUST0846,Brian,54,Female,New,Nagpur,Urban Brew,Mocha,Beverage,5,247.99,1239.95,6.78,62,1295.17,UPI,4,21,Neha,25,Takeaway,Yes,40
+847,28-01-2025,09:07:28,CUST0847,Shawn,28,Male,Student,Latur,Coffee Point,Sandwich,Food,2,212.43,424.86,3.67,21.24,442.43,Card,4,11,Rahul,13,Dine-In,Yes,69
+848,21-06-2025,19:43:04,CUST0848,Corey,32,Female,Office Worker,Pune,Urban Brew,Pasta,Food,3,348.31,1044.93,13.61,52.25,1083.57,UPI,1,25,Amit,17,Takeaway,No,93
+849,28-01-2025,08:18:36,CUST0849,Randy,57,Male,Office Worker,Nagpur,Coffee Point,Cold Coffee,Beverage,3,260.67,782.01,10.02,39.1,811.09,Cash,2,28,Neha,16,Dine-In,Yes,14
+850,29-06-2025,23:29:15,CUST0850,Joel,48,Male,Regular,Pune,Coffee Point,Sandwich,Food,5,138.7,693.5,4.3,34.68,723.88,UPI,2,14,Sneha,10,Dine-In,Yes,93
+851,30-06-2025,02:29:01,CUST0851,Christopher,35,Male,Regular,Latur,Coffee Point,Black Tea,Beverage,6,79.13,474.78,0.45,23.74,498.07,UPI,1,27,Karan,15,Dine-In,No,72
+852,05-05-2025,04:38:20,CUST0852,Monique,24,Female,Student,Hyderabad,Urban Brew,Green Tea,Beverage,5,170.99,854.95,5.38,42.75,892.32,UPI,1,4,Amit,16,Dine-In,Yes,5
+853,27-01-2025,12:12:09,CUST0853,Justin,34,Female,New,Nagpur,Urban Brew,Mocha,Beverage,5,285.9,1429.5,0.95,71.48,1500.03,UPI,4,3,Priya,27,Takeaway,No,12
+854,25-01-2025,09:53:06,CUST0854,Deanna,41,Female,Regular,Bangalore,Cafe Bliss,Black Tea,Beverage,1,84.82,84.82,14.61,4.24,74.45,Card,5,11,Sneha,14,Dine-In,Yes,83
+855,17-05-2025,08:07:25,CUST0855,Mark,39,Female,Office Worker,Pune,Urban Brew,Cold Coffee,Beverage,1,313.03,313.03,5.84,15.65,322.84,UPI,4,24,Amit,8,Dine-In,Yes,23
+856,21-04-2025,18:02:04,CUST0856,Emily,20,Female,Regular,Bangalore,Central Cafe,Pizza,Food,2,336.75,673.5,0.22,33.68,706.96,Card,1,28,Neha,14,Takeaway,No,37
+857,21-04-2025,19:26:00,CUST0857,Jason,22,Female,Student,Bangalore,Central Cafe,Espresso,Beverage,6,197.58,1185.48,11.86,59.27,1232.89,Card,2,10,Amit,15,Takeaway,Yes,49
+858,22-05-2025,05:38:35,CUST0858,George,22,Male,Student,Mumbai,Urban Brew,Cappuccino,Beverage,6,251.42,1508.52,3.14,75.43,1580.81,Card,5,15,Sneha,14,Dine-In,Yes,54
+859,13-05-2025,07:25:14,CUST0859,Megan,43,Male,New,Nagpur,Central Cafe,Cappuccino,Beverage,2,191.38,382.76,5.46,19.14,396.44,Cash,3,8,Amit,10,Dine-In,No,58
+860,28-06-2025,16:08:10,CUST0860,Alisha,54,Male,New,Pune,Cafe Bliss,Espresso,Beverage,5,116.4,582,11.15,29.1,599.95,UPI,3,3,Neha,15,Takeaway,Yes,72
+861,29-06-2025,23:38:35,CUST0861,Anna,53,Male,Office Worker,Hyderabad,Central Cafe,Green Tea,Beverage,3,127.85,383.55,5.92,19.18,396.81,Cash,4,11,Sneha,28,Takeaway,Yes,13
+862,12-04-2025,17:28:58,CUST0862,Steven,60,Male,New,Pune,Coffee Point,Cake,Dessert,2,314.34,628.68,8,31.43,652.11,Cash,5,21,Karan,22,Takeaway,No,72
+863,27-05-2025,19:02:51,CUST0863,Ana,58,Male,Office Worker,Mumbai,Cafe Bliss,French Fries,Food,2,235.01,470.02,5.9,23.5,487.62,UPI,1,4,Neha,7,Dine-In,Yes,12
+864,01-01-2025,22:57:10,CUST0864,Chelsea,39,Male,Student,Nagpur,Central Cafe,Sandwich,Food,5,150.83,754.15,2.13,37.71,789.73,Cash,4,28,Rahul,30,Dine-In,No,40
+865,08-04-2025,02:15:18,CUST0865,Russell,48,Female,Regular,Latur,Cafe Bliss,Black Tea,Beverage,4,120.64,482.56,10.59,24.13,496.1,UPI,3,9,Amit,6,Takeaway,Yes,96
+866,22-02-2025,21:50:32,CUST0866,Melissa,35,Female,Office Worker,Latur,Cafe Bliss,Pasta,Food,5,290.77,1453.85,14.59,72.69,1511.95,UPI,1,2,Karan,9,Takeaway,No,12
+867,18-06-2025,16:13:19,CUST0867,Michael,43,Male,Regular,Nagpur,Coffee Point,Pizza,Food,3,404.64,1213.92,3.66,60.7,1270.96,Card,5,9,Sneha,23,Dine-In,No,68
+868,28-05-2025,23:21:08,CUST0868,Molly,29,Female,New,Latur,Central Cafe,Cold Coffee,Beverage,6,267.86,1607.16,4.43,80.36,1683.09,Cash,3,18,Karan,30,Takeaway,No,72
+869,12-02-2025,19:20:06,CUST0869,Charles,38,Male,Student,Bangalore,Coffee Point,Black Tea,Beverage,3,128.4,385.2,11.64,19.26,392.82,UPI,5,22,Karan,6,Takeaway,Yes,93
+870,02-01-2025,04:10:02,CUST0870,Abigail,39,Male,Regular,Nagpur,Cafe Bliss,Cake,Dessert,4,371.79,1487.16,10.92,74.36,1550.6,Cash,2,14,Amit,21,Dine-In,Yes,60
+871,29-05-2025,15:00:29,CUST0871,Matthew,36,Male,Office Worker,Hyderabad,Coffee Point,Pizza,Food,3,401.17,1203.51,11.13,60.18,1252.56,Cash,1,19,Neha,23,Takeaway,No,98
+872,29-06-2025,20:36:37,CUST0872,Antonio,53,Female,Office Worker,Pune,Coffee Point,Mocha,Beverage,5,243.76,1218.8,7.57,60.94,1272.17,Cash,3,27,Karan,27,Takeaway,No,44
+873,18-04-2025,19:05:28,CUST0873,William,44,Female,Student,Nagpur,Urban Brew,French Fries,Food,4,151.54,606.16,6.33,30.31,630.14,UPI,4,1,Priya,10,Takeaway,No,83
+874,27-03-2025,23:44:29,CUST0874,Lori,42,Female,Student,Hyderabad,Cafe Bliss,Burger,Food,5,232.81,1164.05,4.58,58.2,1217.67,UPI,4,11,Rahul,7,Dine-In,Yes,67
+875,16-01-2025,15:43:29,CUST0875,Benjamin,43,Female,Office Worker,Latur,Central Cafe,French Fries,Food,1,146.85,146.85,11.34,7.34,142.85,Cash,3,20,Neha,8,Takeaway,No,32
+876,06-06-2025,14:57:45,CUST0876,Timothy,43,Male,Student,Mumbai,Coffee Point,Mocha,Beverage,3,256.76,770.28,7.46,38.51,801.33,UPI,4,5,Rahul,9,Dine-In,Yes,36
+877,05-01-2025,18:15:32,CUST0877,Travis,49,Female,New,Bangalore,Cafe Bliss,Green Tea,Beverage,4,110,440,2.04,22,459.96,Card,5,10,Amit,30,Takeaway,No,57
+878,18-05-2025,12:54:22,CUST0878,Cassie,30,Female,Student,Nagpur,Urban Brew,Green Tea,Beverage,6,103.47,620.82,9.94,31.04,641.92,Card,4,1,Priya,23,Dine-In,Yes,8
+879,11-02-2025,23:53:14,CUST0879,Taylor,20,Female,Office Worker,Latur,Coffee Point,Muffin,Dessert,6,140.66,843.96,1.26,42.2,884.9,Card,2,24,Rahul,22,Takeaway,No,6
+880,13-05-2025,13:29:11,CUST0880,Jonathan,26,Female,New,Mumbai,Coffee Point,Black Tea,Beverage,2,106.54,213.08,14.79,10.65,208.94,Cash,3,28,Karan,26,Dine-In,No,7
+881,05-05-2025,10:40:33,CUST0881,Andre,58,Female,Regular,Mumbai,Central Cafe,Pizza,Food,4,341.29,1365.16,7.32,68.26,1426.1,Cash,5,3,Amit,17,Takeaway,No,21
+882,07-01-2025,20:51:10,CUST0882,Terri,32,Female,Student,Bangalore,Cafe Bliss,Cake,Dessert,3,303.61,910.83,10.02,45.54,946.35,Cash,5,2,Amit,27,Takeaway,Yes,95
+883,03-05-2025,17:20:30,CUST0883,Whitney,29,Male,Office Worker,Latur,Cafe Bliss,Cappuccino,Beverage,2,221.56,443.12,10.83,22.16,454.45,Card,2,7,Rahul,5,Takeaway,No,42
+884,04-06-2025,12:54:39,CUST0884,Kelly,59,Female,New,Nagpur,Coffee Point,Cold Coffee,Beverage,1,230.03,230.03,8.46,11.5,233.07,UPI,1,20,Amit,12,Takeaway,No,87
+885,07-01-2025,15:33:24,CUST0885,Bradley,57,Male,Student,Nagpur,Central Cafe,Cappuccino,Beverage,5,245.25,1226.25,0.54,61.31,1287.02,Cash,3,30,Priya,22,Dine-In,Yes,24
+886,04-03-2025,19:59:04,CUST0886,Jennifer,45,Female,Office Worker,Bangalore,Coffee Point,Latte,Beverage,4,236.75,947,5.44,47.35,988.91,UPI,2,17,Sneha,25,Takeaway,Yes,96
+887,19-03-2025,22:32:40,CUST0887,Katie,28,Male,Student,Latur,Coffee Point,Muffin,Dessert,5,117.08,585.4,13.8,29.27,600.87,Cash,4,7,Amit,26,Dine-In,Yes,22
+888,27-04-2025,21:54:24,CUST0888,Edwin,28,Male,Office Worker,Latur,Cafe Bliss,Cappuccino,Beverage,2,258.35,516.7,9.29,25.84,533.25,Cash,3,9,Sneha,12,Takeaway,No,78
+889,08-05-2025,18:51:54,CUST0889,Chad,26,Female,Office Worker,Hyderabad,Central Cafe,Espresso,Beverage,5,126.27,631.35,3.78,31.57,659.14,UPI,4,21,Rahul,18,Takeaway,No,13
+890,10-01-2025,14:55:26,CUST0890,James,60,Male,Regular,Nagpur,Urban Brew,Cold Coffee,Beverage,6,274.24,1645.44,9.14,82.27,1718.57,Cash,4,10,Sneha,28,Takeaway,No,39
+891,19-04-2025,16:45:59,CUST0891,Dawn,53,Female,Office Worker,Latur,Urban Brew,Espresso,Beverage,1,153.9,153.9,9.91,7.7,151.69,Card,3,29,Sneha,23,Takeaway,No,22
+892,27-04-2025,14:34:58,CUST0892,Aaron,31,Male,Regular,Mumbai,Central Cafe,Brownie,Dessert,6,181.95,1091.7,7.17,54.58,1139.11,Card,4,21,Karan,28,Takeaway,Yes,53
+893,08-03-2025,03:00:31,CUST0893,Phillip,48,Female,New,Nagpur,Coffee Point,Cold Coffee,Beverage,1,260.26,260.26,0.04,13.01,273.23,Card,3,23,Priya,9,Dine-In,No,26
+894,14-02-2025,02:48:28,CUST0894,Jason,51,Female,New,Nagpur,Central Cafe,Burger,Food,6,249.69,1498.14,11.11,74.91,1561.94,Card,2,24,Karan,15,Dine-In,No,97
+895,20-05-2025,04:42:33,CUST0895,Sarah,26,Female,New,Latur,Cafe Bliss,Cappuccino,Beverage,4,241.09,964.36,0.47,48.22,1012.11,UPI,2,11,Sneha,27,Dine-In,No,98
+896,22-03-2025,09:09:41,CUST0896,Molly,39,Male,Regular,Pune,Central Cafe,Green Tea,Beverage,2,156.62,313.24,10.49,15.66,318.41,Card,1,28,Rahul,5,Dine-In,Yes,36
+897,24-01-2025,06:31:43,CUST0897,Angela,56,Male,Office Worker,Mumbai,Coffee Point,Pizza,Food,6,404.06,2424.36,13.19,121.22,2532.39,UPI,3,18,Sneha,21,Takeaway,Yes,96
+898,28-06-2025,18:47:34,CUST0898,Dawn,20,Male,Regular,Hyderabad,Central Cafe,Black Tea,Beverage,3,155.38,466.14,0.3,23.31,489.15,UPI,1,19,Neha,23,Takeaway,Yes,45
+899,05-03-2025,23:29:53,CUST0899,Tony,43,Female,Student,Mumbai,Urban Brew,Cake,Dessert,4,293.28,1173.12,6.59,58.66,1225.19,UPI,4,4,Amit,30,Dine-In,No,70
+900,04-04-2025,01:05:56,CUST0900,Michael,41,Female,Regular,Hyderabad,Coffee Point,Sandwich,Food,2,191.48,382.96,1.09,19.15,401.02,UPI,3,23,Priya,12,Dine-In,No,71
+901,26-01-2025,18:37:23,CUST0901,Nicholas,55,Male,Student,Latur,Cafe Bliss,French Fries,Food,1,153.17,153.17,1.27,7.66,159.56,Card,4,30,Neha,14,Dine-In,Yes,19
+902,27-02-2025,11:13:20,CUST0902,Isaac,60,Male,Regular,Latur,Urban Brew,Sandwich,Food,5,148.11,740.55,1.21,37.03,776.37,Cash,2,12,Neha,17,Takeaway,No,21
+903,30-06-2025,09:22:55,CUST0903,Lawrence,46,Male,Student,Nagpur,Central Cafe,Brownie,Dessert,5,223.8,1119,7.77,55.95,1167.18,Cash,4,24,Neha,16,Dine-In,No,99
+904,06-03-2025,20:15:49,CUST0904,Heidi,47,Male,Regular,Latur,Coffee Point,French Fries,Food,3,166.23,498.69,13.43,24.93,510.19,Card,2,16,Sneha,30,Dine-In,No,36
+905,18-05-2025,09:44:54,CUST0905,Christopher,56,Female,Regular,Bangalore,Cafe Bliss,Pasta,Food,2,270.79,541.58,1.41,27.08,567.25,UPI,2,14,Neha,10,Takeaway,Yes,62
+906,13-03-2025,15:19:19,CUST0906,Melissa,32,Male,Student,Latur,Central Cafe,Mocha,Beverage,6,207.79,1246.74,1.94,62.34,1307.14,Card,4,4,Amit,9,Dine-In,Yes,92
+907,30-04-2025,21:31:51,CUST0907,Monica,35,Male,Regular,Pune,Urban Brew,Cold Coffee,Beverage,1,246.05,246.05,6.37,12.3,251.98,UPI,1,25,Amit,25,Takeaway,Yes,77
+908,27-05-2025,11:47:11,CUST0908,Laura,49,Male,New,Bangalore,Central Cafe,Espresso,Beverage,3,118.5,355.5,10.38,17.78,362.9,Cash,5,15,Karan,9,Takeaway,Yes,95
+909,29-05-2025,05:28:24,CUST0909,James,30,Male,Office Worker,Bangalore,Central Cafe,Pizza,Food,1,358.67,358.67,14.75,17.93,361.85,UPI,2,8,Neha,5,Takeaway,No,29
+910,10-06-2025,23:34:36,CUST0910,Tabitha,28,Female,New,Hyderabad,Coffee Point,Latte,Beverage,6,231.51,1389.06,11.74,69.45,1446.77,UPI,2,4,Priya,15,Dine-In,Yes,86
+911,19-01-2025,07:38:55,CUST0911,Jody,41,Male,Regular,Pune,Central Cafe,Sandwich,Food,4,201.01,804.04,1.58,40.2,842.66,Cash,5,28,Neha,7,Takeaway,Yes,97
+912,08-01-2025,17:08:32,CUST0912,Karen,47,Female,Office Worker,Latur,Coffee Point,Cake,Dessert,2,319.41,638.82,13.27,31.94,657.49,Card,1,13,Priya,29,Takeaway,Yes,64
+913,25-05-2025,01:28:14,CUST0913,Joseph,23,Male,New,Nagpur,Coffee Point,Muffin,Dessert,1,188.44,188.44,4.5,9.42,193.36,Card,2,23,Amit,13,Takeaway,Yes,68
+914,15-04-2025,09:15:09,CUST0914,Timothy,30,Female,Regular,Nagpur,Coffee Point,Brownie,Dessert,4,224.5,898,0.88,44.9,942.02,Card,4,9,Karan,13,Dine-In,Yes,78
+915,05-04-2025,18:03:25,CUST0915,Kelly,55,Male,Office Worker,Latur,Cafe Bliss,French Fries,Food,2,159.21,318.42,1.93,15.92,332.41,Card,2,22,Priya,13,Takeaway,Yes,5
+916,15-04-2025,16:53:02,CUST0916,Sara,30,Male,Office Worker,Hyderabad,Central Cafe,Green Tea,Beverage,3,109.97,329.91,3.14,16.5,343.27,Card,3,1,Priya,6,Takeaway,Yes,47
+917,20-03-2025,12:12:19,CUST0917,Jason,32,Female,Student,Latur,Urban Brew,Brownie,Dessert,6,196.45,1178.7,2.77,58.93,1234.86,Card,1,29,Priya,29,Takeaway,No,70
+918,30-01-2025,05:23:53,CUST0918,Sandra,34,Female,Regular,Hyderabad,Central Cafe,Green Tea,Beverage,4,155.13,620.52,11.79,31.03,639.76,Card,3,16,Karan,29,Dine-In,No,30
+919,16-01-2025,08:52:03,CUST0919,Charlene,45,Female,Office Worker,Latur,Central Cafe,Cake,Dessert,6,285.2,1711.2,9.47,85.56,1787.29,Cash,2,21,Neha,24,Takeaway,No,55
+920,31-01-2025,17:18:38,CUST0920,Lori,22,Female,Office Worker,Pune,Coffee Point,Muffin,Dessert,2,152.18,304.36,8.33,15.22,311.25,UPI,1,18,Priya,28,Takeaway,Yes,59
+921,12-06-2025,10:20:01,CUST0921,Heidi,18,Male,Regular,Latur,Cafe Bliss,Mocha,Beverage,4,245.49,981.96,0.25,49.1,1030.81,UPI,4,26,Sneha,23,Dine-In,No,38
+922,01-01-2025,21:04:45,CUST0922,Chad,54,Male,New,Latur,Coffee Point,Cappuccino,Beverage,2,223.79,447.58,5.68,22.38,464.28,UPI,1,20,Amit,11,Takeaway,No,60
+923,08-01-2025,16:05:19,CUST0923,Donald,43,Male,New,Pune,Central Cafe,Green Tea,Beverage,5,93.04,465.2,13.58,23.26,474.88,Card,1,17,Priya,28,Dine-In,No,66
+924,21-04-2025,09:13:09,CUST0924,Kari,55,Female,Office Worker,Nagpur,Cafe Bliss,Muffin,Dessert,2,161.08,322.16,2.09,16.11,336.18,Cash,4,22,Rahul,8,Dine-In,No,11
+925,16-05-2025,16:46:03,CUST0925,Gregory,42,Male,Student,Nagpur,Central Cafe,Cake,Dessert,4,360.71,1442.84,9.19,72.14,1505.79,UPI,1,8,Amit,14,Takeaway,Yes,78
+926,03-01-2025,06:01:50,CUST0926,Tyler,43,Female,New,Mumbai,Urban Brew,Pizza,Food,2,338.77,677.54,2.47,33.88,708.95,Card,4,21,Neha,6,Takeaway,No,58
+927,23-02-2025,04:51:04,CUST0927,Scott,49,Female,Office Worker,Hyderabad,Urban Brew,Cake,Dessert,6,336.96,2021.76,10.27,101.09,2112.58,UPI,1,22,Sneha,23,Takeaway,No,94
+928,11-05-2025,01:57:09,CUST0928,Sarah,18,Male,Regular,Nagpur,Coffee Point,Cold Coffee,Beverage,4,279.81,1119.24,5.31,55.96,1169.89,Card,5,30,Sneha,6,Takeaway,No,52
+929,27-01-2025,07:47:10,CUST0929,Danielle,46,Male,Office Worker,Pune,Central Cafe,Green Tea,Beverage,6,96.93,581.58,10.61,29.08,600.05,UPI,1,1,Amit,13,Dine-In,No,56
+930,01-06-2025,16:11:08,CUST0930,Laura,44,Male,Office Worker,Bangalore,Central Cafe,Cold Coffee,Beverage,4,272.83,1091.32,10.14,54.57,1135.75,UPI,1,16,Karan,11,Takeaway,Yes,16
+931,16-04-2025,04:42:13,CUST0931,Scott,38,Male,Regular,Pune,Central Cafe,Mocha,Beverage,6,217.97,1307.82,12.28,65.39,1360.93,Card,4,19,Priya,16,Dine-In,No,74
+932,12-06-2025,09:27:35,CUST0932,Jacqueline,40,Male,New,Nagpur,Central Cafe,Mocha,Beverage,5,226.02,1130.1,13.05,56.51,1173.56,Cash,3,28,Karan,5,Dine-In,No,90
+933,27-06-2025,01:33:49,CUST0933,Jason,50,Male,New,Bangalore,Coffee Point,Cake,Dessert,6,357.78,2146.68,14.67,107.33,2239.34,Card,3,15,Sneha,22,Dine-In,No,35
+934,23-03-2025,13:46:23,CUST0934,Kathy,55,Male,Student,Mumbai,Urban Brew,Latte,Beverage,1,227.62,227.62,2.96,11.38,236.04,UPI,3,22,Rahul,27,Dine-In,Yes,49
+935,30-05-2025,06:20:37,CUST0935,Travis,51,Male,Regular,Nagpur,Cafe Bliss,French Fries,Food,6,210.17,1261.02,9.99,63.05,1314.08,Cash,1,15,Sneha,25,Dine-In,No,14
+936,22-01-2025,08:44:39,CUST0936,Austin,27,Male,Regular,Mumbai,Central Cafe,Sandwich,Food,6,135.32,811.92,1.1,40.6,851.42,Cash,1,22,Rahul,17,Dine-In,No,59
+937,14-01-2025,18:01:18,CUST0937,Maria,25,Male,New,Nagpur,Urban Brew,Cake,Dessert,2,332.63,665.26,1.96,33.26,696.56,Cash,2,13,Karan,13,Dine-In,Yes,92
+938,25-05-2025,22:21:36,CUST0938,Taylor,31,Male,Student,Mumbai,Central Cafe,Mocha,Beverage,6,257.44,1544.64,6.18,77.23,1615.69,Cash,4,3,Sneha,24,Takeaway,No,36
+939,24-02-2025,19:20:56,CUST0939,Ryan,60,Female,Regular,Bangalore,Coffee Point,French Fries,Food,2,177.39,354.78,2.26,17.74,370.26,UPI,3,21,Rahul,5,Takeaway,Yes,90
+940,11-05-2025,17:04:08,CUST0940,Sabrina,51,Male,Student,Hyderabad,Cafe Bliss,Brownie,Dessert,6,179.7,1078.2,11.83,53.91,1120.28,UPI,3,7,Priya,12,Dine-In,Yes,11
+941,05-02-2025,23:54:00,CUST0941,Maurice,57,Female,Regular,Hyderabad,Coffee Point,Black Tea,Beverage,1,77.97,77.97,14.96,3.9,66.91,Card,1,5,Amit,18,Dine-In,Yes,57
+942,05-05-2025,07:11:32,CUST0942,Mark,29,Male,New,Nagpur,Coffee Point,Burger,Food,1,292.58,292.58,2.61,14.63,304.6,Card,4,21,Sneha,8,Dine-In,Yes,70
+943,29-05-2025,18:04:19,CUST0943,Daniel,55,Male,Regular,Pune,Urban Brew,Cake,Dessert,6,297.46,1784.76,2.72,89.24,1871.28,UPI,2,23,Rahul,9,Takeaway,Yes,55
+944,08-05-2025,09:39:30,CUST0944,Norman,18,Female,Regular,Latur,Coffee Point,Espresso,Beverage,1,145.36,145.36,3.06,7.27,149.57,Card,3,1,Amit,27,Dine-In,No,38
+945,25-02-2025,02:38:05,CUST0945,Candice,24,Female,Regular,Nagpur,Cafe Bliss,Sandwich,Food,5,132.58,662.9,6.82,33.15,689.23,Card,1,22,Amit,10,Takeaway,No,22
+946,02-03-2025,08:34:36,CUST0946,Samantha,50,Female,Office Worker,Bangalore,Cafe Bliss,Latte,Beverage,6,189.28,1135.68,2.7,56.78,1189.76,Card,3,22,Amit,27,Takeaway,Yes,64
+947,04-02-2025,11:32:25,CUST0947,Nicholas,19,Male,Office Worker,Latur,Coffee Point,French Fries,Food,6,230.73,1384.38,4.11,69.22,1449.49,Cash,3,4,Karan,15,Dine-In,No,91
+948,04-02-2025,00:42:50,CUST0948,Daniel,51,Male,Student,Latur,Coffee Point,Cold Coffee,Beverage,1,253.47,253.47,10.63,12.67,255.51,UPI,4,5,Sneha,29,Dine-In,No,11
+949,20-06-2025,08:48:36,CUST0949,William,45,Male,Office Worker,Bangalore,Cafe Bliss,Black Tea,Beverage,4,77.51,310.04,3.13,15.5,322.41,UPI,3,21,Karan,13,Takeaway,No,67
+950,22-06-2025,02:04:14,CUST0950,David,31,Male,New,Pune,Coffee Point,Pasta,Food,6,272.58,1635.48,11.87,81.77,1705.38,UPI,2,23,Rahul,21,Takeaway,Yes,70
+951,22-03-2025,06:29:39,CUST0951,Kathleen,21,Female,Student,Nagpur,Cafe Bliss,Cold Coffee,Beverage,2,274.91,549.82,11.71,27.49,565.6,Cash,5,1,Priya,24,Takeaway,No,95
+952,09-02-2025,20:12:34,CUST0952,Dominique,46,Male,Office Worker,Nagpur,Coffee Point,French Fries,Food,3,202.79,608.37,9.92,30.42,628.87,Cash,5,28,Neha,15,Takeaway,No,41
+953,28-02-2025,15:40:51,CUST0953,James,26,Female,Student,Hyderabad,Urban Brew,Pasta,Food,1,359.78,359.78,11.79,17.99,365.98,Card,5,27,Neha,20,Takeaway,Yes,41
+954,04-01-2025,18:10:34,CUST0954,Christopher,42,Female,Office Worker,Hyderabad,Urban Brew,Cappuccino,Beverage,1,211.64,211.64,13.54,10.58,208.68,Card,3,19,Priya,22,Takeaway,Yes,21
+955,16-06-2025,11:47:45,CUST0955,Jonathan,44,Female,Office Worker,Hyderabad,Urban Brew,Latte,Beverage,2,185.44,370.88,7.96,18.54,381.46,Card,3,28,Sneha,13,Takeaway,No,26
+956,14-05-2025,15:12:10,CUST0956,Cody,42,Male,New,Nagpur,Urban Brew,Cake,Dessert,4,287.8,1151.2,0.02,57.56,1208.74,UPI,3,15,Sneha,8,Takeaway,No,51
+957,03-06-2025,14:19:59,CUST0957,Phillip,40,Female,Office Worker,Mumbai,Cafe Bliss,Black Tea,Beverage,3,128.97,386.91,1.19,19.35,405.07,Cash,2,2,Karan,5,Dine-In,No,67
+958,23-02-2025,18:55:31,CUST0958,Danielle,22,Male,New,Bangalore,Coffee Point,Burger,Food,3,297.61,892.83,7.41,44.64,930.06,Card,3,28,Neha,5,Takeaway,Yes,77
+959,02-04-2025,11:36:59,CUST0959,Jill,44,Male,Regular,Bangalore,Cafe Bliss,Cold Coffee,Beverage,3,259.06,777.18,12.73,38.86,803.31,Card,2,28,Neha,11,Takeaway,Yes,89
+960,20-05-2025,00:43:54,CUST0960,Mary,47,Male,Office Worker,Latur,Urban Brew,Cake,Dessert,5,284.87,1424.35,7.46,71.22,1488.11,Cash,2,24,Sneha,16,Dine-In,Yes,34
+961,23-06-2025,11:09:21,CUST0961,John,41,Female,New,Bangalore,Cafe Bliss,Pasta,Food,6,308.25,1849.5,6.58,92.48,1935.4,UPI,2,3,Karan,12,Takeaway,Yes,43
+962,11-04-2025,18:13:45,CUST0962,Kelly,38,Female,New,Latur,Cafe Bliss,Espresso,Beverage,1,100.11,100.11,12.48,5.01,92.64,UPI,5,19,Rahul,17,Dine-In,Yes,44
+963,02-02-2025,08:04:35,CUST0963,Olivia,50,Female,Regular,Hyderabad,Cafe Bliss,Cold Coffee,Beverage,5,298.39,1491.95,8.16,74.6,1558.39,Card,1,4,Amit,22,Dine-In,No,62
+964,31-03-2025,13:20:58,CUST0964,Phillip,18,Male,Student,Nagpur,Coffee Point,Cake,Dessert,3,341.26,1023.78,2.3,51.19,1072.67,Card,5,20,Sneha,19,Dine-In,Yes,18
+965,28-02-2025,17:08:37,CUST0965,Christopher,35,Male,New,Hyderabad,Cafe Bliss,Muffin,Dessert,3,174.32,522.96,8.97,26.15,540.14,UPI,3,24,Rahul,30,Takeaway,Yes,63
+966,04-04-2025,14:10:14,CUST0966,Richard,18,Male,Regular,Nagpur,Urban Brew,Cappuccino,Beverage,4,242.32,969.28,0.51,48.46,1017.23,Card,3,10,Neha,26,Dine-In,Yes,57
+967,20-05-2025,07:18:36,CUST0967,Theresa,21,Female,New,Nagpur,Central Cafe,Muffin,Dessert,1,175.09,175.09,11.66,8.75,172.18,Card,2,1,Rahul,24,Dine-In,Yes,28
+968,20-03-2025,15:39:57,CUST0968,Michael,27,Male,Regular,Pune,Central Cafe,Mocha,Beverage,3,207.05,621.15,2.18,31.06,650.03,Card,2,26,Amit,11,Dine-In,Yes,92
+969,08-02-2025,03:23:08,CUST0969,Mitchell,45,Male,Regular,Nagpur,Coffee Point,Pizza,Food,3,334.72,1004.16,0.26,50.21,1054.11,UPI,4,30,Neha,23,Dine-In,Yes,8
+970,22-04-2025,02:47:33,CUST0970,Kelly,42,Female,New,Mumbai,Urban Brew,Mocha,Beverage,2,256.25,512.5,9.78,25.62,528.34,Card,3,11,Sneha,29,Dine-In,No,69
+971,09-06-2025,23:02:14,CUST0971,Lauren,26,Male,Student,Mumbai,Coffee Point,Pizza,Food,6,410.18,2461.08,4.04,123.05,2580.09,Cash,2,27,Amit,6,Dine-In,No,33
+972,06-03-2025,15:37:58,CUST0972,Ryan,57,Male,Regular,Hyderabad,Urban Brew,Cake,Dessert,6,280.56,1683.36,4.28,84.17,1763.25,Card,1,30,Rahul,6,Takeaway,No,23
+973,03-05-2025,20:54:47,CUST0973,Lauren,27,Male,Regular,Latur,Coffee Point,French Fries,Food,5,142.71,713.55,13.64,35.68,735.59,UPI,1,7,Karan,21,Takeaway,Yes,53
+974,22-04-2025,20:33:12,CUST0974,Christopher,53,Male,New,Mumbai,Coffee Point,Muffin,Dessert,6,207.6,1245.6,13.3,62.28,1294.58,Card,1,13,Priya,23,Dine-In,No,50
+975,10-05-2025,11:12:46,CUST0975,Calvin,44,Female,New,Hyderabad,Cafe Bliss,Cake,Dessert,4,289.37,1157.48,6.02,57.87,1209.33,Cash,4,17,Priya,23,Takeaway,No,39
+976,08-02-2025,00:59:30,CUST0976,Courtney,50,Male,Student,Latur,Urban Brew,Green Tea,Beverage,3,130.99,392.97,9.6,19.65,403.02,Card,3,19,Amit,29,Dine-In,No,84
+977,08-04-2025,19:45:51,CUST0977,Aaron,51,Male,New,Nagpur,Urban Brew,Cappuccino,Beverage,2,248.7,497.4,12.57,24.87,509.7,UPI,5,27,Amit,25,Takeaway,No,90
+978,18-01-2025,10:50:40,CUST0978,Shawn,38,Male,Regular,Mumbai,Urban Brew,Black Tea,Beverage,4,86.47,345.88,0.34,17.29,362.83,Card,5,9,Amit,8,Takeaway,Yes,55
+979,04-01-2025,17:06:02,CUST0979,Patricia,56,Male,New,Mumbai,Central Cafe,Cold Coffee,Beverage,6,315.96,1895.76,10.97,94.79,1979.58,Cash,4,12,Rahul,8,Dine-In,No,38
+980,05-01-2025,01:57:13,CUST0980,Heather,38,Male,Regular,Latur,Urban Brew,Cappuccino,Beverage,6,246.71,1480.26,1.98,74.01,1552.29,UPI,1,18,Rahul,13,Dine-In,No,18
+981,15-02-2025,17:25:20,CUST0981,Christopher,22,Male,Student,Mumbai,Urban Brew,Muffin,Dessert,2,121.62,243.24,6.21,12.16,249.19,Card,5,3,Rahul,24,Takeaway,No,23
+982,04-04-2025,18:22:45,CUST0982,John,41,Male,New,Hyderabad,Coffee Point,Mocha,Beverage,1,239.42,239.42,11.34,11.97,240.05,UPI,3,13,Sneha,20,Dine-In,Yes,93
+983,02-04-2025,16:57:08,CUST0983,Christine,49,Female,Office Worker,Latur,Urban Brew,Latte,Beverage,1,216.38,216.38,13.92,10.82,213.28,Card,5,7,Priya,18,Dine-In,No,37
+984,12-02-2025,17:54:36,CUST0984,Jessica,36,Male,Student,Mumbai,Cafe Bliss,Green Tea,Beverage,3,138.28,414.84,7.54,20.74,428.04,Cash,4,2,Priya,16,Takeaway,No,57
+985,06-04-2025,03:55:45,CUST0985,Sarah,37,Male,New,Pune,Coffee Point,Burger,Food,1,269.2,269.2,0.63,13.46,282.03,UPI,3,27,Rahul,7,Takeaway,Yes,57
+986,07-02-2025,19:50:02,CUST0986,Richard,55,Female,Regular,Hyderabad,Central Cafe,Mocha,Beverage,2,257.95,515.9,5.73,25.8,535.97,UPI,5,19,Amit,21,Takeaway,Yes,77
+987,06-03-2025,07:28:51,CUST0987,Katherine,43,Male,New,Pune,Cafe Bliss,Pizza,Food,3,340.58,1021.74,7.03,51.09,1065.8,UPI,4,11,Priya,20,Dine-In,Yes,47
+988,29-03-2025,02:10:51,CUST0988,Jacqueline,33,Male,Office Worker,Nagpur,Cafe Bliss,Sandwich,Food,2,174.08,348.16,2.13,17.41,363.44,UPI,2,7,Rahul,7,Dine-In,No,12
+989,13-02-2025,14:14:49,CUST0989,Justin,32,Female,Student,Mumbai,Cafe Bliss,Espresso,Beverage,3,187.2,561.6,11.3,28.08,578.38,Card,4,11,Sneha,30,Dine-In,No,71
+990,10-01-2025,09:37:52,CUST0990,Jason,32,Male,New,Hyderabad,Cafe Bliss,Green Tea,Beverage,5,135.38,676.9,4.6,33.84,706.14,Cash,3,16,Karan,13,Dine-In,Yes,13
+991,01-05-2025,23:17:55,CUST0991,Jeffrey,19,Female,Regular,Nagpur,Urban Brew,Cold Coffee,Beverage,2,244.83,489.66,0.67,24.48,513.47,Card,1,2,Rahul,11,Dine-In,No,57
+992,16-04-2025,11:30:56,CUST0992,Donna,47,Female,Regular,Pune,Cafe Bliss,Espresso,Beverage,2,197.95,395.9,0.01,19.8,415.69,UPI,4,14,Karan,29,Dine-In,No,86
+993,26-02-2025,13:20:18,CUST0993,Elizabeth,30,Male,Regular,Latur,Coffee Point,Brownie,Dessert,5,236.38,1181.9,8.97,59.1,1232.03,UPI,4,25,Sneha,12,Dine-In,Yes,32
+994,25-06-2025,20:12:19,CUST0994,Kathryn,42,Male,New,Mumbai,Central Cafe,Mocha,Beverage,5,288.7,1443.5,3.03,72.17,1512.64,Card,2,27,Rahul,6,Takeaway,No,7
+995,13-03-2025,04:56:14,CUST0995,Brittany,19,Male,New,Latur,Coffee Point,Pizza,Food,2,378.06,756.12,14.11,37.81,779.82,Card,5,16,Sneha,9,Takeaway,No,59
+996,11-01-2025,11:49:08,CUST0996,Joshua,39,Female,New,Hyderabad,Urban Brew,Cappuccino,Beverage,5,242.36,1211.8,0.48,60.59,1271.91,Cash,3,1,Priya,27,Takeaway,Yes,41
+997,16-01-2025,04:24:20,CUST0997,Kristen,25,Male,Student,Hyderabad,Coffee Point,Sandwich,Food,6,204.31,1225.86,0.38,61.29,1286.77,UPI,2,10,Sneha,8,Dine-In,Yes,30
+998,17-02-2025,03:32:01,CUST0998,David,19,Female,Office Worker,Latur,Urban Brew,Cake,Dessert,4,291.55,1166.2,12.78,58.31,1211.73,UPI,3,30,Neha,13,Takeaway,Yes,99
+999,10-01-2025,17:08:46,CUST0999,Michael,41,Female,Student,Hyderabad,Central Cafe,Pasta,Food,2,323.71,647.42,10.4,32.37,669.39,Card,2,5,Sneha,25,Dine-In,Yes,18
+1000,24-06-2025,08:25:33,CUST1000,William,18,Female,New,Pune,Cafe Bliss,Cappuccino,Beverage,3,181.52,544.56,13.37,27.23,558.42,Cash,2,29,Karan,23,Dine-In,Yes,29
