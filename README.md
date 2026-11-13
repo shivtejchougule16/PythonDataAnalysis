@@ -7,7 +7,7 @@ Exploratory data analysis (EDA) projects built in Jupyter Notebook, covering dat
 | # | Project | Domain | Data size | Files |
 |---|---------|--------|-----------|-------|
 | 1 | Cafe Sales Analysis | Food & Beverage | 1,000 orders, 26 columns | `Cafe.ipynb`, `Cafe.csv` |
-| 2 | Walmart Sales Analysis | Retail | 5,000 transactions, 28 columns | `Walmaart.ipynb`, `Walmart cleaned.csv` |
+| 2 | Walmart Sales Analysis | Retail | 5,000 transactions, 28 columns | `Walmaart.ipynb`, `Walmart.csv`, `Cleaned_Walmart_Data.csv` |
 
 ---
 
@@ -32,14 +32,14 @@ Exploratory data analysis (EDA) projects built in Jupyter Notebook, covering dat
 ---
 
 ## 2. Walmart Sales Analysis
-**Data:** `Walmart cleaned.csv` | 5,000 transactions, 3,848 customers, 5 stores, 8 products (Jan-Sep 2024)
+**Data:** `Walmart.csv` (raw) and `Cleaned_Walmart_Data.csv` (output of the notebook) | 5,000 transactions, 3,848 customers, 5 stores, 8 products (Jan-Sep 2024)
 
-**Business question:** Which categories, products and stores generate the most revenue, and does running a promotion increase sales?
+**Business question:** Which categories, products and stores generate the most revenue, does running a promotion increase sales, and how reliable are inventory and demand forecasts?
 
 **What the notebook does**
 - Data cleaning: converted the transaction date to datetime, created a `Revenue` column (`quantity_sold` x `unit_price`), handled missing values in `promotion_type`.
-- Charts: top categories, monthly revenue trend, customer gender distribution, revenue by store location, quantity sold distribution, promotion impact, top 10 products, payment method and loyalty level by gender.
-- Exported the cleaned dataset to CSV.
+- Charts: top categories, monthly revenue trend, customer gender distribution, revenue by store location, quantity sold distribution, promotion impact, top 10 products, stockout rate by store, forecasted vs actual demand.
+- Exported the cleaned dataset to `Cleaned_Walmart_Data.csv`.
 
 **Key findings**
 - Total revenue of about 15.26M across 5,000 transactions.
@@ -47,7 +47,8 @@ Exploratory data analysis (EDA) projects built in Jupyter Notebook, covering dat
 - **Los Angeles** is the top store (21.5%); the 5 stores are within 19-21.5% of each other.
 - Top products by revenue: **TV** (2.05M), **Tablet** (2.00M) and **Fridge** (1.94M).
 - Transactions with a promotion average 3,093 in revenue vs 3,009 without, a difference of only about 2.8%.
-- Revenue is spread almost evenly across payment methods, loyalty levels and genders.
+- **Stockouts** occur in about 52% of transactions (51.9%), a major inventory risk.
+- The demand forecast is off by about 137 units on average, roughly 46% of average demand, so forecasting needs improvement.
 
 ---
 
@@ -59,4 +60,4 @@ Exploratory data analysis (EDA) projects built in Jupyter Notebook, covering dat
 ## About me
 **Shivtej Chougule**, aspiring Data Analyst (SQL, Excel, Power BI, Python).
 [LinkedIn](https://www.linkedin.com/in/shivtej-chougule-723360414) | shivtejchougule16@gmail.com | [Power BI Dashboards](https://github.com/shivtejchougule16/PowerBiDashboards)
-# PythonDataAnalysis
+
