@@ -8,6 +8,7 @@ Exploratory data analysis (EDA) projects built in Jupyter Notebook, covering dat
 |---|---------|--------|-----------|-------|
 | 1 | Cafe Sales Analysis | Food & Beverage | 1,000 orders, 26 columns | `Cafe.ipynb`, `Cafe.csv` |
 | 2 | Walmart Sales Analysis | Retail | 5,000 transactions, 28 columns | `Walmaart.ipynb`, `Walmart.csv`, `Cleaned_Walmart_Data.csv` |
+| 3 | Diwali Sales Analysis | Retail / E-commerce | 15,000 orders, 14 columns | `Diwali_Sales_Analysis.ipynb`, `Diwali_Dashboard_2.csv` |
 
 ---
 
@@ -52,12 +53,30 @@ Exploratory data analysis (EDA) projects built in Jupyter Notebook, covering dat
 
 ---
 
+## 3. Diwali Sales Analysis
+**Data:** `Diwali_Dashboard_2.csv` | 15,000 orders, 7,259 customers, 28 states (2025)
+
+**Business question:** How do sales vary across categories, payment methods, states and months, and how healthy is order fulfilment?
+
+**What the notebook does**
+- Data checks: missing values, duplicates, and validation that `Total_Sales_INR` equals `Quantity` x `Unit_Price_INR` (100% match).
+- KPIs: revenue, orders, customers, average order value, average rating.
+- Charts: revenue by category, payment-method share, orders by delivery status, return rate by category, monthly revenue trend, top 10 states, top 10 products, rating distribution.
+
+**Key findings**
+- Total revenue of Rs 111.8 Cr, average order value Rs 74.5K.
+- Revenue is spread almost evenly across the 5 categories (19.4-20.3% each) and 4 payment methods (about 24-26% each).
+- Only 33.8% of orders are delivered; **32.5% are returned** and **33.6% are pending**, a major fulfilment risk.
+- Monthly revenue stays within Rs 8.5-9.8 Cr (lowest in February, highest in August) with no festive-season spike.
+- Average rating is 3.04 and nearly identical across categories and delivery statuses.
+
+---
+
 ## How to run
-1. Install Python and Jupyter: `pip install pandas numpy matplotlib seaborn notebook`
+1. Install the libraries: `pip install -r requirements.txt`
 2. Download the notebook and its CSV file into the same folder.
 3. Open the notebook with `jupyter notebook` and run all cells.
 
 ## About me
 **Shivtej Chougule**, aspiring Data Analyst (SQL, Excel, Power BI, Python).
 [LinkedIn](https://www.linkedin.com/in/shivtej-chougule-723360414) | shivtejchougule16@gmail.com | [Power BI Dashboards](https://github.com/shivtejchougule16/PowerBiDashboards)
-
